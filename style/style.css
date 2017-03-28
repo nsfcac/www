@@ -1,0 +1,186 @@
+html {
+  margin: -0.5%;
+}
+
+navbar {
+  display: flex;
+  align-content: space-around;
+  padding: 0 5%;
+  background: #fff;
+}
+navbar #leftBanner {
+  display: inline-flex;
+}
+navbar #leftBanner #logo img {
+  width: 50%;
+  margin-top: 4%;
+  background: #015CB5;
+  padding: 5%;
+  border-radius: 20%;
+}
+navbar #leftBanner h3 {
+  margin-left: -10%;
+  font-size: 1.5em;
+  width: 60%;
+  color: black;
+  margin-top: 3%;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+}
+navbar #navbarLinks {
+  width: 70%;
+  margin-top: 2.5%;
+}
+navbar #navbarLinks a {
+  text-decoration: none;
+  color: #777777;
+  margin-right: 5%;
+  font-size: 1.5em;
+  font-family: 'Amatic SC', cursive;
+}
+navbar #navbarLinks a:hover {
+  color: black;
+}
+
+#banner {
+  background-image: url("../img/back3.png");
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  border-bottom: solid 5px #2E7FCE;
+}
+#banner h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3em;
+  color: #fff;
+}
+#banner h3 {
+  margin: 0 20%;
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+#banner #knowMore {
+  margin-top: 5%;
+  background: rgba(46, 127, 206, 0.55);
+  padding: 0.4% 1.2%;
+  border-radius: 5%;
+}
+#banner #knowMore a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Amatic SC', cursive;
+}
+
+#goldenRule {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  padding: 2% 5%;
+  background: #015CB5;
+  color: white;
+  border-bottom: solid 5px #2E7FCE;
+}
+#goldenRule h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+#goldenRule p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+#goldenRule #mission {
+  display: block;
+  width: 33%;
+  margin-right: 5%;
+}
+#goldenRule img {
+  width: 20rem;
+  height: 20rem;
+}
+#goldenRule #objectives {
+  margin-left: 5%;
+}
+
+#mainBody {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  padding: 2% 5%;
+}
+#mainBody #mainContent {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+#mainBody #mainContent h1, #mainBody #mainContent h2, #mainBody #mainContent h3 {
+  font-family: 'PT Sans', sans-serif;
+}
+#mainBody #mainContent p, #mainBody #mainContent li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+#mainBody #mainContent #welcome {
+  display: flex;
+}
+#mainBody #mainContent #welcome img {
+  margin-right: 5%;
+}
+#mainBody #sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 10%;
+}
+#mainBody #sidebar h1, #mainBody #sidebar h2, #mainBody #sidebar h3 {
+  font-family: 'PT Sans', sans-serif;
+}
+#mainBody #sidebar p, #mainBody #sidebar li {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+#mainBody #sidebar .btn {
+  background: #D7D5D3;
+  border-radius: 10%;
+  padding: 1%;
+  width: 25%;
+  text-align: center;
+}
+#mainBody #sidebar .btn a {
+  padding-right: 0;
+  color: black;
+  text-decoration: none;
+}
+
+#footer {
+  background: #292929;
+  text-align: left;
+  padding: 1%;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+}
+#footer h4 span {
+  margin-left: 20%;
+  color: #777;
+}
+
+/*# sourceMappingURL=style.css.map */
+#meetings{
+	height: 100%;
+	padding-bottom: 100%;
+	margin-top: 5%;
+}
+
+#meetBody{
+}
+#nv{
+	border-bottom: 5px solid #2E7FCE;
+	padding: 0.5% 5%;
+}

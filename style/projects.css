@@ -1,0 +1,8 @@
+.project-header, .project{
+  display: flex;
+  justify-content: space-between;
+}
+
+#project-heading{
+  margin-left: -65px;
+}

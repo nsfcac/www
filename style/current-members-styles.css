@@ -1,0 +1,60 @@
+h1, h2, h3 {
+  font-family: 'PT Sans', sans-serif; }
+
+#mainHeading {
+  margin-left: 4%;
+  margin-top: 4%; }
+
+p, li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
+
+#wrapper {
+  width: 60%;
+  margin-left: 5%;
+  padding: 5%;
+  padding-top: 1%; }
+  #wrapper a {
+    color: darkgrey;
+    font-weight: bold; }
+  #wrapper .image {
+    width: 20%;
+    max-height: 20dp;
+    margin-top: 2%;
+    padding: 0;
+    margin-right: -9%; }
+  #wrapper img {
+    width: 50%;
+    height: 50%; }
+
+#companies > div {
+  display: flex;
+  align-content: space-around; }
+
+navbar {
+  border-bottom: 5px solid #2E7FCE; }
+
+#sponsors {
+  display: flex;
+  flex-direction: row; }
+  #sponsors h2 {
+    margin-right: 4%; }
+
+#universities div {
+  display: flex;
+  flex-direction: row; }
+  #universities div p {
+    padding-right: 30%; }
+
+table {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 100%; }
+  table thead {
+    background: grey;
+    color: white;
+    padding: 5%; }
+  table tbody {
+    text-align: center; }
+
+/*# sourceMappingURL=current-members-styles.css.map */

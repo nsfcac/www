@@ -1,0 +1,26 @@
+h1, h2, h3 {
+  font-family: 'PT Sans', sans-serif; }
+
+p, li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
+
+#wrapper {
+  background: #015CB5;
+  color: white;
+  padding: 5%; }
+  #wrapper div {
+    margin-bottom: 5%; }
+    #wrapper div div {
+      display: flex;
+      align-content: space-around; }
+      #wrapper div div img {
+        margin-right: 5%; }
+      #wrapper div div .info {
+        margin-right: 5%; }
+
+navbar {
+  border-bottom: 5px solid #2E7FCE; }
+
+/*# sourceMappingURL=personnel.css.map */
+
