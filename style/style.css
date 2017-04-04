@@ -59,12 +59,12 @@ navbar #navbarLinks a:hover {
   font-size: 3em;
   color: #fff;
 }
-#banner h3 {
+#banner p {
   margin: 0 20%;
-  margin-top: 2%;
+  margin-top: -2%;
   text-align: center;
-  font-family: 'PT Sans', cursive;
-  font-size: 2em;
+  font-family: 'Animatic SC', cursive;
+  font-size: 1.5em;
 }
 #banner #knowMore {
   margin-top: 5%;
@@ -126,6 +126,7 @@ navbar #navbarLinks a:hover {
 #mainBody #mainContent p, #mainBody #mainContent li {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: 1.3em;
 }
 #mainBody #mainContent #welcome {
   display: flex;
