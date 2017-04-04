@@ -90,6 +90,7 @@ navbar #navbarLinks a:hover {
 }
 #goldenRule h2 {
   font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
 }
 #goldenRule p {
   font-family: 'PT Sans', sans-serif;
@@ -101,6 +102,7 @@ navbar #navbarLinks a:hover {
   width: 33%;
   margin-right: 5%;
 }
+
 #goldenRule img {
   width: 20rem;
   height: 20rem;
