@@ -1,5 +1,6 @@
 html {
   margin: -0.5%;
+  overflow-x: hidden;
 }
 
 navbar {
@@ -63,7 +64,7 @@ navbar #navbarLinks a:hover {
   margin: 0 20%;
   margin-top: -1%;
   text-align: center;
-  font-family: 'Animatic SC', cursive;
+  font-family: 'PT Sans', sans-serif;
   font-size: 1.5em;
 }
 #banner #knowMore {
@@ -99,7 +100,7 @@ navbar #navbarLinks a:hover {
 }
 #goldenRule #mission {
   display: block;
-  width: 33%;
+  width: 50%;
   margin-right: 5%;
 }
 
@@ -132,9 +133,12 @@ navbar #navbarLinks a:hover {
 }
 #mainBody #mainContent #welcome {
   display: flex;
+  align-items: center;
 }
 #mainBody #mainContent #welcome img {
   margin-right: 5%;
+  height: 50%;
+  width: 50%;
 }
 #mainBody #sidebar {
   display: flex;
@@ -186,4 +190,9 @@ navbar #navbarLinks a:hover {
 #nv{
 	border-bottom: 5px solid #2E7FCE;
 	padding: 0.5% 5%;
+}
+
+#WhyUs{
+  list-style: decimal;
+  text-align: justify;
 }
