@@ -15,13 +15,14 @@ p, li {
       display: flex;
       align-content: space-around; }
       #wrapper div div img {
-        height: 15rem;
-        width: 22rem;
-        margin-right: 5%; }
+            margin-right: 5%;
+            height: 200px;
+            width: 400px;
+         }
       #wrapper div div .info {
-        margin-right: 5%; }
+        margin-right: 5%;
+      width: 80%;
+    }
 
 navbar {
   border-bottom: 5px solid #2E7FCE; }
-
-/*# sourceMappingURL=personnel.css.map */
