@@ -105,8 +105,8 @@ navbar #navbarLinks a:hover {
 }
 
 #goldenRule img {
-  width: 20rem;
-  height: 20rem;
+  width: 30rem;
+  height: 30rem;
 }
 #goldenRule #objectives {
   margin-left: 5%;
@@ -195,4 +195,9 @@ navbar #navbarLinks a:hover {
 #WhyUs{
   list-style: decimal;
   text-align: justify;
+}
+
+#welcome-heading{
+  font-weight: bold;
+  font-size: 1.75rem;
 }
