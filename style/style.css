@@ -239,7 +239,7 @@ navbar #navbarLinks a:hover {
   #navbarLinks a{
     padding-bottom: 2rem;
     text-align: center;
-    margin-left: 13rem;
+    margin-left: 11rem;
     font-weight: bold;
   }
 
@@ -277,7 +277,7 @@ navbar #navbarLinks a:hover {
   #footer h4{
     text-align: center;
   }
-  .sidebar{
+  #mainBody #sidebar{
     display: none;
   }
 }
