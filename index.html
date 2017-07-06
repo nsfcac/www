@@ -16,6 +16,10 @@
     		<!-- Latest compiled and minified JavaScript -->
     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style/animate.css">
+
+        <!-- JQuery  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
     </head>
 
     <body>
@@ -62,7 +66,6 @@
                 <p>Cloud-specific algorithms and frameworks.</p>
                 <p>Big Data paradigms for distributed and autonomic computing.</p>
                 <p>Develop "Make-it" to "Market" strategies for cloud applications.</p>
-
             </div>
         </div>
 
@@ -145,7 +148,7 @@
                       </div>
                       <div class="contact-row-2nd-item">
                         <img src="img/personnel/salim_hariri.jpg" alt="">
-                        <p>Salmi Hariri - Co Director</p>
+                        <p>Salim Hariri - Co Director</p>
                         <p>Email: <a href="mailto:hariri@ece.arizona.edu">hariri@ece.arizona.edu</a></p>
                         <p>Phone: <a href="telto:520.621.4378">520.621.4378</a></p>
                       </div>
@@ -206,9 +209,15 @@
         </div>
 
         <div id="footer">
-            <h4><span>Copyright © 2017</span>, NSF Cloud & Autonomic Computing Research Center (CAC).</h4>
+            <h4><span>Copyright © 2017</span> NSF Cloud & Autonomic Computing Research Center (CAC).</h4>
         </div>
 
     </body>
 
+  <script type="text/javascript">
+      if($(document).width()<500){
+      $('#sidebar').css('display','none');
+    }
+
+  </script>
 </html>

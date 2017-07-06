@@ -6,3 +6,13 @@
 #project-heading{
   margin-left: -65px;
 }
+@media only screen and (max-width: 550px){
+  .project-header{
+    display: none;
+  }
+  .project{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+  }
+}
