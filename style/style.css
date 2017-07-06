@@ -221,7 +221,11 @@ navbar #navbarLinks a:hover {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 650px){
+  navbar{
+    padding: 0;
+    width: 100%;
+  }
   navbar, #navbarLinks{
     display: flex;
     flex-direction: column;
@@ -236,10 +240,14 @@ navbar #navbarLinks a:hover {
   #leftBanner h3{
     display: none;
   }
-  #navbarLinks a{
+  navbar #navbarLinks{
+    width: 100%;
+  }
+  navbar #navbarLinks a{
     padding-bottom: 2rem;
+    margin:auto;
+
     text-align: center;
-    margin-left: 11rem;
     font-weight: bold;
   }
 
@@ -279,5 +287,46 @@ navbar #navbarLinks a:hover {
   }
   #mainBody #sidebar{
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  #leftBanner h3{
+    display: none;
+  }
+  #navbarLinks a{
+    font-weight: bold;
+  }
+
+  #banner{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5%;
+  }
+  #banner h1{
+    margin-bottom: 4%;
+  }
+  #goldenRule{
+    font-size: .85rem;
+  }
+  #goldenRule img{
+    width: 20rem;
+    height: 20rem;
+  }
+
+  #mainBody{
+    font-size: 1rem;
+  }
+  #mainContent #welcome{
+    display: flex;
+    flex-direction: column;
+  }
+  #mainBody #sidebar{
+    margin-left: 2%;
+    font-weight: bolder;
+    padding-right: 10%;
   }
 }
