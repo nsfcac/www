@@ -57,4 +57,25 @@ table {
   table tbody {
     text-align: center; }
 
+#mainContent .row img{
+  height: 100px;
+  width: 200px;
+}
+#memberInfo .carousel-inner img{
+  height: 20rem;
+  width: 100%;
+}
+
+#memberInfo #carousel-example-generic{
+  border: 5px solid black;
+}
+
+#mainBody #sidebar{
+  padding-right: 0;
+  width: 40%;
+}
+
+#mainBody #sidebar ul li{
+  list-style: circle;;
+}
 /*# sourceMappingURL=current-members-styles.css.map */
