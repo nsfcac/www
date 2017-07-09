@@ -155,7 +155,7 @@ navbar #navbarLinks a:hover {
   background: #D7D5D3;
   border-radius: 10%;
   padding: 1%;
-  width: 25%;
+  width: 70%;
   text-align: center;
 }
 #mainBody #sidebar .btn a {
@@ -183,8 +183,7 @@ navbar #navbarLinks a:hover {
 	margin-top: 5%;
 }
 
-#meetBody{
-}
+
 #nv{
 	border-bottom: 5px solid #2E7FCE;
 	padding: 0.5% 5%;
@@ -221,6 +220,11 @@ navbar #navbarLinks a:hover {
   font-size: 2rem;
 }
 
+@media only screen and (min-width: 1150px){
+  .contact-row div{
+    width: 40%;
+  }
+}
 @media only screen and (max-width: 650px){
   navbar{
     padding: 0;
@@ -246,6 +250,7 @@ navbar #navbarLinks a:hover {
   navbar #navbarLinks a{
     padding-bottom: 2rem;
     margin:auto;
+
 
     text-align: center;
     font-weight: bold;
@@ -290,7 +295,8 @@ navbar #navbarLinks a:hover {
   }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1150px){
+
   #leftBanner h3{
     display: none;
   }
@@ -328,5 +334,9 @@ navbar #navbarLinks a:hover {
     margin-left: 2%;
     font-weight: bolder;
     padding-right: 10%;
+  }
+
+  #goldenRule{
+    font-size: 1rem;
   }
 }
