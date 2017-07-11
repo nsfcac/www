@@ -76,6 +76,8 @@ table {
 }
 
 #mainBody #sidebar ul li{
-  list-style: circle;;
+  list-style: circle;
+  font-size: 2rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=current-members-styles.css.map */
