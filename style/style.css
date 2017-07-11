@@ -135,8 +135,8 @@ navbar #navbarLinks a:hover {
 }
 #mainBody #mainContent #welcome img {
   margin-right: 5%;
-  height: 50%;
-  width: 50%;
+  height: 261;
+  width: 261;
 }
 #mainBody #sidebar {
   display: flex;
