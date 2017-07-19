@@ -6,8 +6,6 @@ p, li {
   font-weight: bold; }
 
 #wrapper {
-  background: #015CB5;
-  color: white;
   padding: 5%; }
   #wrapper div {
     margin-bottom: 5%; }
@@ -21,12 +19,16 @@ p, li {
     }
 
 navbar {
-  border-bottom: 5px solid #2E7FCE; }
+  border-bottom: 1px solid lightgrey; }
 
-  #wrapper div div img {
+  #wrapper .table tbody tr td img {
         margin-right: 5%;
-        height: 200px;
-        width: 200px;
+        display: block;
+          max-width:150px;
+          max-height:200px;
+          width: auto;
+          height: auto;
+
      }
 
  @media only screen and (max-width: 550px){
@@ -47,8 +49,11 @@ navbar {
   }
   #wrapper div div img {
         margin-right: 5%;
-        height: 200px;
-        width: 300px;
+        display: block;
+        max-width:150px;
+        max-height:150px;
+        width: auto;
+        height: auto;
      }
 
  }

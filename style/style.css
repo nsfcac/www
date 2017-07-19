@@ -2,10 +2,14 @@ html {
   overflow-x: hidden;
 }
 
+media only screen and (min-width: 1500px){
+  font-size: 2rem;
+}
+
 navbar {
   display: flex;
   align-content: space-around;
-  padding: 0 5%;
+  padding: 1% 5% 0;
   background: #fff;
 }
 navbar #leftBanner {
@@ -85,7 +89,7 @@ navbar #navbarLinks a:hover {
   padding: 2% 5%;
   background: #015CB5;
   color: white;
-  border-bottom: solid 5px #2E7FCE;
+  /*border-bottom: solid 5px #2E7FCE;*/
 }
 #goldenRule h2 {
   font-family: 'PT Sans', sans-serif;
@@ -184,10 +188,8 @@ navbar #navbarLinks a:hover {
 }
 
 
-#nv{
-	border-bottom: 5px solid #2E7FCE;
-	padding: 0.5% 5%;
-}
+navbar {
+  border-bottom: 1px solid lightgrey; }
 
 #WhyUs{
   list-style: decimal;
@@ -207,8 +209,12 @@ navbar #navbarLinks a:hover {
 }
 
 .contact-row img{
-  width: 150px;
-  height: 175px;
+  display: block;
+  max-width:300px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+
 }
 
 .contact-row-2nd-item{
@@ -339,4 +345,25 @@ navbar #navbarLinks a:hover {
   #goldenRule{
     font-size: 1rem;
   }
+}
+
+.side-notification{
+  float: right;
+  z-index: 3;
+  position: absolute; /*newly added*/
+    right: 5px; /*newly added*/
+    top: 15%;/*newly added*/
+    position: fixed;
+}
+
+.seven-letter{
+  background-color: #2E7FCE;
+}
+.seven-letter h3{
+  margin-top: 0;
+  padding: 1%;
+  color: #fff;
+  font-family: 'Roboto';
+  /*text-decoration: underline;*/
+  font-weight: bold;
 }

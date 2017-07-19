@@ -1,3 +1,6 @@
 .tabel tr th{
   text-align: center;
 }
+
+navbar {
+  border-bottom: 1px solid lightgrey; }

@@ -31,8 +31,8 @@ p, li {
   display: flex;
   align-content: space-around; }
 
-navbar {
-  border-bottom: 5px solid #2E7FCE; }
+  navbar {
+    border-bottom: 1px solid lightgrey; }
 
 #sponsors {
   display: flex;
