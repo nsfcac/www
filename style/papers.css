@@ -4,3 +4,20 @@
 
 navbar {
   border-bottom: 1px solid lightgrey; }
+
+*{
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+h1,h2,h3,h4, .notifications{
+  font-family: 'PT-Sans';
+}
+
+#navbarLinks a{
+  font-weight: normal;
+}
+
+.research-papers p {
+  line-height: 2;
+}
