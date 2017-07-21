@@ -81,3 +81,6 @@ table {
   font-weight: bold;
 }
 /*# sourceMappingURL=current-members-styles.css.map */
+.modal-body p {
+    word-wrap: break-word;
+}

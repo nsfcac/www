@@ -367,5 +367,9 @@ navbar {
   /*text-decoration: underline;*/
   font-weight: bold;
 
-  
+
+}
+
+.modal-body p {
+    word-wrap: break-word;
 }

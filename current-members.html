@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <title>Current Members | NSF Cloud & Autonomic Computing Center (CAC)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style/style.css">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-        <!-- JQuery  -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    		<!-- Optional theme -->
-    		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    		<!-- Latest compiled and minified JavaScript -->
-    		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/animate.css">
+
+
         <link rel="stylesheet" type="text/css" href="style/current-members-styles.css">
-
-        <link rel="stylesheet" href="style/animate.css">
 </head>
 <body>
   <div class="notifications animated flash side-notification">
@@ -52,11 +54,14 @@
       <div id="mainContent">
 
         <h2>Prospective Industry Members</h2>
-        <p>If you are interested in becoming one of our industry partners, please visit our <a href="#">Become a Member</a> page for more information.</p>
-        <p>To learn more about the benifits of joining CAC, please visit <a href="#">Benefits of Membership</a>.</p><br>
+        <p>If you are interested in becoming one of our industry partners, please visit our <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#membershipModal">Become a Member
+  </button> page for more information.</p>
+        <p>To learn more about the benifits of joining CAC, please visit <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#benifitsModal">
+    Benifits of Membership
+  </button></p>
+        <h2><a href="ttu_cac_membership.pdf">How to Join?</a></h2><br>
         <h2>Current Industry Members</h2>
         <p>The following organizations are contributing financially to operations at the <a href="mailto:cac.ttu.edu">CAC</a> site, and have voting memberships in the CAC IAB.</p>
-
 
         <br><br><br><br>
 
@@ -183,8 +188,9 @@
             <a href="www.omg.org/"><img src="img/current_members/CTC/omg_logo.jpg" alt=""></a><br><br><br><br>
           </div>
         </div>
+        <br><br>
 
-        <br><br><br><br>
+        <br><br>
         <h2>For more information contact <a href="mailto:ravi.vadapalli@ttu.edu">ravi.vadapalli@ttu.edu</a></h2>
 
       </div>
@@ -281,6 +287,162 @@
     <div id="footer">
         <h4><span>Copyright © 2017</span>, NSF Cloud & Autonomic Computing Research Center (CAC).</h4>
     </div>
+
+    <div class="modal fade" id="benifitsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Benefits of Membership</h4>
+			  </div>
+			  <div class="modal-body">
+
+      <h1>Benefits of Membership</h1>
+        <p>
+          CAC members are afforded access to leading-edge developments in autonomic computing and to knowledge accumulated by academic researchers and other industry partners. New
+          members will join a growing list of members that currently includes
+          <a href="http://www.covenanthealth.org" target="_blank">Covenant Health System</a>,
+          <a href="https://www.happybank.com/" target="_blank">Happy State Bank</a>,
+          <a href="http://www.solielcom.com" target="_blank">Soliel LLC</a>,
+          <a href="http://www.stackvelocity.com" target="_blank">StackVelocity</a> and
+          the <a href="http://www.disa.mil" target="_blank">US Defense Information Systems Agency</a>, as well as
+          technical partnerships with <a href="http://www.aerospace.org" target="_blank">The Aerospace Corporation</a>,
+          <a href="http://www.cloud-council.org" target="blank">The Cloud Standards Customer Council</a>,
+          and <a href="http://www.omg.org" target="blank">The Object Management Group</a>.
+          Other members that have recently benefitted from projects carried out by the CAC at other sites include
+          <a href="http://www.intel.com" target="_blank">Intel</a>,
+          <a href="http://www.microsoft.com" target="_blank">Microsoft</a>,
+          <a href="http://www.raytheon.com" target="_blank">Raytheon</a>,
+          <a href="http://www.xerox.com" target="_blank">Xerox</a>,
+          <a href="http://www.rubiopharma.com" target="_blank">RubioPharma</a>,
+          <a href="http://www.samsung.com" target="_blank">Samsung</a>,
+          <a href="http://www.cognizant.com" target="_blank">Cognizant</a>,
+          <a href="http://www.fifthgen.com" target="_blank">FifthGen</a>,
+          the <a href="http://www.erdc.usace.army.mil" target="_blank">US Army Corps of Engineers’ Engineer Research and Development Center (ERDC)</a> and
+          <a href="http://www.avirtec.com" target="_blank">Avirtec</a>.
+          <br><br>
+          <b>Benefits of membership</b> include:
+        </p>
+        <ul>
+          <li>Collaboration with faculty, graduate students, post-doctoral researchers and other center partners</li>
+          <li>Choice of project topics to be funded by members' own contributions</li>
+          <li>Formal periodic project reviews along with continuous informal interaction and timely access to reports, papers and intellectual property generated by the center</li>
+          <li>Access to unique world-class equipment, facilities, and other CAC infrastructure</li>
+          <li>Recruitment opportunities among excellent graduate students</li>
+          <li>Leveraging of investments, projects and activities by all CAC members</li>
+          <li>Spin-off initiatives leading to new partnerships, customers or teaming for competitive proposals to funded programs</li>
+        </ul>
+      <h3>Projects and Partnerships</h3>
+        <p>Research partnerships and projects through the CAC@TTU provide:</p>
+        <ul>
+          <li>Expertise and partnerships in advancing technology while identifying and ameliorating risk factors.</li>
+          <li>Customized recommendations for current and emerging cloud standards, software, and methods.</li>
+          <li>Expertise in a wide spectrum of high performance computing, grid and cloud services, and techniques to help industry serve multiple markets in their product line.</li>
+          <li>Experience in medium and large-scale pre-competitive research that supports translation of ideas into business value and commercializable products.</li>
+          <li>Assistance in the design of cloud service agreements and service-level agreements, including technological and legal implications required for use in cloud management.</li>
+          <li>A trained workforce that can sustain opportunities created through the industry-research partnerships.</li>
+        </ul>
+      <h3>Facilities</h3>
+        <p>The <a href="http://www.hpcc.ttu.edu">High Performance Computing Center (HPCC)</a> at Texas Tech University (TTU) supports the CAC@TTU as follows:</p>
+        <ul>
+          <li>
+            Maintains memberships and strong working relationships with domestic and international cloud standards bodies, government entities, and working groups that coordinate
+            future directions of cloud services.
+          </li>
+          <li>Provides experience in creating and managing high performance computing and Grid frameworks that span local, regional, and national scales.</li>
+          <li>Conducts research in future computing capabilities that dramatically increase Texas Tech University's novel computational research and opportunities in scientific innovations.</li>
+          <li>Coordinates disciplinary and interdisciplinary research engagements and industry partnerships to identify, foster, and develop new research and educational opportunities.</li>
+          <li>Stays abreast with new computing, storage, and visualization technologies and their scope and impact in scientific computing.</li>
+          <li>Collaborates with campus researchers, students, and other TTU-supported projects and programs to create a skilled IT workforce that could connect domain sciences and computing capabilities.</li>
+        </ul>
+      <h3>Join Now</h3>
+        <p>Now that you have seen some of the benefits that can accrue to your organization through affiliation with the CAC, take the next steps toward membership: <a href="ttu_cac_membership.pdf">Membership Agreement</a>.
+    </p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+    <div class="modal fade" id="membershipModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Become a Member</h4>
+			  </div>
+			  <div class="modal-body">
+          			<h1>Become a Member</h1>
+          				<p>
+          					An annual membership fee allows industry partners to reap the benefits of CAC’s full research program. CAC members
+          					from industry and government collaborate with and advise researchers to create a diverse, industry-relevant program that spans many
+          					different areas of work.
+          					Terms of membership are governed by a simple
+          					<a href="ttu_cac_membership.pdf">Center-wide membership agreement</a>
+          					and <a href="CACBylaws-1.1.pdf">associated bylaws</a>
+          					through which activities are directed by the members themselves
+          					by direct participation on an advisory board that selects projects and activities of the Center.</p>
+          				<p> Joining is as simple as filling out the <a href="ttu_cac_membership.pdf">Membership Agreement</a>, selecting the desired number
+          					of memberships and any auxiliary research you may want to pursue, and <a href="mailto:alan.sill@ttu.edu">contacting us</a> to send it in.
+          					</p>
+          				<p> To learn more about how to become a member, please
+          					contact the site director Alan Sill at <a href="mailto:alan.sill@ttu.edu">alan.sill@ttu.edu</a>.
+          				</p>
+          			<h3>Membership Fees</h3>
+          				<p>Per calendar year:
+          					</p><ul>
+          						<li>Base membership: <b>$35,000/year</b> - Existing members through CY 2016</li>
+          						<li>Executive membership: <b>$70,000/year and up</b> - Existing members through CY 2016</li>
+          					</ul>
+          					<ul>
+          						<li>Base membership: <b>$50,000/year</b> - New members effective June 2016</li>
+          						<li>Executive membership: <b>$100,000/year and up</b> - New members effective June 2016</li>
+          					</ul>
+          					<ul>
+          						<li>Base membership: <b>$50,000/year</b> - All members effective Jan 2017</li>
+          						<li>Executive membership: <b>$100,000/year and up</b> - All members effective Jan 2017</li>
+          					</ul>
+          					<p></p>
+          				<p>All details for payment and terms are spelled out in the
+          					<a href="ttu_cac_membership.pdf">Membership Agreement</a>.
+          					Please <a href="mailto:cac.info@ttu.edu">contact us</a> if you find the need further information.
+          				</p>
+          			<h3>More Information on Center Funding</h3>
+          				<p> Joining the Center through any site puts you on the Industry Advisory Board (IAB) for the entire Center, which selects and approves research projects.
+          					<b>Members who join at the Executive level (two memberships) or higher are allowed twice the number of votes.</b></p>
+          				<p> Per National Science Foundation I/UCEC program guidelines, industry and government contributions in the form of annual CAC memberships,
+          					coupled with baseline funds from NSF and university matching funds, directly support the Center’s expenses for personnel, equipment, travel, and supplies.
+          					A single membership is the minimum for voting, and multiple memberships are possible.</p>
+          				<p> Memberships  funds  go directly to support the Center’s graduate students and faculty supervision for research.
+          					Additionally, the National Science Foundation and university provide funds and cost sharing to pay for administrative costs of operation,
+          					ensuring that these costs are covered separately and do not have to come out of membership fees.</p>
+          				<p> The work of the Center is carried out in the form of projects. Project selection is done by the IAB through a voting process.
+          					Projects can be funded through a single membership, but joint projects
+          					are encouraged by combining votes from multiple members to support projects with budgets that exceed individual membership amounts.
+          					Additional funding beyond memberships may also be supplied by member companies or organizations to speed up selected research.</p>
+          				<p> For special projects, it is also possible for any Center member to request to negotiate private
+          					research on a one-on-one basis beyond the projects funded by the membership fees. This opportunity is only available to member companies
+          					or organizations in good standing with existing memberships in the Center.</p>
+          				<p> Each regular membership is leveraged by the combined number of Center memberships, therefore multiplying its total value by a large factor.
+          					With present membership levels, for example, a single membership represents only a few percent of the total projected annual budget of the CAC,
+          					but yields access to the full range of Center activities, thus producing a research program at modest cost to your organization
+          					that would be much more expensive to pursue on your own using only internal resources. </p>
+          				<p> You also gain access to the
+          					state-of-the-art facilities and software environment provided by the Center, which is fully up to date with current best practices
+          					and would be much more expensive for your organization to produce on its own. Thus membership in the CAC represents extraordinary value that
+          					will accelerate your organization's progress towards its defined goals.
+          				</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+
 
 
     <!--Start of Tawk.to Script-->
