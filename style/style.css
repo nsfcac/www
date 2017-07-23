@@ -373,3 +373,7 @@ navbar {
 .modal-body p {
     word-wrap: break-word;
 }
+
+div.tooltip-inner {
+    max-width: 350px;
+}
