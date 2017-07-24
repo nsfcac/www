@@ -16,3 +16,7 @@
     text-align: left;
   }
 }
+
+.tooltip .tooltip-inner{
+  font-size: 40px;
+}
