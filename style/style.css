@@ -60,14 +60,16 @@ navbar #navbarLinks a:hover {
   font-family: 'PT Sans', sans-serif;
   font-size: 3em;
   color: #fff;
+  font-weight: bold;
 }
 #banner p {
   margin: 0 20%;
   margin-top: -1%;
   text-align: center;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1.5em;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.5em;
   color: #fff;
+  font-weight: bold;
 }
 #banner #knowMore {
   margin-top: 5%;
