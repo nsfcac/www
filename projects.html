@@ -10,8 +10,18 @@
         <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+        <!-- JQuery  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="style/animate.css">
 
@@ -63,7 +73,7 @@
                 <td>
                   <p>2017-TTU-1</p></td>
                 <td>
-                  <a data-toggle="tooltip" data-placement="top" title="The focus of this work is on creation of testbeds that can allow direct operation and comparison of a variety of cloud software. This work is being conducted in cooperation with the Cloud Plugfest developer testing series, US National Institute of Standards and Technology (NIST) cloud computing efforts, and related cloud software testing programs. This testing is used to discover, itemize and understand several specific aspects of the cloud computing landscape to identify approaches of business value to CAC members. This project can be expanded to include other developing standards testing as needed.">Cloud Standards Testing & Testbeds
+                  <a title="2017-TTU-1" data-toggle="popover" data-placement="bottom" data-content="The focus of this work is on creation of testbeds that can allow direct operation and comparison of a variety of cloud software. This work is being conducted in cooperation with the Cloud Plugfest developer testing series, US National Institute of Standards and Technology (NIST) cloud computing efforts, and related cloud software testing programs. This testing is used to discover, itemize and understand several specific aspects of the cloud computing landscape to identify approaches of business value to CAC members. This project can be expanded to include other developing standards testing as needed.">Cloud Standards Testing & Testbeds
                   </a></td>
                 <td><p>Alan Sill</p></td>
               </tr>
@@ -409,6 +419,21 @@ in Federated Cloud Computing Systems
               <h4><span>Copyright © 2017</span> NSF Cloud & Autonomic Computing Research Center (CAC).</h4>
             </div>
           </div>
+
+          <!--  Popover Script -->
+          <script>
+          $(document).ready(function(){
+              $('[data-toggle="popover"]').popover();
+          });
+          </script>
+
+
+
+          <!-- Modals For Project Abstracts -->
+
+            <!-- 2017 -->
+
+          <!--  End of Modals -->
 
 
         <!--Start of Tawk.to Script-->
