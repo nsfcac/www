@@ -356,6 +356,7 @@ navbar {
     right: 5px; /*newly added*/
     top: 15%;/*newly added*/
     position: fixed;
+    width: 30%;
 }
 
 .seven-letter{
