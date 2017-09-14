@@ -40,13 +40,14 @@ navbar #navbarLinks a {
   margin-right: 5%;
   font-size: 1.5em;
   font-family: 'Amatic SC', cursive;
+  font-weight: bold;
 }
 navbar #navbarLinks a:hover {
   color: black;
 }
 
 #banner {
-  background-image: linear-gradient(rgba(255,255,255,.5),rgba(0,0,0,.5)),url("../img/back5.jpg");
+  background-image: linear-gradient(rgba(255,255,255,.5),rgba(0,0,0,.5)),url("../img/clouds2.jpg");
   background-size: cover;;
   align-items: center;
   display: flex;
