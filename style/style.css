@@ -1,6 +1,8 @@
 html {
   overflow-x: hidden;
+
 }
+
 
 media only screen and (min-width: 1500px){
   font-size: 2rem;
@@ -37,10 +39,10 @@ navbar #navbarLinks {
 navbar #navbarLinks a {
   text-decoration: none;
   color: #777777;
-  margin-right: 5%;
-  font-size: 1.5em;
-  font-family: 'Amatic SC', cursive;
-  font-weight: bold;
+  margin-right: 6%;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+
 }
 navbar #navbarLinks a:hover {
   color: black;
