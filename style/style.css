@@ -12,7 +12,8 @@ navbar {
   display: flex;
   align-content: space-around;
   padding: 1% 5% 0;
-  background: #fff;
+  /*background: #fff;*/
+  background: #f1f1cb;
 }
 navbar #leftBanner {
   display: inline-flex;
@@ -49,7 +50,7 @@ navbar #navbarLinks a:hover {
 }
 
 #banner {
-  background-image: linear-gradient(rgba(255,255,255,.5),rgba(0,0,0,.5)),url("../img/clouds2.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,1)),url("../img/back6.jpg");
   background-size: cover;;
   align-items: center;
   display: flex;
@@ -92,7 +93,8 @@ navbar #navbarLinks a:hover {
   align-content: space-around;
   align-items: center;
   padding: 2% 5%;
-  background: #015CB5;
+  /*background: #015CB5;*/
+  background: #292929;
   color: white;
   /*border-bottom: solid 5px #2E7FCE;*/
 }
@@ -124,6 +126,7 @@ navbar #navbarLinks a:hover {
   flex-direction: row;
   align-content: space-around;
   padding: 2% 5%;
+  background: lightyellow;
 }
 #mainBody #mainContent {
   width: 60%;
@@ -391,12 +394,14 @@ navbar {
 }
 
 .seven-letter{
-  background-color: #2E7FCE;
+  /*background-color: #2E7FCE;*/
+  background: #f1f1cb;
+
 }
 .seven-letter h3{
   margin-top: 0;
   padding: 1%;
-  color: #fff;
+  color: #000;
   font-family: 'Roboto';
   /*text-decoration: underline;*/
   font-weight: bold;
@@ -433,4 +438,12 @@ navbar {
   max-width: 100%;
 
   padding: 0;
+}
+
+#wrapper{
+  background: lightyellow;
+}
+
+.wrapper2{
+  padding: 0 12%;
 }
