@@ -12,24 +12,29 @@ navbar {
   display: flex;
   align-content: space-around;
   padding: 1% 5% 0;
-  /*background: #fff;*/
-  background: #f1f1cb;
+  background: #b5e7a0;
+  margin : 0 !important;
+
 }
 navbar #leftBanner {
   display: inline-flex;
 }
+navbar #logoText a:link {
+   text-decoration: none;
+}
 navbar #leftBanner #logo img {
   width: 50%;
   margin-bottom: 5%;
-  background: #015CB5;
+  background: #6666ff;
   padding: 3%;
   border-radius: 20%;
 }
 navbar #leftBanner h3 {
   margin-left: -10%;
   font-size: 1.5em;
+  font-weight: bold;
   width: 60%;
-  color: black;
+  color: #0047a0;
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
 }
@@ -39,14 +44,14 @@ navbar #navbarLinks {
 }
 navbar #navbarLinks a {
   text-decoration: none;
-  color: #777777;
+  color: black;
   margin-right: 6%;
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
 
 }
 navbar #navbarLinks a:hover {
-  color: black;
+  color: #ff7b25;
 }
 
 #banner {
@@ -126,7 +131,7 @@ navbar #navbarLinks a:hover {
   flex-direction: row;
   align-content: space-around;
   padding: 2% 5%;
-  background: lightyellow;
+  background: #f3f8e1;
 }
 #mainBody #mainContent {
   width: 60%;
@@ -176,6 +181,7 @@ navbar #navbarLinks a:hover {
   text-decoration: none;
 }
 
+
 #footer {
   background: #292929;
   text-align: left;
@@ -190,9 +196,9 @@ navbar #navbarLinks a:hover {
 
 /*# sourceMappingURL=style.css.map */
 #meetings{
-	height: 100%;
-	padding-bottom: 100%;
-	margin-top: 5%;
+  height: 100%;
+  padding-bottom: 100%;
+  margin-top: 5%;
 }
 
 
@@ -441,7 +447,7 @@ navbar {
 }
 
 #wrapper{
-  background: lightyellow;
+  background: #f3f8e1;
 }
 
 .wrapper2{

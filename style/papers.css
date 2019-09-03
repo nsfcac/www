@@ -5,12 +5,12 @@
 navbar {
   border-bottom: 1px solid lightgrey; }
 
-*{
+.wrapper2{
   font-family: 'Roboto';
   font-weight: bold;
 }
 
-h1,h2,h3,h4, .notifications{
+.wrapper2 h1,.wrapper2 h2,.wrapper2 h3,.wrapper2 h4 .notifications{
   font-family: 'PT-Sans';
 }
 
