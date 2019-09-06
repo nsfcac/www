@@ -25,7 +25,7 @@ navbar #logoText a:link {
 navbar #leftBanner #logo img {
   width: 50%;
   margin-bottom: 5%;
-  background: #6666ff;
+  background: #2d05f5;
   padding: 3%;
   border-radius: 20%;
 }
@@ -52,6 +52,10 @@ navbar #navbarLinks a {
 }
 navbar #navbarLinks a:hover {
   color: #ff7b25;
+}
+div.alert {
+  color:black;
+    margin : 0;
 }
 
 #banner {
