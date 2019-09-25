@@ -40,7 +40,7 @@ header( "Location: error_message.html" );
 
 // If we passed all previous tests, send the email!
 else {
-mail( "mohak.kant1amg@gmail.com", "Feedback Form Results",
+mail( "vision.poudel@ttu.edu", "Feedback Form Results",
   $comments, "From: $email_address" );
 header( "Location: thank_you.html" );
 }
