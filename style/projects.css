@@ -17,6 +17,10 @@
   }
 }
 
+.accordion-body{
+  text-align: justify;
+}
+
 .tooltip .tooltip-inner{
   font-size: 40px;
 }
