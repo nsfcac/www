@@ -1,5 +1,6 @@
 h1, h2, h3 {
-  font-family: 'PT Sans', sans-serif; }
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;}
 
 #mainHeading {
   margin-left: 4%;
@@ -19,7 +20,7 @@ p, li {
     font-weight: bold; }
   #wrapper .image {
     width: 20%;
-    max-height: 20dp;
+    max-height: 20px;
     margin-top: 2%;
     padding: 0;
     margin-right: -9%; }
@@ -61,23 +62,23 @@ table {
   height: 100px;
   width: 200px;
 }
-#memberInfo .carousel-inner img{
+.memberInfo .carousel-inner img{
   height: 20rem;
   width: 100%;
 }
 
-#memberInfo #carousel-example-generic{
+.memberInfo #carousel-example-generic{
   border: 5px solid black;
 }
 
 #mainBody #sidebar{
   padding-right: 0;
-  width: 40%;
+  width: 30%;
 }
 
 #mainBody #sidebar ul li{
   list-style: circle;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 /*# sourceMappingURL=current-members-styles.css.map */

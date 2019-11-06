@@ -8,8 +8,8 @@
 
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link rel="stylesheet" type="text/css" href="style/personnel.css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CRaleway:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7COpen+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
@@ -24,16 +24,16 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="style/animate.css">
+  <script>
+    $(function() {
+      $("#header").load("common/header.html");
+      $("#footer").load("common/footer.html");
+    });
+  </script>
 </head>
+<!--------------------------------------------------------------------------------------------------------------->
 
 <body>
-
-<script>
-  $(function(){
-    $("#header").load("header.html");
-  });
-</script>
-
   <div id="header"></div>
 
   <div id="wrapper">
@@ -93,8 +93,13 @@
         <tr>
           <td>Jon Hass, Dell Inc., Vice Chair</td>
           <td><img src="img/personnel/jon.jpg" alt=""></td>
-          <td><p class="info">
-            Jon Hass is a Senior Distinguished Engineer at Dell, Inc. in the CTO organization working on system and infrastructure management architecture and standards.  Jon is one of the architects and contributors to the Redfish API standard and contributed significantly to several DMTF standards including the SMASH & DASH standards. Jon has authored or contributed to over 30 DMTF specifications and has spent the last 30 years involved in industry standards and has also contributed to various other standards including IPMI, SMI-S, HL7 and GKS. Jon's 30-plus year career in the computing industry includes client and server systems management firmware and software architecture, storage management software, interactive television systems software, multi-media products including kiosks, firmware and device driver architecture and development, networking and communications protocols.  At Dell, Jon is focused on the manageability interfaces and solutions across the Dell product portfolio.
+          <td>
+            <p class="info">
+              Jon Hass is a Senior Distinguished Engineer at Dell, Inc. in the CTO organization working on system and infrastructure management architecture and standards. Jon is one of the architects and contributors to the Redfish API standard and
+              contributed significantly to several DMTF standards including the SMASH & DASH standards. Jon has authored or contributed to over 30 DMTF specifications and has spent the last 30 years involved in industry standards and has also
+              contributed to various other standards including IPMI, SMI-S, HL7 and GKS. Jon's 30-plus year career in the computing industry includes client and server systems management firmware and software architecture, storage management
+              software, interactive television systems software, multi-media products including kiosks, firmware and device driver architecture and development, networking and communications protocols. At Dell, Jon is focused on the manageability
+              interfaces and solutions across the Dell product portfolio.
             </p>
           </td>
           <td>
@@ -194,7 +199,7 @@
           </td>
         </tr>
 
-</tbody>
+      </tbody>
     </table>
 
 
@@ -205,7 +210,9 @@
       coordinate with the center directors to carry out the research program selected by the IAB. The current
       CAC primary and affiliate site directors and institutions are listed below. Primary sites have multi-year
       grants from NSF that cover the administrative costs of running the center at their universities, and can
-      optionally sponsor affiliate sites that work with the CAC through their sites.
+      optionally sponsor affiliate sites that work with the CAC through their sites.<br>Texas Tech University is
+      a CAC primary site currently in Phase I, pending approval of Phase II in the NSF I/UCRC program.<br>
+      The University of Arizona is a CAC primary site currently in Phase II in the NSF I/UCRC program.
     </p>
     <table class="table table-hover">
       <thead>
@@ -219,10 +226,6 @@
       <tbody>
         <tr>
           <td>Yong Chen, Site Director, Texas Tech University</td>
-          <p class="info">
-            Texas Tech University is a CAC primary site currently in Phase I, pending approval of Phase II in the
-            NSF I/UCRC program.
-          </p>
           <td><img src="img/personnel/yong_chen.png" alt=""></td>
           <td>
             <p class="info">
@@ -247,12 +250,7 @@
 
         <tr>
           <td>Ali Akoglu, Site Director, University of Arizona</td>
-          <p class="info">
-            The University of Arizona is a CAC primary site currently in Phase II in the NSF I/UCRC program.
-          </p>
-
-          <td>
-            <img src="img/personnel/ali2.jpg" alt=""></td>
+          <td><img src="img/personnel/ali2.jpg" alt=""></td>
           <td>
             <p class="info">
               Dr. Ali Akoglu
@@ -283,7 +281,7 @@
     </table>
 
 
-   <h3><b>Affiliate Sites</b></h3>
+    <h3><b>Affiliate Sites</b></h3>
     <p class="info">
       University researchers wishing to participate in the CAC program of research can do so by creating
       CAC sites through detailed memoranda of understanding that are organized
@@ -295,102 +293,69 @@
     </p>
 
     <table class="table table-hover">
-           <thead>
-             <tr>
-               <th>Name</th>
-               <th></th>
-               <th></th>
-               <th>Contact</th>
-             </tr>
-           </thead>
-           <tbody>
-              <tr>
-                <td>Ravi Vadapalli, Affiliate Site Director, University of North Texas</td>
-                <td>
-                      <img src="img/personnel/ravi_vadapalli.png" alt=""></td>
-                <td><p class="info">
-                  Dr. Vadapalli is the director of UNT Research IT Services and former site director
-                  at of the NSF IUCRC Cloud and Autonomic Computing Center at Texas Tech University
-                  and leads the CAC affiliate site program at UNT.
-                  He has extensive experience in advanced distributed computing, research development
-                  in both disciplinary and interdisciplinary areas through data-intensive computing and
-                  fostering industry-research partnerships. Dr. Vadapalli was one of the principal members
-                  of the developer team for the Texas Internet Grid for Research and Education, TIGRE, and
-                  led the demonstration of grid and cloud computing methods for the Petroleum Engineering Grid, PEGrid.
-                  He also has been deeply involved in the development of methods for the use of advanced
-                  high-performance computing for simulation and modeling in cancer radiotherapy and other
-                  related applications. Dr. Vadapalli is a frequent speaker on these topics to a variety of
-                  professional industry-based and academic organizations. His current interests are in fostering
-                  new collaborations, industry-academia partnerships and grant opportunities that enhance the
-                  visibility and leadership of the University of North Texas in higher education.
-                </p></td>
-                <td>
-                <p>University of North Texas<br>Contact: 940.369.6046, ravi.vadapalli@unt.edu</p></td>
-              </tr>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th></th>
+          <th></th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ravi Vadapalli, Affiliate Site Director, University of North Texas</td>
+          <td>
+            <img src="img/personnel/ravi_vadapalli.png" alt=""></td>
+          <td>
+            <p class="info">
+              Dr. Vadapalli is the director of UNT Research IT Services and former site director
+              at of the NSF IUCRC Cloud and Autonomic Computing Center at Texas Tech University
+              and leads the CAC affiliate site program at UNT.
+              He has extensive experience in advanced distributed computing, research development
+              in both disciplinary and interdisciplinary areas through data-intensive computing and
+              fostering industry-research partnerships. Dr. Vadapalli was one of the principal members
+              of the developer team for the Texas Internet Grid for Research and Education, TIGRE, and
+              led the demonstration of grid and cloud computing methods for the Petroleum Engineering Grid, PEGrid.
+              He also has been deeply involved in the development of methods for the use of advanced
+              high-performance computing for simulation and modeling in cancer radiotherapy and other
+              related applications. Dr. Vadapalli is a frequent speaker on these topics to a variety of
+              professional industry-based and academic organizations. His current interests are in fostering
+              new collaborations, industry-academia partnerships and grant opportunities that enhance the
+              visibility and leadership of the University of North Texas in higher education.
+            </p>
+          </td>
+          <td>
+            <p>University of North Texas<br>Contact: 940.369.6046, ravi.vadapalli@unt.edu</p>
+          </td>
+        </tr>
 
-              <tr>
-                <td>Ziliang Zong, Affiliate Site Director, Texas State University</td>
-                <td>
-                    <img src="img/personnel/zong.png" alt=""></td>
-                <td><p class="info">
-                  Dr. Zong is an Associate Professor of the Computer Science Department and leads the
-                  CAC affiliate site at Texas State. He is the recipient
-                  of the 2015 Texas State University Presidential Award for Excellence in Scholarly/Creative
-                  Activities. He received his Ph.D. degree in Computer Science and Software Engineering
-                  from Auburn University in 2008 with the Distinguished Dissertation Award.
-                  He received B.S.(2002) and M.S.(2005) degrees in Computer Science from Shandong University, China.
-                  Dr. Zong serves as the associate editor of Sustainable Computing Journal (SUSCOM).
-                  His research is currently focused on Energy-Efficient Computing and Systems, Big Data Analytics,
-                  Green Software Design, and Edge Computing.
-                </p></td>
-                <td><p>Texas State University<br>Contact: 512.245.8344, ziliang@txstate.edu<p></td>
-              </tr>
+        <tr>
+          <td>Ziliang Zong, Affiliate Site Director, Texas State University</td>
+          <td>
+            <img src="img/personnel/zong.png" alt=""></td>
+          <td>
+            <p class="info">
+              Dr. Zong is an Associate Professor of the Computer Science Department and leads the
+              CAC affiliate site at Texas State. He is the recipient
+              of the 2015 Texas State University Presidential Award for Excellence in Scholarly/Creative
+              Activities. He received his Ph.D. degree in Computer Science and Software Engineering
+              from Auburn University in 2008 with the Distinguished Dissertation Award.
+              He received B.S.(2002) and M.S.(2005) degrees in Computer Science from Shandong University, China.
+              Dr. Zong serves as the associate editor of Sustainable Computing Journal (SUSCOM).
+              His research is currently focused on Energy-Efficient Computing and Systems, Big Data Analytics,
+              Green Software Design, and Edge Computing.
+            </p>
+          </td>
+          <td>
+            <p>Texas State University<br>Contact: 512.245.8344, ziliang@txstate.edu<p>
+          </td>
+        </tr>
 
-            </tbody>
-          </table>
-
-        <!-- Need to be decided whether to put other affiliated sites that do not yet have MoUs in the leadership page
-<h3>Mississippi State University</h3>
-          <table class="table table-hover">
-           <thead>
-             <tr>
-               <th>Name</th>
-               <th></th>
-               <th></th>
-               <th>Contact</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td>Stefano Iannucci, Site Director at Mississippi State University</td>
-               <td>
-                   <img src="img/personnel/Stef.jpg" alt=""></td>
-               <td><p class="info">
-                 Stefano Iannucci is an Assistant Professor in the Computer Science and Engineering department and an affiliated faculty in the Distributed Analytics and Security Institute (DASI) department of the High Performance Computing Collaboratory. His research focuses on cyber-security automation, autonomic computing, Internet of Things and performance modeling and benchmarking. He received his Ph.D. in 2015 at the University of Rome Tor Vergata, under the supervision of Professor Valeria Cardellini. Prior to joining Mississippi State University as a faculty member, he has been a postdoc and then an Assistant Research Professor in the DASI research center. In 2010 he founded a start-up company operating in the sector of Open Cloud Computing and in 2012 he won an award from the European Community for the foundation of a second start-up in the sector of Desktop-Based Cloud Systems. Dr. Iannucci is author of a book on the topic of autonomic computing applied to Service Oriented Systems and has published over 20 papers on top journal and conferences.
-               </p></td>
-               <td>Contact: (662) 325-2756, stefano@dasi.msstate.edu</td>
-             </tr>
-           </tbody>
-         </table>
--->
+      </tbody>
+    </table>
 
   </div>
-
-
-  <div id="footer">
-    <div class="container">
-      <ul>
-        <li>Phone: 806.742.4350 &nbsp; &nbsp; &nbsp; &nbsp; Twitter: @nsfcac &nbsp; &nbsp; &nbsp; &nbsp; Contact Webmaster</li>
-        <li>USPS: Box 41167 | Texas Tech University | Lubbock, TX 79409-1167</li>
-        <li>Shipping: Texas Tech University | Drane Hall | Room 161 | 2500 Broadway | Lubbock, TX 79409</li>
-      </ul>
-      <a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm" target="_blank">Online Institutional Resumes</a><br>
-      <a href="http://www.state.tx.us/" target="_blank">State of Texas</a> | <a href="http://www2.tsl.state.tx.us/trail/" target="_blank">Statewide Search</a> | <a href="http://www.texashomelandsecurity.com/" target="_blank">Texas Homeland
-        Security</a> | <a href="http://veterans.portal.texas.gov/en/Pages/default.aspx" target="_blank">Texas Veterans Portal</a> | <a href="http://sao.fraud.state.tx.us/">SAO Fraud Reporting</a> | <a
-        href="http://www.physicalplant.ttu.edu/EnergyManagement/">Energy Management</a> | <a href="http://www.ttu.edu/policy/">General Policy Information</a>
-      <h4><span>Copyright © 2017</span> NSF Cloud & Autonomic Computing Research Center (CAC).</h4>
-    </div>
-  </div>
+  <div id="footer"></div>
 
 </body>
 

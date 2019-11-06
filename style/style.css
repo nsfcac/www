@@ -4,18 +4,18 @@ html {
 }
 
 
-media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1500px){
   font-size: 2rem;
 }
 
-navbar {
+navbar{
   display: flex;
   align-content: space-around;
   padding: 1% 5% 0;
   background: #b5e7a0;
   margin : 0 !important;
-
 }
+
 navbar #leftBanner {
   display: inline-flex;
 }
@@ -138,7 +138,7 @@ div.alert {
   background: #f3f8e1;
 }
 #mainBody #mainContent {
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -156,20 +156,20 @@ div.alert {
 }
 #mainBody #mainContent #welcome img {
   margin-right: 5%;
-  height: 261;
-  width: 261;
+  height: 261px;
+  width: 261px;
 }
 #mainBody #sidebar {
   display: flex;
   flex-direction: column;
   width: 30%;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 #mainBody #sidebar h1, #mainBody #sidebar h2, #mainBody #sidebar h3 {
   font-family: 'PT Sans', sans-serif;
 }
 #mainBody #sidebar p, #mainBody #sidebar li {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   list-style: none;
 }
 #mainBody #sidebar .btn {
@@ -455,5 +455,5 @@ navbar {
 }
 
 .wrapper2{
-  padding: 0 12%;
+  padding: 0px 12%;
 }

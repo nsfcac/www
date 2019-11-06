@@ -1,169 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Welcome | NSF Cloud & Autonomic Computing Center (CAC)</title>
-        <link rel="stylesheet" type="text/css" href="style/style.css">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome | NSF Cloud & Autonomic Computing Center (CAC)</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CRaleway:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7COpen+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-                <!-- JQuery  -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- JQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-            <!-- Optional theme -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="style/animate.css">
+  <link rel="stylesheet" href="style/animate.css">
+  <script>
+    $(function() {
+      $("#header").load("common/header.html");
+      $("#footer").load("common/footer.html");
+    });
+  </script>
+</head>
 
+<body>
+  <div id="header"></div>
 
-    </head>
+  <div class="container gallery-container">
 
-    <body>
-<!--
-      <div class="notifications animated flash side-notification">
-        <div class="alert alert-success" role="alert">
-          <a href="https://www.eventbrite.com/e/fall-2017-nsf-cac-industry-advisory-board-meeting-tickets-36116979859"><strong>CAC Fall Semi-annual IAB Meeting</strong> <br>October 23rd - 24th, 2017 at TTU.</a>
-        </div>
-      </div>
-      <div class="notifications animated flash side-notification-2">
-        <div class="alert alert-warning" role="alert">
-          <a href="https://www.depts.ttu.edu/vpr/office/faculty-club.php"><strong>CAC Faculty Research Club Meeting</strong> <br>September 28th, 2017 at TTU.</a>
-        </div>
-      </div> -->
-      <navbar class="navbar">
-          <div id="leftBanner">
-              <div id="logo">
-                  <a href="index.html"><img src="img/cac_logo.png" alt="CAC LOGO"></a>
-              </div>
-              <h3 id="logoText"><a href="index.html"> NSF Cloud and Autonomic Computing (CAC) Industry/University Cooperative Research Center</a></h3>
-          </div>
-           <div id="navbarLinks">
-             <a href="leadership.html">Leadership Team</a>
-             <a href="current-members.html">Industry</a>
-             <!--<a href="partnerships.html">Partnerships</a>-->
-             <a href="projects1.html">Projects</a>
-             <a href="personnel.html">Faculty & Researchers</a>
-             <!--<a href="students.html">Students</a>-->
-             <a href="papers.html">Publications & Products</a>
-             <a href="meetings.html">Events</a>
-             <a href="gallery.html">Gallery</a>
-             <!--<a href="testimonials.html">Testimonials</a>-->
-             <a href="feedbacks.html">Feedback</a>
-             <!-- <a href="tech.html">Technologies in Progress</a> -->
+    <h1>NSFCAC Snapshots</h1><br><br><br>
+    <h2>Coming Soon....This is just a template. Please let us know your views about the design.</h2>
+    <p class="page-description text-center">Some Text Can Go Here....</p>
+
+    <div class="tz-gallery">
+
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a class="lightbox" href="img/park.jpg">
+              <img src="img/park.jpg" alt="Park">
+            </a>
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-      </navbar>
-
-      <div class="container gallery-container">
-
-          <h1>NSFCAC Snapshots</h1><br><br><br>
-          <h2>Coming Soon....This is just a template. Please let us know your views about the design.</h2>
-          <p class="page-description text-center">Some Text Can Go Here....</p>
-
-          <div class="tz-gallery">
-
-              <div class="row">
-
-                  <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                          <a class="lightbox" href="img/park.jpg">
-                              <img src="img/park.jpg" alt="Park">
-                          </a>
-                          <div class="caption">
-                              <h3>Thumbnail label</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                          <a class="lightbox" href="img/bridge.jpg">
-                              <img src="img/bridge.jpg" alt="Bridge">
-                          </a>
-                          <div class="caption">
-                              <h3>Thumbnail label</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                          <a class="lightbox" href="img/tunnel.jpg">
-                              <img src="img/tunnel.jpg" alt="Tunnel">
-                          </a>
-                          <div class="caption">
-                              <h3>Thumbnail label</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                          <a class="lightbox" href="img/coast.jpg">
-                              <img src="img/coast.jpg" alt="Coast">
-                          </a>
-                          <div class="caption">
-                              <h3>Thumbnail label</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                          <a class="lightbox" href="img/rails.jpg">
-                              <img src="img/rails.jpg" alt="Rails">
-                          </a>
-                          <div class="caption">
-                              <h3>Thumbnail label</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                          <a class="lightbox" href="img/traffic.jpg">
-                              <img src="img/traffic.jpg" alt="Traffic">
-                          </a>
-                          <div class="caption">
-                              <h3>Thumbnail label</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
           </div>
-
         </div>
-
-        <div id="footer">
-          <div class="container">
-            <ul>
-              <li>Phone: 806.742.4350 &nbsp; &nbsp; &nbsp; &nbsp; Twitter: @nsfcac &nbsp; &nbsp; &nbsp; &nbsp; Contact Webmaster</li>
-              <li>USPS: Box 41167 | Texas Tech University | Lubbock, TX 79409-1167</li>
-              <li>Shipping: Texas Tech University | Drane Hall | Room 161 | 2500 Broadway | Lubbock, TX 79409</li>
-            </ul>
-            <a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm" target="_blank">Online Institutional Resumes</a><br>
-            <a href="http://www.state.tx.us/" target="_blank">State of Texas</a> | <a href="http://www2.tsl.state.tx.us/trail/" target="_blank">Statewide Search</a> | <a href="http://www.texashomelandsecurity.com/" target="_blank">Texas Homeland Security</a> | <a href="http://veterans.portal.texas.gov/en/Pages/default.aspx" target="_blank">Texas Veterans Portal</a> | <a href="http://sao.fraud.state.tx.us/">SAO Fraud Reporting</a> | <a href="http://www.physicalplant.ttu.edu/EnergyManagement/">Energy Management</a> | <a href="http://www.ttu.edu/policy/">General Policy Information</a>
-            <h4><span>Copyright © 2017</span> NSF Cloud & Autonomic Computing Research Center (CAC).</h4>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a class="lightbox" href="img/bridge.jpg">
+              <img src="img/bridge.jpg" alt="Bridge">
+            </a>
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a class="lightbox" href="img/tunnel.jpg">
+              <img src="img/tunnel.jpg" alt="Tunnel">
+            </a>
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a class="lightbox" href="img/coast.jpg">
+              <img src="img/coast.jpg" alt="Coast">
+            </a>
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a class="lightbox" href="img/rails.jpg">
+              <img src="img/rails.jpg" alt="Rails">
+            </a>
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <a class="lightbox" href="img/traffic.jpg">
+              <img src="img/traffic.jpg" alt="Traffic">
+            </a>
+            <div class="caption">
+              <h3>Thumbnail label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
         </div>
       </div>
 
+    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script>
-        baguetteBox.run('.tz-gallery');
-    </script>
-    </body>
-    </html>
+  </div>
+
+  <div id="footer"></div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
+</body>
+
+</html>
