@@ -1,3 +1,5 @@
+
+
 ul{
   list-style-type:none;
 }
@@ -7,12 +9,8 @@ li{
   list-style-type:none;
   }
 
+  
 .wrapper{
-  background-color: #f3f8e1;
-  color: inherit;
-  }
-
-.panel{
   background-color: #f3f8e1;
   color: inherit;
   }
