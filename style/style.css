@@ -1,35 +1,38 @@
 html {
   overflow-x: hidden;
-
+  font-size: 10px;
+}
+body{
+  background: #f3f8e1;
 }
 
 
-@media only screen and (min-width: 1500px){
-  font-size: 2rem;
-}
+/*@media only screen and (min-width: 1500px){*/
+/*  font-size: 2rem;*/
+/*}*/
 
-navbar{
-  display: flex;
-  align-content: space-around;
-  padding: 1% 5% 0;
-  background: #b5e7a0;
-  margin : 0 !important;
-}
+/*.navbar{*/
+/*  display: flex;*/
+/*  align-content: space-around;*/
+/*  padding: 1% 5% 0;*/
+/*  background: #b5e7a0;*/
+/*  margin : 0 !important;*/
+/*}*/
 
-navbar #leftBanner {
+.navbar #leftBanner {
   display: inline-flex;
 }
-navbar #logoText a:link {
+.navbar #logoText a:link {
    text-decoration: none;
 }
-navbar #leftBanner #logo img {
+.navbar #leftBanner #logo img {
   width: 50%;
   margin-bottom: 5%;
   background: #2d05f5;
   padding: 3%;
   border-radius: 20%;
 }
-navbar #leftBanner h3 {
+.navbar #leftBanner h3 {
   margin-left: -10%;
   font-size: 1.5em;
   font-weight: bold;
@@ -38,21 +41,21 @@ navbar #leftBanner h3 {
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
 }
-navbar #navbarLinks {
-  width: 70%;
-  margin-top: 1%;
-}
-navbar #navbarLinks a {
-  text-decoration: none;
-  color: black;
-  margin-right: 6%;
-  font-size: 1em;
-  font-family: 'Poppins', sans-serif;
+/*.navbar #navbarLinks {*/
+/*  width: 70%;*/
+/*  margin-top: 1%;*/
+/*}*/
+/*.navbar #navbarLinks a {*/
+/*  text-decoration: none;*/
+/*  color: black;*/
+/*  margin-right: 6%;*/
+/*  font-size: 1em;*/
+/*  font-family: 'Poppins', sans-serif;*/
 
-}
-navbar #navbarLinks a:hover {
-  color: #ff7b25;
-}
+/*}*/
+/*.navbar #navbarLinks a:hover {*/
+/*  color: #ff7b25;*/
+/*}*/
 div.alert {
   color:black;
     margin : 0;
@@ -109,11 +112,9 @@ div.alert {
 }
 #goldenRule h2 {
   font-family: 'PT Sans', sans-serif;
-  font-size: 2em;
 }
 #goldenRule p {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.4em;
   font-weight: bold;
 }
 #goldenRule #mission {
@@ -207,7 +208,7 @@ div.alert {
 }
 
 
-navbar {
+.navbar {
   border-bottom: 1px solid lightgrey; }
 
 #WhyUs{
@@ -251,11 +252,11 @@ navbar {
   }
 }
 @media only screen and (max-width: 650px){
-  navbar{
+  .navbar{
     padding: 0;
     width: 100%;
   }
-  navbar, #navbarLinks{
+  .navbar, #navbarLinks{
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -269,10 +270,10 @@ navbar {
   #leftBanner h3{
     display: none;
   }
-  navbar #navbarLinks{
+  .navbar #navbarLinks{
     width: 100%;
   }
-  navbar #navbarLinks a{
+  .navbar #navbarLinks a{
     padding-bottom: 2rem;
     margin:auto;
 

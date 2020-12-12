@@ -1,3 +1,6 @@
+.section{
+    background: #f3f8e1;
+}
 h1, h2, h3 {
   font-family: 'PT Sans', sans-serif; }
 
@@ -6,17 +9,21 @@ p, li {
   font-weight: bold; }
 
 #wrapper {
-  padding: 5%; }
-  #wrapper div {
-    margin-bottom: 5%; }
-    #wrapper div div {
-      display: flex;
-      align-content: space-around; }
-
-      #wrapper div div .info {
-        margin-right: 5%;
-      width: 80%;
-    }
+  padding: 5%;
+}
+#wrapper div {
+margin-bottom: 5%;
+}
+#wrapper div div {
+  display: flex;
+  align-content: space-around; }
+#wrapper table tr td:first-child{
+    width: 250px
+}
+#wrapper div div .info {
+    margin-right: 5%;
+  width: 80%;
+}
 
 navbar {
   border-bottom: 1px solid lightgrey; }
