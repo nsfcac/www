@@ -39,7 +39,7 @@
   <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('img/back6.jpg');">
       <div class="filter"></div>
   </div>
-  <div class="wrapper">
+  <div class="wrapper section" style="background-color: white">
     <div class="container">
       <h2  class="text-center row">Products and Intellectual Property</h2>
       <br><br>
@@ -644,19 +644,20 @@
     const h = 300;
     const x = d3.scaleBand()
             .domain(data.map(d=>d.key))
-            .rangeRound([0, w])
+            .rangeRound([h, 0])
             .paddingOuter(0.2)
             .paddingInner(0.2);
     const y = d3.scaleLinear()
             .domain([0,d3.max(data,d=>d.values)])
-            .rangeRound([h, 0]);
+            .rangeRound([0, w]);
     const svg = d3.select('#chart')
             .style('overflow','visible')
-      .attr('viewBox',`0 0 ${w} ${h}`);
+      .attr('viewBox',`0 0 ${w} ${h}`)
+      .style('font-size','2rem');
     // axis
     if (svg.select('g.xaxis').empty()){
       svg.append('g').attr('class','xaxis').attr('transform',`translate(0,${h})`).attr('font-family',null).style('font-size','2rem')
-              .append('text').text('Time')
+              .append('text').text('#Publications')
               .attr('fill','black')
               .attr('x',w/2)
               .attr('dy','6rem').style('font-size','3rem')
@@ -665,42 +666,57 @@
               .style('font-size','2.5rem');
     }
     if (svg.select('g.yaxis').empty())
-      svg.append('g').attr('class','yaxis').attr('font-family',null).style('font-size','2rem')
-              .append('text').text('#Publications')
+      svg.append('g')
+              .attr('class','yaxis').attr('font-family',null).style('font-size','2rem')
+              .append('text').text('Time')
               .attr('fill','black')
-              .attr('transform',`translate(-50,${h/2}) rotate(-90)`)
+              .attr('transform',`translate(-80,${h/2}) rotate(-90)`)
               .style('text-anchor','middle')
               .style('font-weight','bold')
               .style('font-size','2.5rem');
-    svg.select('g.xaxis').call(d3.axisBottom(x)).selectAll('line').remove();
-    const yaxis = svg.select('g.yaxis').call(d3.axisLeft(y));
-    yaxis.selectAll('line')
-            .attr('x2',w)
+    const xaxis = svg.select('g.xaxis').call(d3.axisBottom(y));
+    xaxis.selectAll('line')
+            .attr('y1',-h)
             .attr('stroke-dasharray','4 2');
+
+    const yaxis = svg.select('g.yaxis').call(d3.axisLeft(x));
+    yaxis.selectAll('line').remove();
     yaxis.select('.domain').remove()
     //bar
-    const rect = svg.selectAll('rect.bar')
-      .data(data)
-      .join('rect')
+    const bars = svg.selectAll('g.bar')
+            .data(data)
+            .join('g')
             .attr('class','bar')
-      .attr('x',d=>x(d.key))
-      .attr("width", x.bandwidth())
-      .attr("data-toggle","collapse")
-      .attr("data-parent",".acc")
-      .attr("data-target",d=>"#"+d.key)
+            .attr('transform',d=>`translate(0,${x(d.key)})`)
+            .attr("data-toggle","collapse")
+            .attr("data-parent",".acc")
+            .attr("data-target",d=>"#"+d.key)
             .classed('highlight',d=>d.enable)
-      .style("pointer-events","all")
-      .on('click',function(event,d){
-        d.enable = !d.enable;
-        d3.select(this).classed('highlight',d=>d.enable);
-        $("#"+d.key).collapse('toggle');
-      });
-  rect
-          .attr('y',d=>y(0))
-          .attr("height", function(d) { return h - y(0); })
-          .transition().duration(1000)
-          .attr('y',d=>y(d.values))
-          .attr("height", function(d) { return h - y(d.values); })
+            .style("pointer-events","all")
+            .on('click',function(event,d){
+              d.enable = !d.enable;
+              d3.select(this).classed('highlight',d=>d.enable);
+              $("#"+d.key).collapse('toggle');
+            });
+
+    bars.selectAll('rect')
+      .data(d=>[d])
+      .join('rect')
+      .attr("height", x.bandwidth())
+      .attr('x',y(0))
+      .attr("width", y(0))
+      .transition().duration(1000)
+      .attr("width", function(d) { return  y(d.values); });
+    bars.selectAll('text')
+            .data(d=>[d])
+            .join('text')
+            .text(d=>d.values)
+            .attr("x", y(0))
+            .attr("y", x.bandwidth()/2)
+            .attr("dy", '0.5rem')
+            .attr('fill','white')
+            .transition().duration(1000)
+            .attr("x", function(d) { return  y(d.values); });
   </script>
 </body>
 
