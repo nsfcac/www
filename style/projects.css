@@ -24,7 +24,16 @@
 .tooltip .tooltip-inner{
   font-size: 40px;
 }
-
+td a {
+  color: var(--primary) !important;
+}
+.section .table-condensed>tbody>tr>td{
+  text-align: left;
+}
+.accordion-body.collapse {
+  background-color: white;
+  padding: 1rem;
+}
 a:hover{
   text-decoration: none;
 }
