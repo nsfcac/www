@@ -58,10 +58,16 @@ table {
   table tbody {
     text-align: center; }
 
-#mainContent .row img{
-  height: 100px;
-  width: 200px;
-}
+  .sponsor a{
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  .sponsor img{
+    max-height: 100px;
+    max-width: 200px;
+  }
 .memberInfo .carousel-inner img{
   height: 20rem;
   width: 100%;

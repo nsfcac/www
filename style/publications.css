@@ -14,3 +14,10 @@ li{
   background-color: #f3f8e1;
   color: inherit;
   }
+
+svg .bar{
+  fill: #8eceff;
+}
+svg .bar.highlight{
+  fill: #007bff;
+}
