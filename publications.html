@@ -684,9 +684,7 @@
       .join('rect')
             .attr('class','bar')
       .attr('x',d=>x(d.key))
-      .attr('y',d=>y(d.values))
       .attr("width", x.bandwidth())
-      .attr("height", function(d) { return h - y(d.values); })
       .attr("data-toggle","collapse")
       .attr("data-parent",".acc")
       .attr("data-target",d=>"#"+d.key)
@@ -697,7 +695,12 @@
         d3.select(this).classed('highlight',d=>d.enable);
         $("#"+d.key).collapse('toggle');
       });
-
+  rect
+          .attr('y',d=>y(0))
+          .attr("height", function(d) { return h - y(0); })
+          .transition().duration(1000)
+          .attr('y',d=>y(d.values))
+          .attr("height", function(d) { return h - y(d.values); })
   </script>
 </body>
 
