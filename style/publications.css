@@ -12,12 +12,12 @@ li{
   
 .wrapper{
   background-color: #f3f8e1;
-  color: inherit;
+  color: black;
   }
 
 svg .bar{
-  fill: #8eceff;
+  fill: var(--gray);
 }
 svg .bar.highlight{
-  fill: #007bff;
+  fill: var(--gray-dark);
 }
