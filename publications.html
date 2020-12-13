@@ -652,7 +652,8 @@
             .rangeRound([0, w]);
     const svg = d3.select('#chart')
             .style('overflow','visible')
-      .attr('viewBox',`0 0 ${w} ${h}`);
+      .attr('viewBox',`0 0 ${w} ${h}`)
+      .style('font-size','2rem');
     // axis
     if (svg.select('g.xaxis').empty()){
       svg.append('g').attr('class','xaxis').attr('transform',`translate(0,${h})`).attr('font-family',null).style('font-size','2rem')
@@ -665,7 +666,8 @@
               .style('font-size','2.5rem');
     }
     if (svg.select('g.yaxis').empty())
-      svg.append('g').attr('class','yaxis').attr('font-family',null).style('font-size','2rem')
+      svg.append('g')
+              .attr('class','yaxis').attr('font-family',null).style('font-size','2rem')
               .append('text').text('Time')
               .attr('fill','black')
               .attr('transform',`translate(-80,${h/2}) rotate(-90)`)
@@ -681,27 +683,40 @@
     yaxis.selectAll('line').remove();
     yaxis.select('.domain').remove()
     //bar
-    const rect = svg.selectAll('rect.bar')
-      .data(data)
-      .join('rect')
+    const bars = svg.selectAll('g.bar')
+            .data(data)
+            .join('g')
             .attr('class','bar')
-      .attr('y',d=>x(d.key))
-      .attr("height", x.bandwidth())
-      .attr("data-toggle","collapse")
-      .attr("data-parent",".acc")
-      .attr("data-target",d=>"#"+d.key)
+            .attr('transform',d=>`translate(0,${x(d.key)})`)
+            .attr("data-toggle","collapse")
+            .attr("data-parent",".acc")
+            .attr("data-target",d=>"#"+d.key)
             .classed('highlight',d=>d.enable)
-      .style("pointer-events","all")
-      .on('click',function(event,d){
-        d.enable = !d.enable;
-        d3.select(this).classed('highlight',d=>d.enable);
-        $("#"+d.key).collapse('toggle');
-      });
-      rect
-          .attr('x',y(0))
-          .attr("width", y(0))
-          .transition().duration(1000)
-          .attr("width", function(d) { return  y(d.values); })
+            .style("pointer-events","all")
+            .on('click',function(event,d){
+              d.enable = !d.enable;
+              d3.select(this).classed('highlight',d=>d.enable);
+              $("#"+d.key).collapse('toggle');
+            });
+
+    bars.selectAll('rect')
+      .data(d=>[d])
+      .join('rect')
+      .attr("height", x.bandwidth())
+      .attr('x',y(0))
+      .attr("width", y(0))
+      .transition().duration(1000)
+      .attr("width", function(d) { return  y(d.values); });
+    bars.selectAll('text')
+            .data(d=>[d])
+            .join('text')
+            .text(d=>d.values)
+            .attr("x", y(0))
+            .attr("y", x.bandwidth()/2)
+            .attr("dy", '0.5rem')
+            .attr('fill','white')
+            .transition().duration(1000)
+            .attr("x", function(d) { return  y(d.values); });
   </script>
 </body>
 

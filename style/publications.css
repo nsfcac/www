@@ -21,3 +21,14 @@ svg .bar{
 svg .bar.highlight{
   fill: var(--gray-dark);
 }
+svg .bar text{
+  transform: translate(-10px,0);
+  text-anchor: end;
+  transition: 1s all;
+}
+svg .bar.highlight text{
+  fill: black;
+  transform: translate(10px,0);
+  text-anchor: start;
+  font-weight: bold;
+}
