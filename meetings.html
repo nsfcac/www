@@ -17,12 +17,13 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
   <link rel="stylesheet" href="assets/css/paper-kit.css?v=2.2.0">
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style/personnel.css">
+  <link rel="stylesheet" type="text/css" href="style/timeline.css">
   <link rel="stylesheet" href="style/animate.css">
   <script>
     $(function() {
@@ -39,68 +40,118 @@
   </div>
 
   <div class="mainBody">
-
-    <div id="wrapper" class="wrapper2">
-      <br><br>
-      <div class="items" id="item1">
-
-        <h3 class="meeting-title">Fall 2019 NSF CAC Industry Advisory Board Meeting</h3>
-        <p>Wednesday, October 2, 2019 at 6:00 PM – Friday, October 4, 2019, 12:30 PM CDT</p>
-        <p><a href="#">View Agenda</a></p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item7modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
-        <h3 class="meeting-title">Spring 2019 NSF CAC Industry Advisory Board Meeting</h3>
-        <p>Thursday, April 4, 2019 at 8:00 AM - Friday, April 5, 2019 at 12:00 PM (MST)</p>
-        <p><a href="#">View Agenda</a></p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item6modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
-        <h3 class="meeting-title">Fall 2018 NSF CAC Industry Advisory Board Meeting</h3>
-        <p>Monday, October 22nd, 2018 at 7:30 AM - Tuesday, October 23rd, 2017 at 1:00 PM (CDT)</p>
-        <p><a href="#">View Agenda</a></p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item5modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
-        <h3 class="meeting-title">Spring 2018 NSF CAC Industry Advisory Board Meeting</h3>
-        <p>Monday, April 23rd, 2018 at 8:00 AM - Tuesday, April 24th, 2017 at 12:00 PM (MST)</p>
-        <p><a href="#">View Agenda</a></p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item4modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
-        <h3 class="meeting-title">Fall 2017 NSF CAC Industry Advisory Board Meeting</h3>
-        <p>Monday, October 23rd, 2017 at 8:00 AM - Tuesday, October 24th, 2017 at 12:00 PM (MST)</p>
-        <p><a href="2017IAB.pdf">View Agenda</a></p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item3modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
-        <h3 class="meeting-title">Spring 2017 NSF CAC Industry Advisory Board Meeting</h3>
-        <p>Monday, April 24, 2017 at 8:00 AM - Tuesday, April 25, 2017 at 12:00 PM (MST)</p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item1modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
-        <h3 class="meeting-title">Cloud and Autonomic Computing Center (CAC) Semi-annual IAB Meeting</h3>
-        <p>October 5-6, 2016 Dallas TX</p>
-        <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#item2modal">
-          Learn More...
-        </button>
-        <hr style="border-top: 1px dashed skyblue;">
-
+    <div class="container">
+      <!-- Timeline start -->
+      <div class="timeline">
+        <div class="timeline-row">
+          <div class="timeline-time">
+            Wednesday, October 2, 2019 at 6:00 PM <br> Friday, October 4, 2019, 12:30 PM CDT
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Fall 2019 NSF CAC Industry Advisory Board Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item7modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-time">
+            Thursday, April 4, 2019 at 8:00 AM <br> Friday, April 5, 2019 at 12:00 PM (MST)
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Spring 2019 NSF CAC Industry Advisory Board Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item6modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-time">
+            Monday, October 22nd, 2018 at 7:30 AM <br> Tuesday, October 23rd, 2017 at 1:00 PM (CDT)
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Fall 2018 NSF CAC Industry Advisory Board Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item5modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-time">
+            Monday, April 23rd, 2018 at 8:00 AM <br> Tuesday, April 24th, 2017 at 12:00 PM (MST)
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Spring 2018 NSF CAC Industry Advisory Board Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item4modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-time">
+            Monday, October 23rd, 2017 at 8:00 AM <br> Tuesday, October 24th, 2017 at 12:00 PM (MST)
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Fall 2017 NSF CAC Industry Advisory Board Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item3modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-time">
+            Monday, April 24, 2017 at 8:00 AM <br> Tuesday, April 25, 2017 at 12:00 PM (MST)
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Spring 2017 NSF CAC Industry Advisory Board Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item2modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-time">
+            October 5-6 <br> 2016 Dallas TX
+          </div>
+          <div class="timeline-dot fb-bg"></div>
+          <div class="timeline-content">
+            <h4>Cloud and Autonomic Computing Center (CAC) Semi-annual IAB Meeting</h4>
+            <a href="#" type="button" class="btn btn-info btn-round">
+              View Agenda
+            </a>
+            <button type="button" class="btn btn-default btn-round" data-toggle="modal" data-target="#item1modal">
+              Learn More...
+            </button>
+          </div>
+        </div>
       </div>
-      <br><br><br><br><br><br>
+      <!-- Timeline end -->
     </div>
+
 
     <div id="footer"></div>
 
