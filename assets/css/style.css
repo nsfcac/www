@@ -471,3 +471,50 @@ div.alert {
 .quote-card.yellow-card:before, .quote-card.yellow-card:after {
   color: #FBC02D;
 }
+
+
+ /*member*/
+.memberList-row {
+  padding-left: 150px;
+  position: relative;
+  margin-bottom: 30px;
+  height: 150px;
+}
+.memberList-row .memberList-img {
+  position: absolute;
+  right: calc(100% - 150px);
+  top: 0;
+  text-align: right;
+  margin-right: 20px;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.memberList-row:nth-child(odd){
+  padding-left: 0;
+  padding-right: 150px;
+}
+.memberList-row:nth-child(odd) .memberList-img {
+  right: auto;
+  left: calc(100% - 150px);
+  text-align: left;
+  margin-right: 0;
+}
+.memberList-row:nth-child(odd) .memberList-content {
+  background-color: #5a99ee;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1379bb), to(#5a99ee));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #1379bb, #5a99ee);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #1379bb, #5a99ee);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #1379bb, #5a99ee);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #1379bb, #5a99ee);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #1379bb, #5a99ee);
+  margin-right: 40px;
+  margin-left: 0;
+  text-align: right;
+}

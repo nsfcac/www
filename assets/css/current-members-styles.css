@@ -1,14 +1,7 @@
-h1, h2, h3 {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;}
 
 #mainHeading {
     margin-left: 4%;
     margin-top: 4%; }
-
-p, li {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold; }
 
 #wrapper {
     width: 60%;
@@ -48,7 +41,7 @@ navbar {
     padding-right: 30%; }
 
 table {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     font-weight: bold;
     width: 100%; }
 table thead {
