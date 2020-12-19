@@ -6,8 +6,8 @@
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <title>Faculty & Researchers | NSF Cloud & Autonomic Computing Center (CAC)</title>
 
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link rel="stylesheet" type="text/css" href="style/personnel.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/personnel.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CRaleway:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7COpen+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
@@ -23,12 +23,15 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="style/personnel.css">
-  <link rel="stylesheet" href="style/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/personnel.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     $(function() {
       $("#header").load("common/header.html");
       $("#footer").load("common/footer.html");
+      AOS.init();
     });
   </script>
 </head>
@@ -478,7 +481,7 @@
       </table>
     </div>
   </div>
-  <div id="footer"></div>
+  <footer class="footer" id="footer"></footer>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
   <script src="assets/js/plugins/bootstrap-switch.js"></script>
 <script src="assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <title>Welcome | NSF Cloud & Autonomic Computing Center (CAC)</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CRaleway:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7COpen+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
@@ -19,11 +19,14 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="style/animate.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     $(function() {
       $("#header").load("common/header.html");
       $("#footer").load("common/footer.html");
+      AOS.init();
     });
   </script>
 </head>
@@ -65,7 +68,7 @@
   </div><br><br>
 
 
-  <div id="footer"></div>
+  <footer class="footer" id="footer"></footer>
 
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
   <script src="../assets/js/plugins/bootstrap-switch.js"></script>

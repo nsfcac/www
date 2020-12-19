@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <title>Welcome | NSF Cloud & Autonomic Computing Center (CAC)</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
   <!-- JQuery  -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,12 +22,13 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="style/animate.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
 <link href="assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
   <script>
     $(function() {
       $("#header").load("common/header.html");
       $("#footer").load("common/footer.html");
+      AOS.init();
     });
   </script>
 </head>
@@ -66,7 +67,7 @@
     <br><br><br><br>
   </div>
 
-  <div id="footer"></div>
+  <footer class="footer" id="footer"></footer>
 
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
   <script src="assets/js/plugins/bootstrap-switch.js"></script>

@@ -1,0 +1,23 @@
+.tabel tr th{
+  text-align: center;
+}
+
+navbar {
+  border-bottom: 1px solid lightgrey; }
+
+.wrapper2{
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.wrapper2 h1,.wrapper2 h2,.wrapper2 h3,.wrapper2 h4 .notifications{
+  font-family: 'PT-Sans';
+}
+
+#navbarLinks a{
+  font-weight: normal;
+}
+
+.research-papers p {
+  line-height: 2;
+}

@@ -1,0 +1,39 @@
+.project-header, .project{
+  display: flex;
+  justify-content: space-between;
+}
+
+#project-heading{
+  margin-left: -65px;
+}
+@media only screen and (max-width: 550px){
+  .project-header{
+    display: none;
+  }
+  .project{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+.accordion-body{
+  text-align: justify;
+}
+
+.tooltip .tooltip-inner{
+  font-size: 40px;
+}
+td a {
+  color: var(--primary) !important;
+}
+.section .table-condensed>tbody>tr>td{
+  text-align: left;
+}
+.accordion-body.collapse {
+  background-color: white;
+  padding: 1rem;
+}
+a:hover{
+  text-decoration: none;
+}
