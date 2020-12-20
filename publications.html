@@ -644,43 +644,43 @@
       'Thesis/Dissertations':'thesis',
       'Websites':'website'
     };
-    d3.json('https://spreadsheets.google.com/feeds/cells/1ydLcCBOLDpGd49wxJo7ZIQFyT59mXh23CVo18DwOypc/1/public/full?alt=json')
-    .then(_data=>{
-      const keys = _data.feed.entry.filter(d=>d.gs$cell.row=='1').map(d=>d.gs$cell.$t);
-      const groups = d3.groups(_data.feed.entry.filter(d=>d.gs$cell.row!='1'),d=>d.gs$cell.row);
-      const data = [];
-      Array.from(groups, ([key, values])=>{
-        const temp = {};
-        values.forEach(d=>{temp[keys[+d.gs$cell.col-1]] = d.gs$cell.$t})
-        data.push(temp);
-      })
-      const nest = d3.group(data,d=>d['Year listed'],d=>d['Type of project']);
-      console.log(nest)
-      const year=d3.select('div.loadHolder')
-      .selectAll('div.collection').data(nest)
-        .join('div')
-        .attr('class','collapse collection show')
-        .attr('id',d=>d[0]);
-      year.selectAll('h2.colTitle').data(d=>[d[0]])
-        .join('h2').attr('class','colTitle').text(d=>d+':');
-      const category = year.selectAll('div.collectionGroup').data(d=>d[1])
-      .join('div').attr('class','collectionGroup');
-      category.selectAll('h3').data(d=>[d[0]])
-      .join('h3')
-      .text(d=>d);
-      const ul=category.selectAll('ul')
-        .data(d=>[d]).join('ul')
-        .attr('class',d=>'project '+listCategory[d[1]]);
-      ul.selectAll('li')
-        .data(d=>d[1])
-        .join('li')
-        .html(renderItem)
-      // <div class="collapse collection" id="2018">
-      //         <h2>2018:</h2>
-      // <h3>Journals or Juried Conference Papers:</h3>
-      // <ul class="project journal">
-    }).then(drawSum)
-
+    // d3.json('https://spreadsheets.google.com/feeds/cells/1ydLcCBOLDpGd49wxJo7ZIQFyT59mXh23CVo18DwOypc/1/public/full?alt=json')
+    // .then(_data=>{
+    //   const keys = _data.feed.entry.filter(d=>d.gs$cell.row=='1').map(d=>d.gs$cell.$t);
+    //   const groups = d3.groups(_data.feed.entry.filter(d=>d.gs$cell.row!='1'),d=>d.gs$cell.row);
+    //   const data = [];
+    //   Array.from(groups, ([key, values])=>{
+    //     const temp = {};
+    //     values.forEach(d=>{temp[keys[+d.gs$cell.col-1]] = d.gs$cell.$t})
+    //     data.push(temp);
+    //   })
+    //   const nest = d3.group(data,d=>d['Year listed'],d=>d['Type of project']);
+    //   console.log(nest)
+    //   const year=d3.select('div.loadHolder')
+    //   .selectAll('div.collection').data(nest)
+    //     .join('div')
+    //     .attr('class','collapse collection show')
+    //     .attr('id',d=>d[0]);
+    //   year.selectAll('h2.colTitle').data(d=>[d[0]])
+    //     .join('h2').attr('class','colTitle').text(d=>d+':');
+    //   const category = year.selectAll('div.collectionGroup').data(d=>d[1])
+    //   .join('div').attr('class','collectionGroup');
+    //   category.selectAll('h3').data(d=>[d[0]])
+    //   .join('h3')
+    //   .text(d=>d);
+    //   const ul=category.selectAll('ul')
+    //     .data(d=>[d]).join('ul')
+    //     .attr('class',d=>'project '+listCategory[d[1]]);
+    //   ul.selectAll('li')
+    //     .data(d=>d[1])
+    //     .join('li')
+    //     .html(renderItem)
+    //   // <div class="collapse collection" id="2018">
+    //   //         <h2>2018:</h2>
+    //   // <h3>Journals or Juried Conference Papers:</h3>
+    //   // <ul class="project journal">
+    // }).then(drawSum)
+    drawSum();
     function renderItem(d){
       let html = '';
       if(d['Author(s)'])
