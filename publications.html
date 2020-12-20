@@ -64,6 +64,8 @@
 <!--            <span data-toggle="collapse" data-parent=".acc" data-target="#2014" class="btn btn-primary">2014</span>-->
 <!--          </div>-->
           <div class="row">
+            <div class="loadHolder"></div>
+
             <div class="collapse collection show" id="2019">
               <h2>2019:</h2>
               <h3>Books</h3>
@@ -554,7 +556,7 @@
                 </li>
               </ul>
               <br>
-              <h3>Websites: </h3>
+              <h3>Websites</h3>
               <ul class="website">
                 <li>Cloud Interoperability Plugfest Series - <a href="http://cloudplugfest.org">http://cloudplugfest.org</a><br><br>
                   The mission of each Cloud Plugfest is defined in advance to focus on particular aspects of software, standards or
@@ -633,95 +635,171 @@
   <!--  d3 v6 js-->
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script>
-    const years = d3.selectAll('.collection');
-    const data = [];
-    years.each(function(){
-      let content =  d3.select(this);
-      const key = content.select('h2').text().replace(':','').trim();
-      data.push({
-        key,
-        values:content.selectAll('.project li').data().length,
-        enable:d3.select($('#'+key)[0]).classed('show')
+    // generate from speadsheet
+    const listCategory = {
+      'Books':'book',
+      'Journals or Juried Conference Papers':'journal',
+      'Other Conference Presentations / Papers':'paper',
+      'Technologies or Techniques':'technology',
+      'Thesis/Dissertations':'thesis',
+      'Websites':'website'
+    };
+    d3.json('https://spreadsheets.google.com/feeds/cells/1ydLcCBOLDpGd49wxJo7ZIQFyT59mXh23CVo18DwOypc/1/public/full?alt=json')
+    .then(_data=>{
+      const keys = _data.feed.entry.filter(d=>d.gs$cell.row=='1').map(d=>d.gs$cell.$t);
+      const groups = d3.groups(_data.feed.entry.filter(d=>d.gs$cell.row!='1'),d=>d.gs$cell.row);
+      const data = [];
+      Array.from(groups, ([key, values])=>{
+        const temp = {};
+        values.forEach(d=>{temp[keys[+d.gs$cell.col-1]] = d.gs$cell.$t})
+        data.push(temp);
       })
-    });
-    data.sort((a,b)=>+a.key-+b.key)
-    const w = 600;
-    const h = 300;
-    const x = d3.scaleBand()
-            .domain(data.map(d=>d.key))
-            .rangeRound([h, 0])
-            .paddingOuter(0.2)
-            .paddingInner(0.2);
-    const y = d3.scaleLinear()
-            .domain([0,d3.max(data,d=>d.values)])
-            .rangeRound([0, w]);
-    const svg = d3.select('#chart')
-            .style('overflow','visible')
-      .attr('viewBox',`0 0 ${w} ${h}`)
-      .style('font-size','2rem');
-    // axis
-    if (svg.select('g.xaxis').empty()){
-      svg.append('g').attr('class','xaxis').attr('transform',`translate(0,${h})`).attr('font-family',null).style('font-size','2rem')
-              .append('text').text('#Publications')
-              .attr('fill','black')
-              .attr('x',w/2)
-              .attr('dy','6rem').style('font-size','3rem')
-              .style('text-anchor','middle')
-              .style('font-weight','bold')
-              .style('font-size','2.5rem');
+      const nest = d3.group(data,d=>d['Year listed'],d=>d['Type of project']);
+      console.log(nest)
+      const year=d3.select('div.loadHolder')
+      .selectAll('div.collection').data(nest)
+        .join('div')
+        .attr('class','collapse collection show')
+        .attr('id',d=>d[0]);
+      year.selectAll('h2.colTitle').data(d=>[d[0]])
+        .join('h2').attr('class','colTitle').text(d=>d+':');
+      const category = year.selectAll('div.collectionGroup').data(d=>d[1])
+      .join('div').attr('class','collectionGroup');
+      category.selectAll('h3').data(d=>[d[0]])
+      .join('h3')
+      .text(d=>d);
+      const ul=category.selectAll('ul')
+        .data(d=>[d]).join('ul')
+        .attr('class',d=>'project '+listCategory[d[1]]);
+      ul.selectAll('li')
+        .data(d=>d[1])
+        .join('li')
+        .html(renderItem)
+      // <div class="collapse collection" id="2018">
+      //         <h2>2018:</h2>
+      // <h3>Journals or Juried Conference Papers:</h3>
+      // <ul class="project journal">
+    }).then(drawSum)
+
+    function renderItem(d){
+      let html = '';
+      if(d['Author(s)'])
+        html += d['Author(s)']+'.';
+      if(d['Year publish'])
+        html += `(${d['Year publish']}) `;
+      html+=d['Title']+'.';
+      if(d['Venue'])
+        html += d['Venue']+'.';
+      if(d['doi'])
+        html += `<a href="${d['doi']}"><img src="img/icon/doi.png" class="iconImg"/></a>`;
+      if(d['url'])
+        html += `<a href="${d['url']}">available here.</a>`;
+      const conditions = [];
+      if(d['Status'])
+        conditions.push('Status='+d['Status']);
+      if(d['Acknowledgment of Federal Support'])
+        conditions.push('Acknowledgment of Federal Support='+d['Acknowledgment of Federal Support']);
+      if(d['Peer Reviewed'])
+        conditions.push('Peer Reviewed='+d['Peer Reviewed']);
+      html+=conditions.join('; ');
+      return html;
     }
-    if (svg.select('g.yaxis').empty())
-      svg.append('g')
-              .attr('class','yaxis').attr('font-family',null).style('font-size','2rem')
-              .append('text').text('Year')
-              .attr('fill','black')
-              .attr('transform',`translate(-80,${h/2}) rotate(-90)`)
-              .style('text-anchor','middle')
-              .style('font-weight','bold')
-              .style('font-size','2.5rem');
-    const xaxis = svg.select('g.xaxis').call(d3.axisBottom(y));
-    xaxis.selectAll('line')
-            .attr('y1',-h)
-            .attr('stroke-dasharray','4 2');
+    // summary
+    function drawSum() {
+      const years = d3.selectAll('.collection');
+      const data = [];
+      years.each(function () {
+        let content = d3.select(this);
+        const key = content.select('h2').text().replace(':', '').trim();
+        data.push({
+          key,
+          values: content.selectAll('.project li').data().length,
+          enable: d3.select($('#' + key)[0]).classed('show')
+        })
+      });
+      data.sort((a, b) => +a.key - +b.key)
+      const w = 600;
+      const h = 300;
+      const x = d3.scaleBand()
+              .domain(data.map(d => d.key))
+              .rangeRound([h, 0])
+              .paddingOuter(0.2)
+              .paddingInner(0.2);
+      const y = d3.scaleLinear()
+              .domain([0, d3.max(data, d => d.values)])
+              .rangeRound([0, w]);
+      const svg = d3.select('#chart')
+              .style('overflow', 'visible')
+              .attr('viewBox', `0 0 ${w} ${h}`)
+              .style('font-size', '2rem');
+      // axis
+      if (svg.select('g.xaxis').empty()) {
+        svg.append('g').attr('class', 'xaxis').attr('transform', `translate(0,${h})`).attr('font-family', null).style('font-size', '2rem')
+                .append('text').text('#Publications')
+                .attr('fill', 'black')
+                .attr('x', w / 2)
+                .attr('dy', '6rem').style('font-size', '3rem')
+                .style('text-anchor', 'middle')
+                .style('font-weight', 'bold')
+                .style('font-size', '2.5rem');
+      }
+      if (svg.select('g.yaxis').empty())
+        svg.append('g')
+                .attr('class', 'yaxis').attr('font-family', null).style('font-size', '2rem')
+                .append('text').text('Year')
+                .attr('fill', 'black')
+                .attr('transform', `translate(-80,${h / 2}) rotate(-90)`)
+                .style('text-anchor', 'middle')
+                .style('font-weight', 'bold')
+                .style('font-size', '2.5rem');
+      const xaxis = svg.select('g.xaxis').call(d3.axisBottom(y));
+      xaxis.selectAll('line')
+              .attr('y1', -h)
+              .attr('stroke-dasharray', '4 2');
 
-    const yaxis = svg.select('g.yaxis').call(d3.axisLeft(x));
-    yaxis.selectAll('line').remove();
-    yaxis.select('.domain').remove()
-    //bar
-    const bars = svg.selectAll('g.bar')
-            .data(data)
-            .join('g')
-            .attr('class','bar')
-            .attr('transform',d=>`translate(0,${x(d.key)})`)
-            .attr("data-toggle","collapse")
-            .attr("data-parent",".acc")
-            .attr("data-target",d=>"#"+d.key)
-            .classed('highlight',d=>d.enable)
-            .style("pointer-events","all")
-            .on('click',function(event,d){
-              d.enable = !d.enable;
-              d3.select(this).classed('highlight',d=>d.enable);
-              $("#"+d.key).collapse('toggle');
-            });
+      const yaxis = svg.select('g.yaxis').call(d3.axisLeft(x));
+      yaxis.selectAll('line').remove();
+      yaxis.select('.domain').remove()
+      //bar
+      const bars = svg.selectAll('g.bar')
+              .data(data)
+              .join('g')
+              .attr('class', 'bar')
+              .attr('transform', d => `translate(0,${x(d.key)})`)
+              .attr("data-toggle", "collapse")
+              .attr("data-parent", ".acc")
+              .attr("data-target", d => "#" + d.key)
+              .classed('highlight', d => d.enable)
+              .style("pointer-events", "all")
+              .on('click', function (event, d) {
+                d.enable = !d.enable;
+                d3.select(this).classed('highlight', d => d.enable);
+                $("#" + d.key).collapse('toggle');
+              });
 
-    bars.selectAll('rect')
-      .data(d=>[d])
-      .join('rect')
-      .attr("height", x.bandwidth())
-      .attr('x',y(0))
-      .attr("width", y(0))
-      .transition().duration(1000)
-      .attr("width", function(d) { return  y(d.values); });
-    bars.selectAll('text')
-            .data(d=>[d])
-            .join('text')
-            .text(d=>d.values)
-            .attr("x", y(0))
-            .attr("y", x.bandwidth()/2)
-            .attr("dy", '0.5rem')
-            .attr('fill','white')
-            .transition().duration(1000)
-            .attr("x", function(d) { return  y(d.values); });
+      bars.selectAll('rect')
+              .data(d => [d])
+              .join('rect')
+              .attr("height", x.bandwidth())
+              .attr('x', y(0))
+              .attr("width", y(0))
+              .transition().duration(1000)
+              .attr("width", function (d) {
+                return y(d.values);
+              });
+      bars.selectAll('text')
+              .data(d => [d])
+              .join('text')
+              .text(d => d.values)
+              .attr("x", y(0))
+              .attr("y", x.bandwidth() / 2)
+              .attr("dy", '0.5rem')
+              .attr('fill', 'white')
+              .transition().duration(1000)
+              .attr("x", function (d) {
+                return y(d.values);
+              });
+    }
   </script>
 </body>
 

@@ -375,6 +375,12 @@ div.alert {
   margin: auto;
 }
 
+img.iconImg{
+  width: 20px;
+  height: auto;
+  transform: translateY(-2px);
+  margin-left: 2px;
+}
 /*
 *
 * ==========================================
