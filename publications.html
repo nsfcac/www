@@ -711,13 +711,19 @@
       years.each(function () {
         let content = d3.select(this);
         const key = content.select('h2').text().replace(':', '').trim();
-        data.push({
+        const item = {
           key,
           values: content.selectAll('.project li').data().length,
-          enable: d3.select($('#' + key)[0]).classed('show')
-        })
+          enable: false//d3.select($('#' + key)[0]).classed('show')
+        };
+        content.datum(item);
+        data.push(item)
       });
-      data.sort((a, b) => +a.key - +b.key)
+      data.sort((a, b) => +a.key - +b.key);
+      data[data.length-1].enable = true;
+      //adjust enable
+      const collections = d3.selectAll('.collection').classed('show',d=>d.enable);
+
       const w = 600;
       const h = 300;
       const x = d3.scaleBand()
@@ -772,9 +778,13 @@
               .classed('highlight', d => d.enable)
               .style("pointer-events", "all")
               .on('click', function (event, d) {
-                d.enable = !d.enable;
-                d3.select(this).classed('highlight', d => d.enable);
-                $("#" + d.key).collapse('toggle');
+                data.forEach(d=>d.enable=false);
+                d.enable = true;
+                bars.classed('highlight', d => d.enable);
+                debugger
+                // collections.classed('show',d=>d.enable);
+                $(".collection").collapse('hide');
+                $("#" + d.key).collapse('show');
               });
 
       bars.selectAll('rect')
