@@ -381,6 +381,15 @@ img.iconImg{
   transform: translateY(-2px);
   margin-left: 2px;
 }
+.page-header .carousel-item{
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  width: 100%;
+}
 /*
 *
 * ==========================================
