@@ -1,0 +1,7811 @@
+
+#stacks_in_1741_page4 {
+	margin: 55px 0px 0px 0px;
+}
+
+#stacks_out_1743_page4 {
+	width: 95%;
+}
+
+#stacks_in_1743_page4 {
+	padding:  10px;
+}
+
+#stacks_in_1744_page4 {
+	padding: 0px 10px 0px 10px;
+}
+
+#stacks_in_1746_page4 {
+	margin:  5px;
+	padding: 0px 20px 2px 20px;
+}
+
+#stacks_in_2527_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	margin: 2px 0px 0px 0px;
+	padding: 14px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1748_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1748_page4, #FlexTableCaption_stacks_in_1748_page4, #FlexTableSearch_stacks_in_1748_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1748_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1748_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1748_page4 label {
+	display: inline;
+	}
+
+
+#FlexTableCaption_stacks_in_1748_page4 td {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align: left !important;
+	}
+#FlexTableCaption_stacks_in_1748_page4 {
+	background-color: rgba(158, 191, 229, 1.00);
+	color: rgba(0, 0, 0, 1.00);
+	float: left;
+	
+	
+	font-weight: bold;
+	
+	
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	-moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+	
+	
+	vertical-align: bottom;
+	
+	border-bottom: none !important;
+	
+	
+	
+	}
+
+
+
+
+#FlexTableRot_stacks_in_1748_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1748_page4, #FlexTableRot_stacks_in_1748_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1748_page4 td p, #FlexTableRot_stacks_in_1748_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1748_page4 td, #FlexTableRot_stacks_in_1748_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 20%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1748_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1748_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1748_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1748_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1748_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1748_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1748_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1748_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1748_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1748_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1748_page4, #FlexTableRot_stacks_in_1748_page4, #FlexTablePager_stacks_in_1748_page4, #FlexTableCaption_stacks_in_1748_page4, #FlexTableSearch_stacks_in_1748_page4, #FlexTableSearch_search_stacks_in_1748_page4, #FlexTableSearch_button_stacks_in_1748_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1748_page4 tr td, #FlexTableRot_stacks_in_1748_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1748_page4 td p, #FlexTableRot_stacks_in_1748_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1748_page4 {
+	width: 100px !important;
+	}
+
+
+/* hide the caption on small screens */
+#FlexTableCaption_stacks_in_1748_page4 {
+	
+	display: none;
+	
+	}
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1748_page4, #FlexTableSearch_stacks_in_1748_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1748_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 6px 6px 0px 6px;
+}
+
+#stacks_in_1759_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1760_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1761_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1761_page4, #FlexTableCaption_stacks_in_1761_page4, #FlexTableSearch_stacks_in_1761_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1761_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1761_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1761_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1761_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1761_page4, #FlexTableRot_stacks_in_1761_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1761_page4 td p, #FlexTableRot_stacks_in_1761_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1761_page4 td, #FlexTableRot_stacks_in_1761_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 20%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1761_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1761_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1761_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1761_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1761_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1761_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1761_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1761_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1761_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1761_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1761_page4, #FlexTableRot_stacks_in_1761_page4, #FlexTablePager_stacks_in_1761_page4, #FlexTableCaption_stacks_in_1761_page4, #FlexTableSearch_stacks_in_1761_page4, #FlexTableSearch_search_stacks_in_1761_page4, #FlexTableSearch_button_stacks_in_1761_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1761_page4 tr td, #FlexTableRot_stacks_in_1761_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1761_page4 td p, #FlexTableRot_stacks_in_1761_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1761_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1761_page4, #FlexTableSearch_stacks_in_1761_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1761_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_1772_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1773_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1774_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1774_page4, #FlexTableCaption_stacks_in_1774_page4, #FlexTableSearch_stacks_in_1774_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1774_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1774_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1774_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1774_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1774_page4, #FlexTableRot_stacks_in_1774_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1774_page4 td p, #FlexTableRot_stacks_in_1774_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1774_page4 td, #FlexTableRot_stacks_in_1774_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 20%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1774_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1774_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1774_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1774_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1774_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1774_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1774_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1774_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1774_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1774_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1774_page4, #FlexTableRot_stacks_in_1774_page4, #FlexTablePager_stacks_in_1774_page4, #FlexTableCaption_stacks_in_1774_page4, #FlexTableSearch_stacks_in_1774_page4, #FlexTableSearch_search_stacks_in_1774_page4, #FlexTableSearch_button_stacks_in_1774_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1774_page4 tr td, #FlexTableRot_stacks_in_1774_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1774_page4 td p, #FlexTableRot_stacks_in_1774_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1774_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1774_page4, #FlexTableSearch_stacks_in_1774_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1774_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_1785_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1786_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1787_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1787_page4, #FlexTableCaption_stacks_in_1787_page4, #FlexTableSearch_stacks_in_1787_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1787_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1787_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1787_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1787_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1787_page4, #FlexTableRot_stacks_in_1787_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1787_page4 td p, #FlexTableRot_stacks_in_1787_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1787_page4 td, #FlexTableRot_stacks_in_1787_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 20%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1787_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1787_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1787_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1787_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1787_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1787_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1787_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1787_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1787_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1787_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1787_page4, #FlexTableRot_stacks_in_1787_page4, #FlexTablePager_stacks_in_1787_page4, #FlexTableCaption_stacks_in_1787_page4, #FlexTableSearch_stacks_in_1787_page4, #FlexTableSearch_search_stacks_in_1787_page4, #FlexTableSearch_button_stacks_in_1787_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1787_page4 tr td, #FlexTableRot_stacks_in_1787_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1787_page4 td p, #FlexTableRot_stacks_in_1787_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1787_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1787_page4, #FlexTableSearch_stacks_in_1787_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1787_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1798_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1798_page4, #FlexTableCaption_stacks_in_1798_page4, #FlexTableSearch_stacks_in_1798_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1798_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1798_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1798_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1798_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1798_page4, #FlexTableRot_stacks_in_1798_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1798_page4 td p, #FlexTableRot_stacks_in_1798_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1798_page4 td, #FlexTableRot_stacks_in_1798_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1798_page4 tr:first-child td {
+
+	
+	background-color: rgba(254, 229, 153, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1798_page4 td:first-child {
+
+	
+	background-color: rgba(254, 229, 153, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1798_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1798_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1798_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1798_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1798_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1798_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1798_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1798_page4, #FlexTableRot_stacks_in_1798_page4, #FlexTablePager_stacks_in_1798_page4, #FlexTableCaption_stacks_in_1798_page4, #FlexTableSearch_stacks_in_1798_page4, #FlexTableSearch_search_stacks_in_1798_page4, #FlexTableSearch_button_stacks_in_1798_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1798_page4 tr td, #FlexTableRot_stacks_in_1798_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1798_page4 td p, #FlexTableRot_stacks_in_1798_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1798_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1798_page4, #FlexTableSearch_stacks_in_1798_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1798_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_1800_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1801_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1801_page4, #FlexTableCaption_stacks_in_1801_page4, #FlexTableSearch_stacks_in_1801_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1801_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1801_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1801_page4 label {
+	display: inline;
+	}
+
+
+#FlexTableCaption_stacks_in_1801_page4 td {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align: left !important;
+	}
+#FlexTableCaption_stacks_in_1801_page4 {
+	background-color: rgba(158, 191, 229, 1.00);
+	color: rgba(0, 0, 0, 1.00);
+	float: left;
+	
+	
+	font-weight: bold;
+	
+	
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	-moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+	
+	
+	vertical-align: bottom;
+	
+	border-bottom: none !important;
+	
+	
+	
+	}
+
+
+
+
+#FlexTableRot_stacks_in_1801_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1801_page4, #FlexTableRot_stacks_in_1801_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1801_page4 td p, #FlexTableRot_stacks_in_1801_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1801_page4 td, #FlexTableRot_stacks_in_1801_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(254, 229, 153, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: Bottom;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1801_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: Bottom;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1801_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1801_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1801_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1801_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1801_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1801_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1801_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1801_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1801_page4, #FlexTableRot_stacks_in_1801_page4, #FlexTablePager_stacks_in_1801_page4, #FlexTableCaption_stacks_in_1801_page4, #FlexTableSearch_stacks_in_1801_page4, #FlexTableSearch_search_stacks_in_1801_page4, #FlexTableSearch_button_stacks_in_1801_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1801_page4 tr td, #FlexTableRot_stacks_in_1801_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1801_page4 td p, #FlexTableRot_stacks_in_1801_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1801_page4 {
+	width: 100px !important;
+	}
+
+
+/* hide the caption on small screens */
+#FlexTableCaption_stacks_in_1801_page4 {
+	
+	display: none;
+	
+	}
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1801_page4, #FlexTableSearch_stacks_in_1801_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1801_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 6px 6px 0px 6px;
+}
+
+#stacks_in_1803_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+
+#stacks_in_1808_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1809_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1810_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1810_page4, #FlexTableCaption_stacks_in_1810_page4, #FlexTableSearch_stacks_in_1810_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1810_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1810_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1810_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1810_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1810_page4, #FlexTableRot_stacks_in_1810_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1810_page4 td p, #FlexTableRot_stacks_in_1810_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1810_page4 td, #FlexTableRot_stacks_in_1810_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1810_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1810_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1810_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1810_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1810_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1810_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1810_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1810_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1810_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1810_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1810_page4, #FlexTableRot_stacks_in_1810_page4, #FlexTablePager_stacks_in_1810_page4, #FlexTableCaption_stacks_in_1810_page4, #FlexTableSearch_stacks_in_1810_page4, #FlexTableSearch_search_stacks_in_1810_page4, #FlexTableSearch_button_stacks_in_1810_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1810_page4 tr td, #FlexTableRot_stacks_in_1810_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1810_page4 td p, #FlexTableRot_stacks_in_1810_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1810_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1810_page4, #FlexTableSearch_stacks_in_1810_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1810_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_2487_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_2488_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1821_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1821_page4, #FlexTableCaption_stacks_in_1821_page4, #FlexTableSearch_stacks_in_1821_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1821_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1821_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1821_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1821_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1821_page4, #FlexTableRot_stacks_in_1821_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1821_page4 td p, #FlexTableRot_stacks_in_1821_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1821_page4 td, #FlexTableRot_stacks_in_1821_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1821_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1821_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1821_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1821_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1821_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1821_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1821_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1821_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1821_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1821_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1821_page4, #FlexTableRot_stacks_in_1821_page4, #FlexTablePager_stacks_in_1821_page4, #FlexTableCaption_stacks_in_1821_page4, #FlexTableSearch_stacks_in_1821_page4, #FlexTableSearch_search_stacks_in_1821_page4, #FlexTableSearch_button_stacks_in_1821_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1821_page4 tr td, #FlexTableRot_stacks_in_1821_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1821_page4 td p, #FlexTableRot_stacks_in_1821_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1821_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1821_page4, #FlexTableSearch_stacks_in_1821_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1821_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 6px 6px 0px 6px;
+}
+
+#stacks_in_1823_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1826_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1826_page4, #FlexTableCaption_stacks_in_1826_page4, #FlexTableSearch_stacks_in_1826_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1826_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1826_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1826_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1826_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1826_page4, #FlexTableRot_stacks_in_1826_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1826_page4 td p, #FlexTableRot_stacks_in_1826_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1826_page4 td, #FlexTableRot_stacks_in_1826_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1826_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1826_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1826_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1826_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1826_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1826_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1826_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1826_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1826_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1826_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1826_page4, #FlexTableRot_stacks_in_1826_page4, #FlexTablePager_stacks_in_1826_page4, #FlexTableCaption_stacks_in_1826_page4, #FlexTableSearch_stacks_in_1826_page4, #FlexTableSearch_search_stacks_in_1826_page4, #FlexTableSearch_button_stacks_in_1826_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1826_page4 tr td, #FlexTableRot_stacks_in_1826_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1826_page4 td p, #FlexTableRot_stacks_in_1826_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1826_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1826_page4, #FlexTableSearch_stacks_in_1826_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1826_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_1835_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1836_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1837_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1837_page4, #FlexTableCaption_stacks_in_1837_page4, #FlexTableSearch_stacks_in_1837_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1837_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1837_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1837_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1837_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1837_page4, #FlexTableRot_stacks_in_1837_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1837_page4 td p, #FlexTableRot_stacks_in_1837_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1837_page4 td, #FlexTableRot_stacks_in_1837_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1837_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1837_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1837_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1837_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1837_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1837_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1837_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1837_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1837_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1837_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1837_page4, #FlexTableRot_stacks_in_1837_page4, #FlexTablePager_stacks_in_1837_page4, #FlexTableCaption_stacks_in_1837_page4, #FlexTableSearch_stacks_in_1837_page4, #FlexTableSearch_search_stacks_in_1837_page4, #FlexTableSearch_button_stacks_in_1837_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1837_page4 tr td, #FlexTableRot_stacks_in_1837_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1837_page4 td p, #FlexTableRot_stacks_in_1837_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1837_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1837_page4, #FlexTableSearch_stacks_in_1837_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1837_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1846_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1846_page4, #FlexTableCaption_stacks_in_1846_page4, #FlexTableSearch_stacks_in_1846_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1846_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1846_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1846_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1846_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1846_page4, #FlexTableRot_stacks_in_1846_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1846_page4 td p, #FlexTableRot_stacks_in_1846_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1846_page4 td, #FlexTableRot_stacks_in_1846_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1846_page4 tr:first-child td {
+
+	
+	background-color: rgba(254, 229, 153, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1846_page4 td:first-child {
+
+	
+	background-color: rgba(254, 229, 153, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1846_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1846_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1846_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1846_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1846_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1846_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1846_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1846_page4, #FlexTableRot_stacks_in_1846_page4, #FlexTablePager_stacks_in_1846_page4, #FlexTableCaption_stacks_in_1846_page4, #FlexTableSearch_stacks_in_1846_page4, #FlexTableSearch_search_stacks_in_1846_page4, #FlexTableSearch_button_stacks_in_1846_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1846_page4 tr td, #FlexTableRot_stacks_in_1846_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1846_page4 td p, #FlexTableRot_stacks_in_1846_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1846_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1846_page4, #FlexTableSearch_stacks_in_1846_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1846_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1849_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1849_page4, #FlexTableCaption_stacks_in_1849_page4, #FlexTableSearch_stacks_in_1849_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1849_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1849_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1849_page4 label {
+	display: inline;
+	}
+
+
+#FlexTableCaption_stacks_in_1849_page4 td {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align: left !important;
+	}
+#FlexTableCaption_stacks_in_1849_page4 {
+	background-color: rgba(158, 191, 229, 1.00);
+	color: rgba(0, 0, 0, 1.00);
+	float: left;
+	
+	
+	font-weight: bold;
+	
+	
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	-moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+	
+	
+	vertical-align: bottom;
+	
+	border-bottom: none !important;
+	
+	
+	
+	}
+
+
+
+
+#FlexTableRot_stacks_in_1849_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1849_page4, #FlexTableRot_stacks_in_1849_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1849_page4 td p, #FlexTableRot_stacks_in_1849_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1849_page4 td, #FlexTableRot_stacks_in_1849_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(253, 225, 136, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: Bottom;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1849_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: Bottom;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1849_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1849_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1849_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1849_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1849_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1849_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1849_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1849_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1849_page4, #FlexTableRot_stacks_in_1849_page4, #FlexTablePager_stacks_in_1849_page4, #FlexTableCaption_stacks_in_1849_page4, #FlexTableSearch_stacks_in_1849_page4, #FlexTableSearch_search_stacks_in_1849_page4, #FlexTableSearch_button_stacks_in_1849_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1849_page4 tr td, #FlexTableRot_stacks_in_1849_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1849_page4 td p, #FlexTableRot_stacks_in_1849_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1849_page4 {
+	width: 100px !important;
+	}
+
+
+/* hide the caption on small screens */
+#FlexTableCaption_stacks_in_1849_page4 {
+	
+	display: none;
+	
+	}
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1849_page4, #FlexTableSearch_stacks_in_1849_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1849_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 6px 6px 0px 6px;
+}
+
+#stacks_in_1851_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+
+#stacks_in_1856_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1857_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1858_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1858_page4, #FlexTableCaption_stacks_in_1858_page4, #FlexTableSearch_stacks_in_1858_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1858_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1858_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1858_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1858_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1858_page4, #FlexTableRot_stacks_in_1858_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1858_page4 td p, #FlexTableRot_stacks_in_1858_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1858_page4 td, #FlexTableRot_stacks_in_1858_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1858_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1858_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1858_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1858_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1858_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1858_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1858_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1858_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1858_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1858_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1858_page4, #FlexTableRot_stacks_in_1858_page4, #FlexTablePager_stacks_in_1858_page4, #FlexTableCaption_stacks_in_1858_page4, #FlexTableSearch_stacks_in_1858_page4, #FlexTableSearch_search_stacks_in_1858_page4, #FlexTableSearch_button_stacks_in_1858_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1858_page4 tr td, #FlexTableRot_stacks_in_1858_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1858_page4 td p, #FlexTableRot_stacks_in_1858_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1858_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1858_page4, #FlexTableSearch_stacks_in_1858_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1858_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_2489_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_2490_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1869_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1869_page4, #FlexTableCaption_stacks_in_1869_page4, #FlexTableSearch_stacks_in_1869_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1869_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1869_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1869_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1869_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1869_page4, #FlexTableRot_stacks_in_1869_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1869_page4 td p, #FlexTableRot_stacks_in_1869_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1869_page4 td, #FlexTableRot_stacks_in_1869_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1869_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1869_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1869_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1869_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1869_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1869_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1869_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1869_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1869_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1869_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1869_page4, #FlexTableRot_stacks_in_1869_page4, #FlexTablePager_stacks_in_1869_page4, #FlexTableCaption_stacks_in_1869_page4, #FlexTableSearch_stacks_in_1869_page4, #FlexTableSearch_search_stacks_in_1869_page4, #FlexTableSearch_button_stacks_in_1869_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1869_page4 tr td, #FlexTableRot_stacks_in_1869_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1869_page4 td p, #FlexTableRot_stacks_in_1869_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1869_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1869_page4, #FlexTableSearch_stacks_in_1869_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1869_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 6px 6px 0px 6px;
+}
+
+#stacks_in_1871_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1874_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1874_page4, #FlexTableCaption_stacks_in_1874_page4, #FlexTableSearch_stacks_in_1874_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1874_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1874_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1874_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1874_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1874_page4, #FlexTableRot_stacks_in_1874_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1874_page4 td p, #FlexTableRot_stacks_in_1874_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1874_page4 td, #FlexTableRot_stacks_in_1874_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1874_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1874_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1874_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1874_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1874_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1874_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1874_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1874_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1874_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1874_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1874_page4, #FlexTableRot_stacks_in_1874_page4, #FlexTablePager_stacks_in_1874_page4, #FlexTableCaption_stacks_in_1874_page4, #FlexTableSearch_stacks_in_1874_page4, #FlexTableSearch_search_stacks_in_1874_page4, #FlexTableSearch_button_stacks_in_1874_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1874_page4 tr td, #FlexTableRot_stacks_in_1874_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1874_page4 td p, #FlexTableRot_stacks_in_1874_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1874_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1874_page4, #FlexTableSearch_stacks_in_1874_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1874_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_1883_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1884_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1885_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1885_page4, #FlexTableCaption_stacks_in_1885_page4, #FlexTableSearch_stacks_in_1885_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1885_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1885_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1885_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1885_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1885_page4, #FlexTableRot_stacks_in_1885_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1885_page4 td p, #FlexTableRot_stacks_in_1885_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1885_page4 td, #FlexTableRot_stacks_in_1885_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1885_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1885_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1885_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1885_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1885_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1885_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1885_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1885_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1885_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1885_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1885_page4, #FlexTableRot_stacks_in_1885_page4, #FlexTablePager_stacks_in_1885_page4, #FlexTableCaption_stacks_in_1885_page4, #FlexTableSearch_stacks_in_1885_page4, #FlexTableSearch_search_stacks_in_1885_page4, #FlexTableSearch_button_stacks_in_1885_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1885_page4 tr td, #FlexTableRot_stacks_in_1885_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1885_page4 td p, #FlexTableRot_stacks_in_1885_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1885_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1885_page4, #FlexTableSearch_stacks_in_1885_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1885_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1894_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1894_page4, #FlexTableCaption_stacks_in_1894_page4, #FlexTableSearch_stacks_in_1894_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1894_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1894_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1894_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1894_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1894_page4, #FlexTableRot_stacks_in_1894_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1894_page4 td p, #FlexTableRot_stacks_in_1894_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1894_page4 td, #FlexTableRot_stacks_in_1894_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1894_page4 tr:first-child td {
+
+	
+	background-color: rgba(254, 229, 153, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1894_page4 td:first-child {
+
+	
+	background-color: rgba(254, 229, 153, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1894_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1894_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1894_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1894_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1894_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1894_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1894_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1894_page4, #FlexTableRot_stacks_in_1894_page4, #FlexTablePager_stacks_in_1894_page4, #FlexTableCaption_stacks_in_1894_page4, #FlexTableSearch_stacks_in_1894_page4, #FlexTableSearch_search_stacks_in_1894_page4, #FlexTableSearch_button_stacks_in_1894_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1894_page4 tr td, #FlexTableRot_stacks_in_1894_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1894_page4 td p, #FlexTableRot_stacks_in_1894_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1894_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1894_page4, #FlexTableSearch_stacks_in_1894_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1894_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1897_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1897_page4, #FlexTableCaption_stacks_in_1897_page4, #FlexTableSearch_stacks_in_1897_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1897_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1897_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1897_page4 label {
+	display: inline;
+	}
+
+
+#FlexTableCaption_stacks_in_1897_page4 td {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align: left !important;
+	}
+#FlexTableCaption_stacks_in_1897_page4 {
+	background-color: rgba(158, 191, 229, 1.00);
+	color: rgba(0, 0, 0, 1.00);
+	float: left;
+	
+	
+	font-weight: bold;
+	
+	
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	-moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+	
+	
+	vertical-align: bottom;
+	
+	border-bottom: none !important;
+	
+	
+	
+	}
+
+
+
+
+#FlexTableRot_stacks_in_1897_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1897_page4, #FlexTableRot_stacks_in_1897_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1897_page4 td p, #FlexTableRot_stacks_in_1897_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1897_page4 td, #FlexTableRot_stacks_in_1897_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(253, 225, 136, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: Bottom;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1897_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: Bottom;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1897_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1897_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1897_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1897_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1897_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1897_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1897_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1897_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1897_page4, #FlexTableRot_stacks_in_1897_page4, #FlexTablePager_stacks_in_1897_page4, #FlexTableCaption_stacks_in_1897_page4, #FlexTableSearch_stacks_in_1897_page4, #FlexTableSearch_search_stacks_in_1897_page4, #FlexTableSearch_button_stacks_in_1897_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1897_page4 tr td, #FlexTableRot_stacks_in_1897_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1897_page4 td p, #FlexTableRot_stacks_in_1897_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1897_page4 {
+	width: 100px !important;
+	}
+
+
+/* hide the caption on small screens */
+#FlexTableCaption_stacks_in_1897_page4 {
+	
+	display: none;
+	
+	}
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1897_page4, #FlexTableSearch_stacks_in_1897_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1897_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 6px 6px 0px 6px;
+}
+
+#stacks_in_1899_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+
+#stacks_in_1904_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1905_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1906_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1906_page4, #FlexTableCaption_stacks_in_1906_page4, #FlexTableSearch_stacks_in_1906_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1906_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1906_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1906_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1906_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1906_page4, #FlexTableRot_stacks_in_1906_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1906_page4 td p, #FlexTableRot_stacks_in_1906_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1906_page4 td, #FlexTableRot_stacks_in_1906_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1906_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1906_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1906_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1906_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1906_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1906_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1906_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1906_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1906_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1906_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1906_page4, #FlexTableRot_stacks_in_1906_page4, #FlexTablePager_stacks_in_1906_page4, #FlexTableCaption_stacks_in_1906_page4, #FlexTableSearch_stacks_in_1906_page4, #FlexTableSearch_search_stacks_in_1906_page4, #FlexTableSearch_button_stacks_in_1906_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1906_page4 tr td, #FlexTableRot_stacks_in_1906_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1906_page4 td p, #FlexTableRot_stacks_in_1906_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1906_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1906_page4, #FlexTableSearch_stacks_in_1906_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1906_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_2491_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_2492_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1917_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1917_page4, #FlexTableCaption_stacks_in_1917_page4, #FlexTableSearch_stacks_in_1917_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1917_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1917_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1917_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1917_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1917_page4, #FlexTableRot_stacks_in_1917_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1917_page4 td p, #FlexTableRot_stacks_in_1917_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1917_page4 td, #FlexTableRot_stacks_in_1917_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 26.67%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1917_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1917_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1917_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1917_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1917_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_1917_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1917_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1917_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1917_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1917_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1917_page4, #FlexTableRot_stacks_in_1917_page4, #FlexTablePager_stacks_in_1917_page4, #FlexTableCaption_stacks_in_1917_page4, #FlexTableSearch_stacks_in_1917_page4, #FlexTableSearch_search_stacks_in_1917_page4, #FlexTableSearch_button_stacks_in_1917_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1917_page4 tr td, #FlexTableRot_stacks_in_1917_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1917_page4 td p, #FlexTableRot_stacks_in_1917_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1917_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1917_page4, #FlexTableSearch_stacks_in_1917_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1917_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_1924_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width: 0px 1px 0px 1px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	border-radius:  5px;
+	padding: 8px 6px 0px 6px;
+}
+
+#stacks_in_1925_page4 {
+	display:inline-block; width:100%; line-height: 0.670000em;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_2493_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_2493_page4, #FlexTableCaption_stacks_in_2493_page4, #FlexTableSearch_stacks_in_2493_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_2493_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_2493_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_2493_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_2493_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_2493_page4, #FlexTableRot_stacks_in_2493_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_2493_page4 td p, #FlexTableRot_stacks_in_2493_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_2493_page4 td, #FlexTableRot_stacks_in_2493_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(171, 199, 205, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 40%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_2493_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_2493_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_2493_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_2493_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_2493_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+/* even row overrides for coloring */
+
+#FlexTable_stacks_in_2493_page4 tr:nth-child(2n+2) td:nth-child(n+2) {
+	background-color: rgba(255, 233, 170, 1.00);
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_2493_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_2493_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_2493_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_2493_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_2493_page4, #FlexTableRot_stacks_in_2493_page4, #FlexTablePager_stacks_in_2493_page4, #FlexTableCaption_stacks_in_2493_page4, #FlexTableSearch_stacks_in_2493_page4, #FlexTableSearch_search_stacks_in_2493_page4, #FlexTableSearch_button_stacks_in_2493_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_2493_page4 tr td, #FlexTableRot_stacks_in_2493_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_2493_page4 td p, #FlexTableRot_stacks_in_2493_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_2493_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_2493_page4, #FlexTableSearch_stacks_in_2493_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_2493_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+/* FlexTable styles */
+/* Bryn Owen Design, 2014+ */
+
+/* the div the table lives inside */
+#FlexTableDiv_stacks_in_1926_page4 {
+
+	/* default no padding without shadows, so that generic border/rounding work nicely */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	/* modify div paddings to make room for shadow, but generic border/rounding will not work */
+	
+
+	/* scroll forces scroll bars in firefox/ie - use auto to show them when necessary */
+	overflow-x: auto;
+
+	
+	overflow-y: auto;
+	
+
+	
+	}
+
+#FlexTablePager_stacks_in_1926_page4, #FlexTableCaption_stacks_in_1926_page4, #FlexTableSearch_stacks_in_1926_page4 {
+	line-height: 24px !important;
+	max-height: 24px;
+	white-space: nowrap;
+	display: inline-block;
+	color: rgba(0, 0, 0, 1.00);
+	font-size: 1.0em !important;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+	
+	-moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+
+	
+	border: 1px solid #000000;
+	
+	position: relative;
+	z-index: 0;
+	}
+
+#FlexTablePager_stacks_in_1926_page4 {
+	background-color: rgba(255, 255, 255, 1.00);
+	float: left;
+	margin-left: 24px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	vertical-align: top;
+	
+	border-top: none !important;
+	-moz-border-top-left-radius: 0px !important;
+	-moz-border-top-right-radius: 0px !important;
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	
+	
+	
+	}
+
+#FlexTablePager_stacks_in_1926_page4 a {
+	text-decoration: none !important;
+	}
+
+#FlexTablePager_stacks_in_1926_page4 label {
+	display: inline;
+	}
+
+
+
+
+
+#FlexTableRot_stacks_in_1926_page4 {
+	display: none;
+	}
+
+/* the overall table itself */
+#FlexTable_stacks_in_1926_page4, #FlexTableRot_stacks_in_1926_page4 {
+
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.0em !important;
+
+	
+	color: rgba(0, 0, 0, 1.00);
+	
+
+	
+		border-collapse: collapse;
+		
+	
+
+	
+		
+			border: none;
+			border-spacing: 0px 0px;
+		
+	
+
+	
+	}
+
+/* fix trailing margin after td paragraphs in 1.5.0 */
+#FlexTable_stacks_in_1926_page4 td p, #FlexTableRot_stacks_in_1926_page4 td p {
+	margin-bottom: 0;
+	margin-top: 0;
+	
+	}
+
+/* every table cell */
+#FlexTable_stacks_in_1926_page4 td, #FlexTableRot_stacks_in_1926_page4 td {
+
+	/* new for 1.1.6 to improve font scaling in foundation */
+	font-size: 1.0em !important;
+
+	
+	border: 1px solid #000000;
+	
+	
+	
+	
+	
+	
+	
+
+	background-color: rgba(254, 229, 153, 1.00);
+
+	
+	
+	
+	text-align: Left;
+	
+
+	
+	
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+
+	
+	width: 80%;
+	
+
+	
+
+	
+	}
+
+/* first row overrides */
+#FlexTable_stacks_in_1926_page4 tr:first-child td {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	
+	vertical-align: middle;
+	
+	
+
+	
+	}
+
+/* first column for rotated table */
+#FlexTableRot_stacks_in_1926_page4 td:first-child {
+
+	
+	background-color: rgba(255, 204, 121, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+	}
+
+#FlexTableRot_stacks_in_1926_page4 td {
+	width: auto !important;
+	}
+
+/* first column overrides */
+#FlexTable_stacks_in_1926_page4 td:first-child {
+
+	
+	background-color: rgba(190, 158, 249, 1.00);
+	
+
+	
+	
+	
+	
+
+	
+	text-align: Left;
+	
+
+	
+	width: 20%;
+	
+
+	
+	}
+
+
+
+/* rotated table first row second column overrides */
+#FlexTableRotR1C2_stacks_in_1926_page4 {
+	
+	background-color: rgba(190, 158, 249, 1.00) !important;
+	
+	}
+
+
+
+
+
+
+
+/* outer table radius when collapsed */
+#FlexTable_stacks_in_1926_page4 tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+	}
+#FlexTable_stacks_in_1926_page4 tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px !important;
+    -webkit-border-top-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1926_page4 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+#FlexTable_stacks_in_1926_page4 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+
+
+
+
+
+@media all and (max-width: 600px) {
+#FlexTable_stacks_in_1926_page4, #FlexTableRot_stacks_in_1926_page4, #FlexTablePager_stacks_in_1926_page4, #FlexTableCaption_stacks_in_1926_page4, #FlexTableSearch_stacks_in_1926_page4, #FlexTableSearch_search_stacks_in_1926_page4, #FlexTableSearch_button_stacks_in_1926_page4 {
+	/* one master location for font scaling etc. */
+	font-size: 1.00em !important;
+	line-height: 1.2em;
+	}
+
+/* new for 1.1.6 to improve font scaling in foundation */
+#FlexTable_stacks_in_1926_page4 tr td, #FlexTableRot_stacks_in_1926_page4 tr td {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+/* added in 1.5.0 for paragraphs inside td from Markdown */
+#FlexTable_stacks_in_1926_page4 td p, #FlexTableRot_stacks_in_1926_page4 td p {
+	/* font-size: 1.00em !important; */
+	font-size: 1em !important;
+	}
+
+#FlexTableSearch_search_stacks_in_1926_page4 {
+	width: 100px !important;
+	}
+
+
+
+
+}
+
+
+
+
+/* hover dynamics for pager/search, disabled on small screens */
+@media all and (min-width: 600px) {
+
+
+}
+
+/* never print search and pager */
+@media print {
+#FlexTablePager_stacks_in_1926_page4, #FlexTableSearch_stacks_in_1926_page4 {
+	display: none !important;
+	}
+}
+
+
+
+
+#stacks_in_1926_page4 {
+	border: solid rgba(77, 77, 77, 1.00);
+	border-width:  1px;
+	-moz-border-radius:  6px;
+	-webkit-border-radius:  6px;
+	border-radius:  6px;
+	padding: 0px 6px 0px 6px;
+}
+
+#stacks_in_p140_n1_page4 {
+	background-color: rgba(238, 238, 238, 1.00);
+	margin: 5px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+}
