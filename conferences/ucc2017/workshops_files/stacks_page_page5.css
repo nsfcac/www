@@ -1,0 +1,38 @@
+/* Start doore stack page CSS code */	.doo-re-grid{	  -webkit-box-sizing: border-box !important;	  -moz-box-sizing: border-box !important;	  box-sizing: border-box !important;	  vertical-align: top;	}		.doo-re-grid *, .doo-re-grid *:after, .doo-re-grid *:before {	  -webkit-box-sizing: border-box !important;	  -moz-box-sizing: border-box !important;	  box-sizing: border-box !important;	}			[class*='re-col-'] {	  display: inline-block;	}			.re-col-desk-0 {	  width: 0;	  display: none;	}	.re-col-desk-1 {	  width: 8.333333%;	  display: inline-block;	}	.re-col-desk-2 {	  width: 16.666666%;	  display: inline-block;	}	.re-col-desk-3 {	  width: 25%;	  display: inline-block;	}	.re-col-desk-4 {	  width: 33.333333%;	  display: inline-block;	}	.re-col-desk-5 {	  width: 41.666666%;	  display: inline-block;	}	.re-col-desk-6 {	  width: 50%;	  display: inline-block;	}	.re-col-desk-7 {	  width: 58.333333%;	  display: inline-block;	}	.re-col-desk-8 {	  width: 66.666666%;	  display: inline-block;	}	.re-col-desk-9 {	  width: 75%;	  display: inline-block;	}	.re-col-desk-10 {	  width: 83.333333%;	  display: inline-block;	}	.re-col-desk-11 {	  width: 91.666666%;	  display: inline-block;	}	.re-col-desk-12 {	  width: 100%;	  display: inline-block;	}			/* End doore stack page CSS code */
+#stacks_in_88_page5 {
+	margin: 55px 0px 0px 0px;
+}
+
+#stacks_in_141_page5 {
+	padding: 0px 10px 0px 10px;
+}
+/* Start dooReflow stack each CSS code */	#stacks_in_125_page5 .grid-pad{		margin-left: -15px;		margin-right: -15px;		margin-top: -15px;		margin-bottom: -15px;	}	#stacks_in_125_page5 [class*='re-col-']{	  padding-left: 15px;	  padding-right: 15px;	  padding-top: 15px;	  padding-bottom: 15px;	  vertical-align: top;	}			@media all and (max-width: 1024px) {		#stacks_in_125_page5 [class*='re-col-tabl'] {		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-0 {		  width: 0;		  display: none;		}		#stacks_in_125_page5 .re-col-tabl-1 {		  width: 8.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-2 {		  width: 16.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-3 {		  width: 25%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-4 {		  width: 33.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-5 {		  width: 41.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-6 {		  width: 50%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-7 {		  width: 58.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-8 {		  width: 66.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-9 {		  width: 75%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-10 {		  width: 80.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-11 {		  width: 91.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tabl-12 {		  width: 100%;		  display: inline-block;		}	}			@media all and (max-width: 768px) {		[class*='re-col-tab'] {		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-0 {		  width: 0;		  display: none;		}		#stacks_in_125_page5 .re-col-tab-1 {		  width: 8.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-2 {		  width: 16.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-3 {		  width: 25%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-4 {		  width: 33.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-5 {		  width: 41.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-6 {		  width: 50%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-7 {		  width: 58.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-8 {		  width: 66.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-9 {		  width: 75%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-10 {		  width: 80.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-11 {		  width: 91.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-tab-12 {		  width: 100%;		  display: inline-block;		}	}			@media all and (max-width: 480px) {		[class*='re-col-mob'] {		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-0 {		  width: 0;		  display: none;		}		#stacks_in_125_page5 .re-col-mob-1 {		  width: 8.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-2 {		  width: 16.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-3 {		  width: 25%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-4 {		  width: 33.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-5 {		  width: 41.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-6 {		  width: 50%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-7 {		  width: 58.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-8 {		  width: 66.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-9 {		  width: 75%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-10 {		  width: 80.333333%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-11 {		  width: 91.666666%;		  display: inline-block;		}		#stacks_in_125_page5 .re-col-mob-12 {		  width: 100%;		  display: inline-block;		}	}		/* End dooReflow stack each CSS code */
+
+
+#stacks_in_207_page5-back-to-top {
+    cursor: pointer !important;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    display:none;
+    z-index:9000;
+}
+
+
+#stacks_in_pp139_n53_n11_page5 {
+	margin:  10px;
+}
+
+
+
+#stacks_in_pp139_n53_n30_page5 .panel {
+  max-width: 800px;
+  max-height: 800px;
+}
+
+
+#stacks_in_p140_n1_page5 {
+	background-color: rgba(238, 238, 238, 1.00);
+	margin: 5px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+}
