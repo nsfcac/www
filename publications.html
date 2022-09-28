@@ -59,6 +59,10 @@
       <br><br>
       <div class="acc row">
         <div class="panel col-12">
+          <div style="margin-bottom: 5px; text-align: center">
+            <h5>Total: <strong id="total"></strong> publications</h5>
+            <p><button type="button" class="btn btn-info btn-round" id="showAll">Show all</button> or click on the bar chart below to filter by Year</p>
+          </div>
           <div class="row justify-content-md-center">
             <svg id="chart" style="max-width:400px;width:100%;margin: 20px">
 
@@ -773,6 +777,7 @@
     function drawSum() {
       const years = d3.selectAll('.collection');
       const data = [];
+      let isFilter = undefined;
       years.each(function () {
         let content = d3.select(this);
         const key = content.select('h2').text().replace(':', '').trim();
@@ -785,7 +790,17 @@
         data.push(item)
       });
       data.sort((a, b) => +a.key - +b.key);
-      data[data.length-1].enable = true;
+
+      // update total
+      d3.select('#total').text(d3.sum(data,d=>d.values));
+      const showAllBtn = d3.select('#showAll');
+      showAllBtn.on('click',()=>{
+          updateFilter();
+      })
+
+      // enable 1st year
+      // data[data.length-1].enable = true;
+
       //adjust enable
       const collections = d3.selectAll('.collection').classed('show',d=>d.enable);
 
@@ -837,19 +852,13 @@
               .join('g')
               .attr('class', 'bar')
               .attr('transform', d => `translate(0,${x(d.key)})`)
-              .attr("data-toggle", "collapse")
+              // .attr("data-toggle", "collapse")
               .attr("data-parent", ".acc")
-              .attr("data-target", d => "#" + d.key)
+              // .attr("data-target", d => "#" + d.key)
               .classed('highlight', d => d.enable)
               .style("pointer-events", "all")
               .on('click', function (event, d) {
-                data.forEach(d=>d.enable=false);
-                d.enable = true;
-                bars.classed('highlight', d => d.enable);
-                debugger
-                // collections.classed('show',d=>d.enable);
-                $(".collection").collapse('hide');
-                $("#" + d.key).collapse('show');
+                updateFilter(d)
               });
 
       bars.selectAll('rect')
@@ -874,6 +883,29 @@
               .attr("x", function (d) {
                 return y(d.values);
               });
+      function updateFilter(current){
+        debugger
+        data.forEach(d=>d.enable=false);
+        const oldFilter = isFilter;
+        isFilter = current?current.key:false;
+        if (oldFilter!== isFilter) {
+          if (current) {
+            current.enable = true;
+            bars.classed('highlight', d => d.enable);
+
+            $(d3.selectAll('.collection').filter(d=>d.key!==current.key).nodes()).collapse('hide');
+            $("#" + current.key).collapse('show');
+
+          } else {
+            bars.classed('highlight', d => d.enable);
+            $(".collection").collapse('show');
+          }
+          showAllBtn.classed('btn-info', !isFilter);
+          showAllBtn.classed('btn-default', !!isFilter);
+        }
+      }
+
+      updateFilter();
     }
   </script>
 </body>
