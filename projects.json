@@ -1,0 +1,974 @@
+{
+    "currentProjects": [
+        {
+            "semester": "Fall 2024",
+            "projects": [
+                {
+                    "id": "TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": "Alan Sill, Argenis Bilbao",
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "UA-1",
+                    "title": "Search Engine Optimization using Topic Intelligence Management System",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "The project aims to gather specific data from various sources based on the data provided by the client’s query and aims to turn it into valuable insights. We refer to this as Topic Intelligence. With this information, the project can assist the clients in reaching out to audiences who have a clear interest in their product or service and are likely to become customers. The goal of the project is to understand and target each stage of the customers' decision-making process without using any personal or demographic information and delivering relevant advertisements or content that guide them towards making a purchase."
+                },
+                {
+                    "id": "TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components and workloads. In this project, we will continue from the prior 2022-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection and management, visual analytics, and automation techniques in system operation."
+                },
+                {
+                    "id": "UA-2",
+                    "title": "Cloud Forensics",
+                    "leader": "",
+                    "description": ""
+                },
+                {
+                    "id": "TTU-3",
+                    "title": "Examining the Benefits of a Secure Distributed Architecture & xBGAS SST Simulation",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying (RV64) ABI compatibility, 2) ensure the extended addressing model remains flexible enough to support multiple target application spaces/system architectures, and 3) guarantee that extended addressing does not rely upon any one virtual memory mechanism."
+                },
+                {
+                    "id": "UA-3",
+                    "title": "ML-based Smart Test Application Manager (ML-STAM)",
+                    "leader": "Dr. Salim Hariri and Dr. Ali Akoglu",
+                    "description": ""
+                },
+                {
+                    "id": "TTU-4",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": "Dr. Yong Chen",
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The first objective of this project is to investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, we will develop cost models that estimate the cost and benefit associated with offloading computational kernels to SmartNIC accelerators. Third, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Lastly, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "UA-4",
+                    "title": "Forensics for 5G Networks",
+                    "leader": "",
+                    "description": ""
+                },
+                {
+                    "id": "UA-5",
+                    "title": "New Generative AI",
+                    "leader": "",
+                    "description": ""
+                }
+            ]
+            
+        }
+    ],
+    "pastProjects": [
+        {
+            "semester": "Spring 2024",
+            "projects": [
+                {
+                    "id": "TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": "Alan Sill, Argenis Bilbao",
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "UA-1",
+                    "title": "Blockchain-Based Methodology for Zero Trust Modeling and Quantification for 5G Networks",
+                    "leader": "Salim Hariri, Sicong Shao",
+                    "description": "5G network slicing is the logical separation of a shared physical infrastructure to create a network that is customized and optimized for specific customer. Despite the tremendous benefits of network slicing, it also brings many unprecedented security challenges because of the dynamism and diversity of slice's structure. Therefore, establishing trust in the 5G ecosystem is a cornerstone for global adaptation and tackling security and privacy risks. In this research, we focus on the trust aspect between the network slice stakeholders (i.e., slice owners, users, slice resource providers, and service providers), and we propose a blockchain-based zero trust model that addresses threat models that are based on the lack of trust between the entities in a network slice. Our approach for zero trust modeling and quantification is based on direct evidence and indirect evidence and the use of smart contracts with blockchain to maintain the required trust values at runtime."
+                },
+                {
+                    "id": "TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components and workloads. In this project, we will continue from the prior 2022-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection and management, visual analytics, and automation techniques in system operation."
+                },
+                {
+                    "id": "TTU-3",
+                    "title": "Examining the Benefits of a Secure Distributed Architecture & xBGAS SST Simulation",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying (RV64) ABI compatibility, 2) ensure the extended addressing model remains flexible enough to support multiple target application spaces/system architectures, and 3) guarantee that extended addressing does not rely upon any one virtual memory mechanism."
+                },
+                {
+                    "id": "UA-2",
+                    "title": "Search Engine Optimization using Topic Intelligence Management System",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "The project aims to gather specific data from various sources based on the data provided by the client’s query and aims to turn it into valuable insights. We refer to this as Topic Intelligence. With this information, the project can assist the clients in reaching out to audiences who have a clear interest in their product or service and are likely to become customers. The goal of the project is to understand and target each stage of the customers' decision-making process without using any personal or demographic information and delivering relevant advertisements or content that guide them towards making a purchase."
+                },
+                {
+                    "id": "TTU-4",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": "Dr. Yong Chen",
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The first objective of this project is to investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, we will develop cost models that estimate the cost and benefit associated with offloading computational kernels to SmartNIC accelerators. Third, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Lastly, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "UA-3",
+                    "title": "ML-based Smart Test Application Manager (ML-STAM)",
+                    "leader": "Dr. Salim Hariri and Dr. Ali Akoglu",
+                    "description": ""
+                },
+                {
+                    "id": "UA-4",
+                    "title": "Cloud Forensics",
+                    "leader": "",
+                    "description": ""
+                }
+            ]              
+        },
+        {
+            "semester": "Fall 2023",
+            "projects": [
+                {
+                    "id": "TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": "Alan Sill, Argenis Bilbao",
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components and workloads. In this project, we will continue from the prior 2022-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection and management, visual analytics, and automation techniques in system operation."
+                },
+                {
+                    "id": "TTU-3",
+                    "title": "Porting xBGAS to Arm Morello and Beyond",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying (RV64) ABI compatibility, 2) ensure the extended addressing model remains flexible enough to support multiple target application spaces/system architectures, and 3) guarantee that extended addressing does not rely upon any one virtual memory mechanism. The overall xBGAS project includes five significant tasks: design and development of the ISA extension, design, and development of compilers and toolchains to support the xBGAS extended instructions and addressing modes, design and development of runtime libraries, design and development of applications built upon xBGAS, and porting benchmarks."
+                },
+                {
+                    "id": "TTU-4",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": "Dr. Yong Chen",
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The first objective of this project is to investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, we will develop cost models that estimate the cost and benefit associated with offloading computational kernels to SmartNIC accelerators. Third, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Lastly, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "UA-1",
+                    "title": "Search Engine Optimization using Topic Intelligence Management System",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "The project aims to gather specific data from various sources based on the data provided by the client’s query and aims to turn it into valuable insights. We refer to this as Topic Intelligence. With this information, the project can assist the clients in reaching out to audiences who have a clear interest in their product or service and are likely to become customers. The goal of the project is to understand and target each stage of the customers' decision-making process without using any personal or demographic information and delivering relevant advertisements or content that guide them towards making a purchase."
+                },
+                {
+                    "id": "UA-2",
+                    "title": "Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM)",
+                    "leader": "Salim Hariri",
+                    "description": "The growth of Blockchain and Non-Fungible Tokens has revolutionized online marketplace with blockchain technology being used in cryptocurrency, smart contracts, user privacy maintenance, data management, providing decentralization, immutability and crypto-graphic link. A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain). NFTs can be associated with easily reproducible items such as photos, videos, audio, and other types of digital files as unique items (analogous to a certificate of authenticity) and use blockchain technology to give the NFT a verified and public proof of ownership. Thus, NFTs have found applications in Digital Rights Management (DRM), giving solutions to a wide array of problems, including NFT authentication, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking. In this research, we propose a Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM), a framework to address NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking issues."
+                },
+                {
+                    "id": "UA-3",
+                    "title": "Federated Cybersecurity Testbed as a Service (FCTaaS)",
+                    "leader": "Salim Hariri, Pratik Satam",
+                    "description": "The global acceptance and deployment of smart infrastructures provide personalized and efficient services to the users, improving their quality of life. Although smart infrastructures have many advantages in improving productivity, reducing costs, and improving quality of life, they expose users and systems to more attack vectors when compared to isolated environments; potentially causing significant economic and human life losses. Researchers need realistic testbeds to collect research data, perform experiments, and evaluate their security approaches to address these security challenges. Such complex smart infrastructure testbeds are extremely difficult to build and expensive to operate, highlighting the need for community testbeds that researchers can utilize to create complex security scenarios and perform realistic experimentation. This project introduces Federated Cybersecurity Testbed as a Service (FCTaaS), a scalable framework to enable the federation of cybersecurity research testbeds to integrate isolated, geographically dispersed cybersecurity testbed."
+                },
+                {
+                    "id": "UA-4",
+                    "title": "Search Engine Optimization using Topic Intelligence Management System",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "The project aims to gather specific data from various sources based on the data provided by the client’s query and aims to turn it into valuable insights. We refer to this as Topic Intelligence. With this information, the project can assist the clients in reaching out to audiences who have a clear interest in their product or service and are likely to become customers. The goal of the project is to understand and target each stage of the customers' decision-making process without using any personal or demographic information and delivering relevant advertisements or content that guide them towards making a purchase."
+                },
+                {
+                    "id": "UA-5",
+                    "title": "ML-based Smart Test Application Manager (ML-STAM)",
+                    "leader": "Dr. Salim Hariri and Dr. Ali Akoglu",
+                    "description": ""
+                }
+            ]          
+        },
+        {
+            "semester": "Spring 2023",
+            "projects": [
+                {
+                    "id": "TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": "Alan Sill, Argenis Bilbao",
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components and workloads. In this project, we will continue from the prior 2022-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection and management, visual analytics, and automation techniques in system operation."
+                },
+                {
+                    "id": "TTU-3",
+                    "title": "Porting xBGAS to Arm Morello and Beyond",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying (RV64) ABI compatibility, 2) ensure the extended addressing model remains flexible enough to support multiple target application spaces/system architectures, and 3) guarantee that extended addressing does not rely upon any one virtual memory mechanism. The overall xBGAS project includes five significant tasks: design and development of the ISA extension, design, and development of compilers and toolchains to support the xBGAS extended instructions and addressing modes, design and development of runtime libraries, design and development of applications built upon xBGAS, and porting benchmarks."
+                },
+                {
+                    "id": "TTU-4",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": "Dr. Yong Chen",
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The first objective of this project is to investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, we will develop cost models that estimate the cost and benefit associated with offloading computational kernels to SmartNIC accelerators. Third, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Lastly, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "UA-1",
+                    "title": "Search Engine Optimization using Topic Intelligence Management System",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "The project aims to gather specific data from various sources based on the data provided by the client’s query and aims to turn it into valuable insights. We refer to this as Topic Intelligence. With this information, the project can assist the clients in reaching out to audiences who have a clear interest in their product or service and are likely to become customers. The goal of the project is to understand and target each stage of the customers' decision-making process without using any personal or demographic information and delivering relevant advertisements or content that guide them towards making a purchase."
+                },
+                {
+                    "id": "UA-2",
+                    "title": "Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM)",
+                    "leader": "Salim Hariri",
+                    "description": "The growth of Blockchain and Non-Fungible Tokens has revolutionized online marketplace with blockchain technology being used in cryptocurrency, smart contracts, user privacy maintenance, data management, providing decentralization, immutability and crypto-graphic link. A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain). NFTs can be associated with easily reproducible items such as photos, videos, audio, and other types of digital files as unique items (analogous to a certificate of authenticity) and use blockchain technology to give the NFT a verified and public proof of ownership. Thus, NFTs have found applications in Digital Rights Management (DRM), giving solutions to a wide array of problems, including NFT authentication, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking. In this research, we propose a Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM), a framework to address NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking issues."
+                },
+                {
+                    "id": "UA-3",
+                    "title": "Federated Cybersecurity Testbed as a Service (FCTaaS)",
+                    "leader": "Salim Hariri, Pratik Satam",
+                    "description": "The global acceptance and deployment of smart infrastructures provide personalized and efficient services to the users, improving their quality of life. Although smart infrastructures have many advantages in improving productivity, reducing costs, and improving quality of life, they expose users and systems to more attack vectors when compared to isolated environments; potentially causing significant economic and human life losses. Researchers need realistic testbeds to collect research data, perform experiments, and evaluate their security approaches to address these security challenges. Such complex smart infrastructure testbeds are extremely difficult to build and expensive to operate, highlighting the need for community testbeds that researchers can utilize to create complex security scenarios and perform realistic experimentation. This project introduces Federated Cybersecurity Testbed as a Service (FCTaaS), a scalable framework to enable the federation of cybersecurity research testbeds to integrate isolated, geographically dispersed cybersecurity testbed."
+                },
+                {
+                    "id": "UA-4",
+                    "title": "Search Engine Optimization using Topic Intelligence Management System",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "The project aims to gather specific data from various sources based on the data provided by the client’s query and aims to turn it into valuable insights. We refer to this as Topic Intelligence. With this information, the project can assist the clients in reaching out to audiences who have a clear interest in their product or service and are likely to become customers. The goal of the project is to understand and target each stage of the customers' decision-making process without using any personal or demographic information and delivering relevant advertisements or content that guide them towards making a purchase."
+                },
+                {
+                    "id": "UA-5",
+                    "title": "ML-based Smart Test Application Manager (ML-STAM)",
+                    "leader": "Dr. Salim Hariri and Dr. Ali Akoglu",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "semester": "Fall 2022",
+            "projects": [
+                {
+                    "id": "2022-TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": "Alan Sill, Argenis Bilbao",
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "2022-TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components. In this project, we will continue from the prior 2021-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection, visual analytics, and management."
+                },
+                {
+                    "id": "2022-TTU-3",
+                    "title": "Porting xBGAS to Arm Morello and Beyond",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying ABI compatibility (e.g., RV64 apps will execute without an issue), 2) ensure the extended addressing model remains flexible enough to support multiple target application spaces/system architectures, e.g., traditional data centers, clouds, HPC, etc., and 3) guarantee that extended addressing does not rely upon any one virtual memory mechanism. The overall xBGAS project includes five significant tasks: design and development of the ISA extension, design and development of compilers and toolchains to support the xBGAS extended instructions and addressing modes, design and development of runtime libraries, design and development of applications built upon xBGAS, and porting benchmarks."
+                },
+                {
+                    "id": "2022-TTU-4",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": "Dr. Yong Chen",
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The first objective of this project is to investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, we will develop cost models that estimate the cost and benefit associated with offloading computational kernels to SmartNIC accelerators. Third, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Lastly, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "2022-UA-1",
+                    "title": "Artificial Intelligence (AI) based Reputation Management Service (AI-RMS)",
+                    "leader": "Sicong Shao, Salim Hariri",
+                    "description": "Social media users share their experience, feelings, and opinions on Web based social media platforms that can influence others’ opinions regarding a person or a brand and their product. This influence is so strong that insurance companies offer policies against a person’s or a company’s reputation being damaged due to online attacks. Thus, there is a need for a scalable framework to quantify the impacts of different social media posts on reputation of companies, organizations, celebrities, etc. In this research, we propose to develop a framework to build a reputation integrity score for entities, based on the interactions on social media about this person."
+                },
+                {
+                    "id": "2022-UA-2",
+                    "title": "Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM)",
+                    "leader": "Salim Hariri",
+                    "description": "The growth of Blockchain and Non-Fungible Tokens has revolutionized online marketplace with blockchain technology being used in cryptocurrency, smart contracts, user privacy maintenance, data management, providing decentralization, immutability and cryptographic link. A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain). NFTs can be associated with easily reproducible items such as photos, videos, audio, and other types of digital files as unique items (analogous to a certificate of authenticity) and use blockchain technology to give the NFT a verified and public proof of ownership. Thus, NFTs have found applications in Digital Rights Management (DRM), giving solutions to a wide array of problems, including NFT authentication, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking. In this research, we propose a Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM), a framework to address NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking issues."
+                },
+                {
+                    "id": "2022-UA-3",
+                    "title": "Federated Cybersecurity Testbed as a Service (FCTaaS)",
+                    "leader": ["Salim Hariri", "Pratik Satam"],
+                    "description": "This project introduces Federated Cybersecurity Testbed as a Service (FCTaaS), a scalable framework to enable the federation of cybersecurity research testbeds to integrate isolated, geographically dispersed cybersecurity testbeds, addressing security challenges in smart infrastructures."
+                },
+                {
+                    "id": "2022-UA-4",
+                    "title": "Parallelizing Optical Character Recognition for Real-time Processing",
+                    "leader": "Ali Akoglu, Salim Hariri",
+                    "description": "Optical character recognition (OCR) is an active research area that attempts to develop a computer system with the ability to extract and process text from images automatically. For good quality and high accuracy character recognition, OCR techniques expect high quality or high resolution images with some basic structural properties such as high differentiating text and background. Scene complexity, conditions of uneven lighting, skewness (rotation), blurring and degradation, tilting (perspective distortion), font styles and types all have direct impact on the OCR accuracy. Tightly coupled with the OCR accuracy is the time it takes to process an image. For a cloud based OCR service, when processing images at the scale of millions, computation time becomes another critical performance metric. In this study, our aim is to design and implement an OCR testbed that reduces the timescale of OCR process from 3000 to 100 milliseconds/image scale without sacrificing the quality of recognition."
+                },
+                {
+                    "id": "2022-UA-5",
+                    "title": "Autonomic Attack Classification and Response Framework",
+                    "leader": "Salim Hariri, Sicong Shao",
+                    "description": "With the increasing complexity of cyberspace, modeling, analyzing and detecting various cyberattacks becomes an increasingly difficult research problem due to the significant increase in attack surfaces, heterogeneity of resources and services, and large amounts of data. The current attack classification techniques are mainly labor-intensive (e.g., patch update), ad-hoc, and too slow to handle the current cyberspace complexity, dynamism, and epidemic-style propagation of attacks. This project attempts to tackle these challenges by developing an autonomic attack classification and response framework for detecting any types of cyber-attacks (known or unknown), identifying the attack type, and then recommending the appropriate responses to stop the detected attacks and/or mitigate their impacts."
+                },
+                {
+                    "id": "2022-UA-6",
+                    "title": "Intrusion Detection in Unmanned and Autonomous Vehicles",
+                    "leader": "Salim Hariri",
+                    "description": "Autonomous Vehicle or self-driving car relies on multiple sensors and other communication networks for autonomous navigation and localization. An unauthorized attacker can replicate these signals or inject false information in the sensors during the vehicle operation, which can subsequently be utilized for launching sophisticated attacks that may cause the vehicle to crash or be hijacked. Therefore, securing autonomous and unmanned vehicles from receiving counterfeit GPS signals from unauthorized attackers is crucial for any system. In this research, we propose to develop a framework to build a combined intrusion detection system to secure the sensors and communication network of unmanned and autonomous vehicles."
+                },
+                {
+                    "id": "2022-UA-7",
+                    "title": "Blockchain Based Methodology for Zero Trust Modeling and Quantification for 5G Networks",
+                    "leader": "Salim Hariri, Sicong Shao",
+                    "description": "5G network slicing is the logical separation of a shared physical infrastructure to create a network that is customized and optimized for specific customer. Despite the tremendous benefits of network slicing, it also brings many unprecedented security challenges because of the dynamism and diversity of slice's structure. Therefore, establishing trust in the 5G ecosystem is a cornerstone for global adaptation and tackling security and privacy risks. In this research, we focus on the trust aspect between the network slice stakeholders (i.e., slice owners, users, slice resource providers, and service providers), and we propose a blockchain-based zero trust model that addresses threat models that are based on the lack of trust between the entities in a network slice. Our approach for zero trust modeling and quantification is based on direct evidence and indirect evidence and the use of smart contracts with blockchain to maintain the required trust values at runtime."
+                }
+            ]
+        },   
+        {
+            "semester": "Spring 2022",
+            "projects": [
+                {
+                    "id": "2022-TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": [
+                        "Alan Sill",
+                        "Argenis Bilbao"
+                    ],
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "2022-TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components. In this project, we will continue from the prior 2020-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection, visual analytics, and management."
+                },
+                {
+                    "id": "2021-UA-2",
+                    "title": "Inter-Architecture Portability of Deep Neural Network and Side Channel Attack",
+                    "leader": "",
+                    "description": ""
+                },
+                {
+                    "id": "2022-TTU-3",
+                    "title": "Porting xBGAS to Arm Morello and Beyond",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying ABI compatibility (e.g. RV64 apps will execute without an issue), 2) ensure the extended addressing model remains flexible enough to support multiple target application spaces/system architectures, e.g. traditional data centers, clouds, HPC, etc., and 3) guarantee that extended addressing does not rely upon any one virtual memory mechanism. The overall xBGAS project includes five major tasks: design and development of the ISA extension, design and development of compilers and toolchains to support the xBGAS extended instructions and addressing modes, design and development of runtime libraries, design and development of applications built upon xBGAS, and porting benchmarks."
+                },
+                {
+                    "id": "2022-UA-1",
+                    "title": "Artificial Intelligence (AI) based Reputation Management Service (AI-RMS)",
+                    "leader": [
+                        "Sicong Shao", "Pratik Satam", "Salim Hariri"
+                    ],
+                    "description": "Social media users share their experience, feelings, and opinions on Web based social media platforms that can influence others’ opinions regarding a person or a brand and their product. This influence is so strong that insurance companies offer policies against a person’s or a company’s reputation begin damaged due to online attacks. Thus, there is a need for a scalable framework to quantify the impacts of different social media posts on reputation of companies, organizations, celebrities, etc. In this research, we propose to develop a framework to build a reputation integrity score for entities, based on the communication on social media about this person."
+                },
+                {
+                    "id": "2022-TTU-4",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": [
+                        "Dr. Yong Chen"
+                    ],
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The objectives of this proposed project are three-fold. First, we will investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Third, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "2022-UA-2",
+                    "title": "Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM)",
+                    "leader": ["Pratik Satam", "Salim Hariri"],
+                    "description": "tion: The growth on Blockchain and Non-Fungible Tokens has revolutionized online marketplace with blockchain technology being used from cryptocurrency, smart contracts, user privacy maintenance, and data management, providing ﻿decentralization, immutability and crypto-graphic link. A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain). NFTs can be associated with easily reproducible items such as photos, videos, audio, and other types of digital files as unique items (analogous to a certificate of authenticity) and use blockchain technology to give the NFT a verified and public proof of ownership. Thus, NFTs have found applications in Digital Rights Management (DRM) giving rise to wide array of problems including, NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking. In this research, we propose Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM), a framework to address NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking issues of NFT."
+                },
+                {
+                    "id": "2022-UA-3",
+                    "title": "FCTaaS: Federated Cybersecurity Testbed as a Service",
+                    "leader": [
+                        "Salim Hariri"
+                    ],
+                    "description": "With the advent of smart infrastructures, smart buildings, smart grids, smart industry and manufacturing, and smart cities and governments have created more new vulnerabilities than would exist if they were isolated from one another. Sophisticated cyberattacks can exploit these vulnerabilities to disrupt or even completely disable the operations of these infrastructures and consequently can severely impact our national security and all aspects of our life and economy. To overcome the cybersecurity challenges introduced by smart infrastructures, researchers and educators need to better understand the interdependencies among these infrastructures, their implications on cybersecurity issues and how to develop effective defense and  proactive protection solutions. It is important to be able to compose several testbeds into one federated testbed that includes smart devices and sensors, IoT devices, cloud systems, smart grids, smart buildings, etc. (ultimately what is known as smart cities or smart governments). These federated testbeds can then be used to train students on how to analyze the normal operations of the composed testbeds, identify their interdependencies, vulnerabilities and how they can be exploited to lunch sophisticated cyberattacks, how to develop innovative defend techniques, and how to protect them.  In this approach, the current operational state of each physical testbed will be stored in the cloud in its corresponding Digital Twin (DT). The DT, a virtual representation of the current states of all the physical devices and logical processes running on the physical testbed. This information will be transferred to the shared cloud repository using Kafka data streaming services."
+                },
+                {
+                    "id": "2022-UA-4",
+                    "title": "Parallelizing Optical Character Recognition for Real-time Processing",
+                    "leader": [
+                        "Ali Akoglu", "Salim Hariri"
+                    ],
+                    "description": "Optical character recognition (OCR) is an active research area that attempts to develop a computer system with the ability to extract and process text from images automatically. For good quality and high accuracy character recognition, OCR techniques expect high quality or high resolution images with some basic structural properties such as high differentiating text and background. Scene complexity, conditions of uneven lighting, skewness (rotation), blurring and degradation, tilting (perspective distortion), font styles and types all have direct impact on the OCR accuracy. Tightly coupled with the OCR accuracy is the time it takes to process an image. For a cloud based OCR service, when processing images at the scale of millions, computation time becomes another critical performance metric. In this study, our aim is to design and implement an OCR testbed that reduces the timescale of OCR process from 3000 to 100 milliseconds/image scale without sacrificing the quality of recognition."
+                }
+            ]
+        },        
+        {
+            "semester": "Fall 2021",
+            "projects": [
+                {
+                    "id": "2021-TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": [
+                        "Alan Sill",
+                        "Argenis Bilbao"
+                    ],
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "2021-UA-1",
+                    "title": "Artificial Intelligence (AI) based Reputation Management Service (AI-RMS)",
+                    "leader": [
+                        "Pratik Satam", "Salim Hariri"
+                    ],
+                    "description": "Social media users share their experience, feelings, and opinions on Web based social media platforms that can influence others’ opinions regarding a person or a brand and their product. This influence is so strong that insurance companies offer policies against a person’s or a company’s reputation begin damaged due to online attacks. Thus, there is a need for a scalable framework to quantify the impacts of different social media posts on reputation of companies, organizations, celebrities, etc. In this research, we propose to develop a framework to build a reputation integrity score for entities, based on the communication on social media about this person."
+                },
+                {
+                    "id": "2021-TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components. In this project, we will continue from the prior 2020-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection, visual analytics, and management."
+                },
+                {
+                    "id": "2021-TTU-3",
+                    "title": "xBGAS (Extended Base Global Address Space) Architecture Optimizations & Applications",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying ABI compatibility (e.g. RV64 apps will execute without an issue), 2) extended addressing must be flexible to support multiple target application spaces/system architectures, e.g. traditional data centers, clouds, HPC, etc., and 3) extended addressing must not rely upon any one virtual memory mechanism. The overall xBGAS project includes five major tasks: design and development of the ISA extension, design and development of compilers and toolchains to support the xBGAS extended instructions and addressing modes, design and development of runtime libraries, design and development of applications built upon xBGAS, and porting benchmarks."
+                },
+                {
+                    "id": "2022-TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": ["Alan Sill", "Argenis Bilbao", "Yong Chen"],
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For most high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing clusters over the lifetime of the equipment. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy such as hydroelectric plants, each of these has significantly variable availability and cost (sometimes even negative) throughout the day. To make best use of these sources of energy, data centers will need to be highly automated and preferably sited in remote locations near these sources to reduce transmission costs. This project will apply previous CAC work in data center automation, analytics, and control standards and methods to this problem."
+                },
+                {
+                    "id": "2022-UA-1",
+                    "title": "Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM)",
+                    "leader": [
+                        "Pratik Satam", "Salim Hariri"
+                    ],
+                    "description": " The growth on Blockchain and Non-Fungible Tokens has revolutionized online marketplace with blockchain technology being used from cryptocurrency, smart contracts, user privacy maintenance, and data management, providing ﻿decentralization, immutability and crypto-graphic link. A non-fungible token (NFT) is a unique and non-interchangeable unit of data stored on a digital ledger (blockchain). NFTs can be associated with easily reproducible items such as photos, videos, audio, and other types of digital files as unique items (analogous to a certificate of authenticity) and use blockchain technology to give the NFT a verified and public proof of ownership. Thus, NFTs have found applications in Digital Rights Management (DRM) giving rise to wide array of problems including, NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking. In this research, we propose Non-Fungible Token (NFT) based Digital Rights Management (NFT-DRM), a framework to address NFT authenticity, NFT Owner Identity Verification, NFT Copyright Authenticity, and NFT Content Tracking issues of NFT."
+                },
+                {
+                    "id": "2022-TTU-2",
+                    "title": "Harnessing In-Network Compute for HPC System Architectures",
+                    "leader": [
+                        "Yong Chen"
+                    ],
+                    "description": "In recent years, a new class of accelerator devices known as data processing units (DPUs) have been designed to accelerate data-intensive workloads. Smart network interface controllers, or SmartNICs, such as the Nvidia Bluefield and Broadcom Stingray series of devices, represent a particularly promising incarnation of DPUs. However, the capabilities and potential use cases of SmartNICs remain largely unknown. Moreover, a unified interface for utilizing SmartNICs remains unrealized. The objectives of this proposed project are three-fold. First, we will investigate the capabilities of SmartNIC accelerators, as well as the set of potentially applicable SmartNIC use cases, in order to better understand the SmartNIC functionalities desired by end-users and system architects. Second, using these insights, and consistent with the goals of the OpenSNAPI project, we will then design a unified API for SmartNIC programming. Third, we will work to provide a standard benchmarking methodology for SmartNIC accelerators and SmartNIC-enabled systems that can be incorporated into the OpenHPCA project."
+                },
+                {
+                    "id": "2022-UA-2",
+                    "title": "Inter-Architecture Portability of Deep Neural Network and Side Channel Attack",
+                    "leader": [
+                        "Gregory Ditlzer"
+                    ],
+                    "description": "Side-channel attacks (SCA) have been widely studied over the past two decades, which resulted in numerous techniques that use statistical models to extract systems information from various side channels. More recently, machine learning has shown significant promise to advance the ability for SCAs to expose vulnerabilities in complex systems. Neural networks can effectively learn non-linear relationships between many features within a side channel, which was limited by shallow machine learning algorithms such as SVMs and Random Forests. In this paper, we propose a deep neural network (DNN) approach and multi-architecture data aggregation technique to profile power traces for a system with an embedded processor."
+                },
+                {
+                    "id": "2022-UA-3",
+                    "title": "5G based Federated Testbed for Cybersecurity (5G-FTCS)",
+                    "leader": [
+                        "Salim Hariri"
+                    ],
+                    "description": ""
+                }
+            ]
+        },        
+        {
+            "semester": "Spring 2021",
+            "projects": [
+                {
+                    "id": "2020-TTU-1",
+                    "title": "Data Center Control for Renewable Energy Applications",
+                    "leader": [
+                        "Alan Sill"
+                    ],
+                    "description": ""
+                },
+                {
+                    "id": "2020-UA-1",
+                    "title": "SeVA: Senior Virtual Assistant",
+                    "leader": "Salim Hariri",
+                    "description": "Delirium affects 60% of hospitalized dementia patients, impacting long-term survival and quality of life. SeVA (Senior’s Virtual Assistant) aims to address the potential gaps of the current hospital practices in early delirium detection, management, and prevention through continuous monitoring of clinical, mental, and emotional factors. Thus, SeVA provides timely non-pharmacological intervention for patients with Alzheimer’s disease and related dementias."
+                },
+                {
+                    "id": "2020-TTU-2",
+                    "title": "Integrated Visualizing, Monitoring, and Managing HPC Systems",
+                    "leader": ["Dr. Tommy Dang"],
+                    "description": "Understanding the status of high-performance computing (HPC) platforms and correlating applications to resource usage provides valuable insights into the interactions among platform components. In this project, we will build upon the prior 2019-TTU-1 project and focus on developing cutting-edge visualization, monitoring, and management solutions for HPC systems. This includes MonSTer, an out-of-the-box monitoring tool that offers visual analytics and management methods. MonSTer effectively correlates applications to resource usage, revealing insightful knowledge without imposing additional overhead on the application and computing nodes."
+                },
+                {
+                    "id": "2020-TTU-3",
+                    "title": "xBGAS (Extended Base Global Address Space) Filesystem and Architecture Optimizations",
+                    "leader": ["Dr. Yong Chen"],
+                    "description": "With the collaboration between Tactical Computing Labs (TCL), Texas Tech University (TTU), and Boston University (BU), the goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on RISC-V architecture with ABI compatibility (e.g., RV64 applications will execute without issues), 2) to ensure that extended addressing is flexible enough to support multiple target application spaces and system architectures, such as traditional data centers, clouds, and high-performance computing (HPC), and 3) to design extended addressing that does not rely on any single virtual memory mechanism. The overall xBGAS project encompasses five major tasks: the design and development of the ISA extension, the design and development of a compiler and toolchain to support extended instructions and addressing modes, the design and development of runtime libraries, the design and development of the xBGAS parallel filesystem, and the porting of benchmarks and applications."
+                },
+                {
+                    "id": "2020-UA-2",
+                    "title": "FCTaaS: Federated Cyber Security Testbed as a Service",
+                    "leader": [
+                        "Pratik Satam", "Salim Hariri"
+                    ],
+                    "description": "The advent of ‘smart’ infrastructure systems have created new. Sophisticated cyberattacks can exploit these vulnerabilities to disrupt or even completely disable the operations of our critical infrastructures and their services. There are many possible testbeds (physical and virtual) and simulations for critical infrastructures and cyber systems. To understand the interdependency among these testbeds and their implications on cybersecurity issues,  it is important to be able to compose several testbeds into one federated testbed that includes smart devices and sensors, IoT devices, cloud systems, smart grids, smart buildings, etc. (ultimately what is known as smart cities or smart governments). The main goal of this project is to explore innovative techniques to allow seamless composition of a federated testbed that consists of several heterogeneous testbeds include virtual cybersecurity testbeds, IoT testbeds, and cyber-physical testbeds."
+                },
+                {
+                    "id": "2021-TTU-1",
+                    "title": "Renewable Energy Powered Data Center Control",
+                    "leader": [
+                        "Alan Sill",
+                        "Argenis Bilbao"
+                    ],
+                    "description": "Availability of large quantities of renewable energy can break the cost curve for large scale computing. For high performance computing centers, energy is a significant fraction of operating cost, and can reach up to approximately the same cost of computing equipment over its lifetime. Wind power and solar energy are increasingly available in the US and worldwide, but unlike previous sources of renewable energy, each has significantly variable availability and cost throughout the day. To make best use of these opportunities, data centers need to be highly automated and sited near energy sources to reduce transmission costs. This project will leverage previous CAC work in data center automation, analytics, and control standards and methods, and build a test facility at the GLEAMM site for measurements."
+                },
+                {
+                    "id": "2021-UA-1",
+                    "title": "Deriving A Personal Integrity Score for Individuals and Brands Based on Internet Content Analysis",
+                    "leader": [
+                        "Carlos Nevarez"
+                    ],
+                    "description": ""
+                },
+                {
+                    "id": "2021-TTU-2",
+                    "title": "Integrated Data Collection and Visualization Framework for Data Centers based on Telemetry Model",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing platforms and correlating applications to resource usage provide insight into the interactions among platform components. In this project, we will continue from the prior 2020-TTU-2 project and continue working on developing cutting-edge visualization, monitoring, and management solutions for HPC systems, including data collection, visual analytics, and management."
+                },
+                {
+                    "id": "2021-TTU-3",
+                    "title": "xBGAS (Extended Base Global Address Space) Architecture Optimizations & Applications",
+                    "leader": "Dr. Yong Chen",
+                    "description": "The xBGAS project is a collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), Arizona State University (ASU), and the University of Cambridge (UC). The goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on the RISC-V architecture without modifying ABI compatibility (e.g. RV64 apps will execute without an issue), 2) extended addressing must be flexible to support multiple target application spaces/system architectures, e.g. traditional data centers, clouds, HPC, etc., and 3) extended addressing must not rely upon any one virtual memory mechanism. The overall xBGAS project includes five major tasks: design and development of the ISA extension, design and development of compilers and toolchains to support the xBGAS extended instructions and addressing modes, design and development of runtime libraries, design and development of applications built upon xBGAS, and porting benchmarks."
+                }
+            ]
+        },        
+        {
+            "semester": "Fall 2020",
+            "projects": [
+                {
+                    "id": "2020-TTU-1",
+                    "title": "Optimizing Data Center Automation, Analytics, and Control For Use of Renewable Energy",
+                    "leader": [
+                        "Alan Sill",
+                        "Tommy Dang",
+                        "Yong Chen"
+                    ],
+                    "description": "The availability of large quantities of renewable energy can break the cost curve for large-scale computing. For most high-performance computing centers, energy constitutes a significant fraction of operating costs, often reaching approximately the same cost as computing clusters over the equipment's lifetime. Wind power and solar energy are increasingly available in the US and worldwide. However, unlike previous sources of renewable energy such as hydroelectric plants, both wind and solar energy exhibit significantly variable availability and cost (sometimes even negative) throughout the day. To maximize the benefits of these energy sources, data centers will need to be highly automated and ideally located in remote areas close to these renewable sources to minimize transmission costs. This project will apply previous CAC work in data center automation, analytics, and control standards and methods to address this challenge."
+                },
+                {
+                    "id": "2020-UA-1",
+                    "title": "SeVA: Senior Virtual Assistant",
+                    "leader": ["Salim Hariri", "Cihan Tunç"],
+                    "description": "Delirium affects 60% of hospitalized dementia patients, impacting long-term survival and quality of life. SeVA (Senior’s Virtual Assistant) aims to address the potential gaps of the current hospital practices in early delirium detection, management, and prevention through continuous monitoring of clinical, mental, and emotional factors. Thus, SeVA provides timely non-pharmacological intervention for patients with Alzheimer’s disease and related dementias."
+                },
+                {
+                    "id": "2020-TTU-2",
+                    "title": "Integrated Visualizing, Monitoring, and Managing HPC Systems",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing (HPC) platforms and correlating applications to resource usage provides valuable insights into the interactions among platform components. In this project, we will build upon the prior 2019-TTU-1 project and focus on developing cutting-edge visualization, monitoring, and management solutions for HPC systems. This includes MonSTer, an out-of-the-box monitoring tool that offers visual analytics and management methods. MonSTer effectively correlates applications to resource usage, revealing insightful knowledge without imposing additional overhead on the application and computing nodes."
+                },
+                {
+                    "id": "2020-TTU-3",
+                    "title": "xBGAS (Extended Base Global Address Space) Filesystem and Architecture Optimizations",
+                    "leader": "Dr. Yong Chen",
+                    "description": "With the collaboration between Tactical Computing Labs (TCL), Texas Tech University (TTU), and Boston University (BU), the goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on RISC-V architecture with ABI compatibility (e.g., RV64 applications will execute without issues), 2) to ensure that extended addressing is flexible enough to support multiple target application spaces and system architectures, such as traditional data centers, clouds, and high-performance computing (HPC), and 3) to design extended addressing that does not rely on any single virtual memory mechanism. The overall xBGAS project encompasses five major tasks: the design and development of the ISA extension, the design and development of a compiler and toolchain to support extended instructions and addressing modes, the design and development of runtime libraries, the design and development of the xBGAS parallel filesystem, and the porting of benchmarks and applications."
+                },
+                {
+                    "id": "2020-UA-2",
+                    "title": "FCTaaS: Federated Cyber Security Testbed as a Service",
+                    "leader": "Salim Hariri",
+                    "description": "The advent of ‘smart’ infrastructure systems have created new. Sophisticated cyberattacks can exploit these vulnerabilities to disrupt or even completely disable the operations of our critical infrastructures and their services. There are many possible testbeds (physical and virtual) and simulations for critical infrastructures and cyber systems. To understand the interdependency among these testbeds and their implications on cybersecurity issues,  it is important to be able to compose several testbeds into one federated testbed that includes smart devices and sensors, IoT devices, cloud systems, smart grids, smart buildings, etc. (ultimately what is known as smart cities or smart governments). The main goal of this project is to explore innovative techniques to allow seamless composition of a federated testbed that consists of several heterogeneous testbeds include virtual cybersecurity testbeds, IoT testbeds, and cyber-physical testbeds."
+                },
+                {
+                    "id": "2021-TTU-1",
+                    "title": "Understanding and Controlling Power Consumption of GPUs towards Energy Efficient HPC Systems",
+                    "leader": "Dr. Yong Chen",
+                    "description": ""
+                },
+                {
+                    "id": "2021-UA-1",
+                    "title": "AI-Driven Crises Management - Modeling, Analysis, and Prediction",
+                    "leader": "Salim Hariri",
+                    "description": "With the advances in Internet technologies and services, social media has been gaining excessive popularity, especially because these technologies provide anonymity, which harbors spam bots, hacker discussion forums, rogue players, misinformation that can be maliciously manipulated to negative impacts the reputation of targeted business, and/or exploit mistakes or crisis events. In this project, we will leverage the NSF CAC research capabilities that utilize AI, real-time sentimental analysis, autonomic computing, machine learning (i.e., ensemble learning, deep learning, clustering) to identify fake news and the identity of bad actors and social bots who are maliciously aiming at destroying the reputation of targeted businesses. In this research, we apply autonomic social media monitoring events and news, perform novel text feature extraction methods, sentimental analysis to detect and identify the spam bots,  source of fake news and rouge players, then uses Legendary experience to develop effective defense and offensive strategies to manage the detected crisis and minimizes its impact. This project will leverage our ongoing project in detecting anomalous behavior, detecting the identity and the authors of malicious messages, and our AI recommendation system."
+                }
+            ]
+        },
+        {
+            "semester": "Spring 2020",
+            "projects": [
+                {
+                    "id": "2019-TTU-1",
+                    "title": "Visualizing, Monitoring, and Predicting Health Status of HPC Centers",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Monitoring data centers is challenging due to their size, complexity, and dynamic nature. This project proposes visual approaches for situational awareness and health monitoring of HPC systems. The visualization requirements are expanded on the following dimensions: HPC spatial layout, temporal domain (historical vs. real-time tracking), jobs scheduling data, and system health services such as temperature, fan speed, and power consumption. We therefore focus the following design goals: 1) Provides spatial and temporal overview across hosts and racks, 2) Allows system administrators to filter by time series features such as sudden changes in temperatures for system debugging, 3) Inspects the correlation of system health services and job scheduling information in a single view and 4) Characterize the HPC systems using unsupervised learning and provide predictive analysis."
+                },
+                {
+                    "id": "2019-UA-1",
+                    "title": "SeVA: Senior Virtual Assistant",
+                    "leader": ["Salim Hariri", "Cihan Tunç"],
+                    "description": "Delirium affects 60% of hospitalized dementia patients, impacting long-term survival and quality of life. SeVA (Senior’s Virtual Assistant) aims to address the potential gaps of the current hospital practices in early delirium detection, management, and prevention through continuous monitoring of clinical, mental, and emotional factors. Thus, SeVA provides timely non-pharmacological intervention for patients with Alzheimer’s disease and related dementias."
+                },
+                {
+                    "id": "2019-TTU-2",
+                    "title": "Extended Base Global Address Space for Data Center Scale Addressing",
+                    "leader": "Dr. Yong Chen",
+                    "description": "With the collaboration between Tactical Computing Labs (TCL), Texas Tech Univ. (TTU), and Boston Univ. (BU), the goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on RISC-V architecture with ABI compatibility (e.g. RV64 apps will execute without an issue), 2) extended addressing must be flexible to support multiple target application spaces/system architectures, e.g. traditional data centers, clouds, HPC, etc., and 3) extended addressing must not rely upon any one virtual memory mechanism. The overall xBGAS project includes four major tasks: design and development of ISA extension, design and development of compiler and tool chain to support extended instructions and addressing modes, design and development of runtime libraries, and porting benchmarks and applications."
+                },
+                {
+                    "id": "2019-TTU-3, 2020-TTU-4",
+                    "title": "Risk Analytics for Jails",
+                    "leader": "Lisa Gittner",
+                    "description": "The project was initially aimed at prototyping predictive models for assessing data needs in diverting mental health bookings from jails. It has since expanded into a data salvage and recovery operation. The project utilizes components of risk analytics and a secure sandbox to build a data warehouse that encompasses all inmate data from various county agencies (including jails, courts, and probation), mental health and mental retardation (MH/MR) agencies (which provide treatment and wrap-around services), and the Public Defenders Office (which handles legal counsel and competency hearings). This data warehouse is designed to be securely used by all involved agencies. The project requires an evaluation of current data availability and the determination of appropriate analytics. Once the data is recovered, a decision will be made regarding the type of predictive analytics to be developed."
+                },
+                {
+                    "id": "2019-UA-2",
+                    "title": "Twitter Author Identification Using Unsupervised Learning",
+                    "leader": [" Salim Hariri","Cihan Tunc"],
+                    "description": "Due to the anonymity feature, social media has gained immense interest for malicious behaviors including cyber-bullying, cyber-attacks, underground market. One of the most commonly used social media channels is Twitter. We propose to use unsupervised author identification techniques for Twitter to tackle social media forensics cases when suspects of authorship are either missing or not reliable. We are developing tools to collect user data and extract unique signatures to be used to model Twitter users and to identify suspects when needed."
+                },
+                {
+                    "id": "2019-UA-3",
+                    "title": "An Anomaly-based Intrusion Detection System",
+                    "leader": " Salim Hariri",
+                    "description": "With the rapid deployment of IoT devices, Personal Area Networks (PAN) such as Bluetooth networks have become the wireless network choice for small range communications. It is important that Bluetooth networks are secure against cyberattacks like Denial of Service (DoS), Man-in-the Middle attack, battery draining attacks, etc. In this project we will develop an anomaly-based intrusion detection system for Multi-Level Bluetooth networks (ML-BIDS). The BIDS will use an n-gram approach to characterize the normal behavior of the Bluetooth protocol. This project will help in detecting malicious attacks like power utilization attack, DoS, man-in-the-middle attack, etc. on the Bluetooth network and is also able to perform whitelisting to prevent unauthorized devices from connecting to the network."
+                },
+                {
+                    "id": "2020-TTU-1",
+                    "title": "Optimizing Data Center Automation, Analytics, and Control For Use of Renewable Energy",
+                    "leader": [
+                        "Alan Sill",
+                        "Tommy Dang",
+                        "Yong Chen"
+                    ],
+                    "description": "The availability of large quantities of renewable energy can break the cost curve for large-scale computing. For most high-performance computing centers, energy constitutes a significant fraction of operating costs, often reaching approximately the same cost as computing clusters over the equipment's lifetime. Wind power and solar energy are increasingly available in the US and worldwide. However, unlike previous sources of renewable energy such as hydroelectric plants, both wind and solar energy exhibit significantly variable availability and cost (sometimes even negative) throughout the day. To maximize the benefits of these energy sources, data centers will need to be highly automated and ideally located in remote areas close to these renewable sources to minimize transmission costs. This project will apply previous CAC work in data center automation, analytics, and control standards and methods to address this challenge."
+                },
+                {
+                    "id": "2020-UA-1",
+                    "title": "Automated Machine Learning Guided Optical Character Recognition Framework",
+                    "leader": "Ali Akoglu",
+                    "description": "Optical character recognition (OCR) is an active research area that attempts to develop a computer system with the ability to extract and process text from images automatically. For good quality and high accuracy character recognition, OCR techniques expect high quality or high resolution images with some basic structural properties such as high differentiating text and background. Scene complexity, conditions of uneven lighting, skewness (rotation), blurring and degradation, tilting (perspective distortion), font styles and types all have direct impact on the OCR accuracy. Tightly coupled with the OCR accuracy is the time it takes to process an image. For a cloud based OCR service, when processing images at the scale of millions, computation time becomes another critical performance metric. In this study, our aim is to design and implement an OCR testbed that reduces the timescale of OCR process from 3000 to 100 milliseconds/image scale without sacrificing the quality of recognition."
+                },
+                {
+                    "id": "2020-TTU-2",
+                    "title": "Integrated Visualizing, Monitoring, and Managing HPC Systems",
+                    "leader": "Dr. Tommy Dang",
+                    "description": "Understanding the status of high-performance computing (HPC) platforms and correlating applications to resource usage provides valuable insights into the interactions among platform components. In this project, we will build upon the prior 2019-TTU-1 project and focus on developing cutting-edge visualization, monitoring, and management solutions for HPC systems. This includes MonSTer, an out-of-the-box monitoring tool that offers visual analytics and management methods. MonSTer effectively correlates applications to resource usage, revealing insightful knowledge without imposing additional overhead on the application and computing nodes."
+                },
+                {
+                    "id": "2020-UA-2",
+                    "title": "Autonomic Cybersecurity for Smart Systems (ACSS) for the Navy",
+                    "leader": ["Salim Hariri", "Pratik Satam", "Mamadou Diallo"],
+                    "description": "In ACSS, we will develop a framework for Autonomic Cybersecurity for Smart Systems (ACSS) for the US Navy. The ACSS will perform continuous monitoring of the naval smart infrastructure and use the developed behavior analysis units to analyze the normal operation of the smart systems and ensure their security. The proposed ACSS framework will develop techniques to ensure data security while the data is collected, in transit, and in storage."
+                },
+                {
+                    "id": "2020-TTU-3",
+                    "title": "xBGAS (Extended Base Global Address Space) Filesystem and Architecture Optimizations",
+                    "leader": "Dr. Yong Chen",
+                    "description": "With the collaboration between Tactical Computing Labs (TCL), Texas Tech University (TTU), and Boston University (BU), the goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on RISC-V architecture with ABI compatibility (e.g., RV64 applications will execute without issues), 2) to ensure that extended addressing is flexible enough to support multiple target application spaces and system architectures, such as traditional data centers, clouds, and high-performance computing (HPC), and 3) to design extended addressing that does not rely on any single virtual memory mechanism. The overall xBGAS project encompasses five major tasks: the design and development of the ISA extension, the design and development of a compiler and toolchain to support extended instructions and addressing modes, the design and development of runtime libraries, the design and development of the xBGAS parallel filesystem, and the porting of benchmarks and applications."
+                }
+            ]
+        },        
+        {
+            "semester": 2019,
+            "projects": [
+                {
+                    "id": "2019-TTU-1",
+                    "title": "Visualizing, Monitoring, and Predicting Health Status of HPC Centers",
+                    "leader": "Tommy Dang",
+                    "description": "Monitoring data centers is challenging due to their size, complexity, and dynamic nature. This project proposes visual approaches for situational awareness and health monitoring of HPC systems. The visualization requirements are expanded on the following dimensions: HPC spatial layout, temporal domain (historical vs. real-time tracking), jobs scheduling data, and system health services such as temperature, fan speed, and power consumption. We therefore focus the following design goals: 1) Provides spatial and temporal overview across hosts and racks, 2) Allows system administrators to filter by time series features such as sudden changes in temperatures for system debugging, 3) Inspects the correlation of system health services and job scheduling information in a single view, and 4) Characterize the HPC systems using unsupervised learning and provide predictive analysis."
+                },
+                {
+                    "id": "2019-TTU-2",
+                    "title": "Extended Base Global Address Space for Data Center Scale Addressing",
+                    "leader": "Yong Chen",
+                    "description": "With the collaboration between Tactical Computing Labs(TCL), Texas Tech Univ. (TTU), and Boston Univ.(BU), the goals of the Extended Base Global Address Space (xBGAS) project are three-fold: 1) to provide 128-bit extended addressing capabilities based on RISC-V architecture with ABI compatibility (e.g., RV64 apps will execute without an issue), 2) extended addressing must be flexible to support multiple target application spaces/system architectures, e.g., traditional data centers, clouds, HPC, etc., and 3) extended addressing must not rely upon any one virtual memory mechanism. The overall xBGAS project includes four major tasks: design and development of ISA extension, design and development of compiler and tool chain to support extended instructions and addressing modes, design and development of runtime libraries, and porting benchmarks and applications."
+                },
+                {
+                    "id": "2019-TTU-3",
+                    "title": "Predictive Models for Mental Health Diversion from Jails",
+                    "leader": "Lisa Gittner",
+                    "description": "Data recovery and salvage of all county booking, court proceedings, probation and mental health records. Data is being recovered from a 1989 unstable system. We will compile data and return 30-years of recovered data."
+                },
+                {
+                    "id": "2019-UA-1",
+                    "title": "Artificial and Emotional Intelligence in Health-Care",
+                    "leader": "Salim Hariri",
+                    "description": "The primary goal of this project is to design and develop the capability of an intelligent assistant that can be used primarily in the health care field. We are going to utilize different technologies, such as natural language processing (NLP), scenario representation, AI-based chat capability, and detection of cognitive state. The intelligent assistant can be trained to perform in different roles including a personal assistant of a patient, a nurse, or it can even play the role of a patient in a training environment for doctors and nurses."
+                },
+                {
+                    "id": "2019-UA-2",
+                    "title": "Seniors Virtual Assistant (SeVA)",
+                    "leader": "Salim Hariri, Chongke Wu",
+                    "description": "Delirium affects 60% of hospitalized dementia patients, impacting long-term survival and quality of life. SeVA (Senior’s Virtual Assistant) aims to address the potential gaps of the current hospital practices in early delirium detection, management, and prevention through continuous monitoring of clinical, mental, and emotional factors. Thus, SeVA provides timely non-pharmacological intervention for patients with Alzheimer’s disease and related dementias."
+                },
+                {
+                    "id": "2019-UA-3",
+                    "title": "MLABA Multi-Layer Anomaly Behavior Analysis",
+                    "leader": "Salim Hariri, Sicong Chao, Pratik Satam",
+                    "description": "Cyberspace includes a wide range of physical networks, storage and computing devices, applications, and users with different roles and requirements. Securing and protecting such complex and dynamic cyberspace resources and services are grand challenges. MLABA (Multi-Layer Anomaly Behavior Analysis) aims at developing a multi-layer anomaly behavior analysis of all components associated with each cyberspace layer and how they interact with each other in order to achieve superior capabilities in characterizing their normal operations and proactively detect any anomalous behavior that might be triggered by malicious attacks. MLABA uses unsupervised deep learning to collect the feature sets of Physical Persona Footprint (PPF), Logical Persona Footprint (LPF), and User Persona Footprint (UPF), to classify normal and abnormal behaviors."
+                },
+                {
+                    "id": "2019-UA-4",
+                    "title": "Twitter Author Identification Using Unsupervised Learning",
+                    "leader": "Salim Hariri, Cihan Tunc",
+                    "description": "With the advances in the Internet technologies and services, the social media has been gaining excessive popularity and these technologies provide anonymity which harbors hacker discussion forums, underground markets, dark web, etc. We propose to use unsupervised author identification techniques for Twitter to tackle social media forensics cases when suspects of authorship are either missing or not reliable. We will develop the tools to collect potential malicious Twitter user data and extract unique signatures that can be used to model the characteristics of Twitter users and design unsupervised learning-based methods to identify suspects in Twitter."
+                },
+                {
+                    "id": "2019-UA-5",
+                    "title": "Bluetooth Security for Smart Infrastructures",
+                    "leader": "Salim Hariri",
+                    "description": "With the rapid deployment of IoT devices, Personal Area Networks (PAN)such as Bluetooth networks have become the wireless network choice for small range communications. It is important that Bluetooth networks are secure against cyberattacks like Denial of Service (DoS), Man-in-the-Middle attack, battery draining attacks, etc. In this project we will develop an anomaly-based intrusion detection system for Bluetooth networks (BIDS). The BIDS will use an n-gram approach to characterize the normal behavior of the Bluetooth protocol. This project will help in detecting malicious attacks like power utilization attack, DoS, man-in-the-middle attack, etc. on the Bluetooth network."
+                },
+                {
+                    "id": "2019-UA-6",
+                    "title": "FCTaaS- Federated Cyber Security Testbed as a Service",
+                    "leader": "Salim Hariri",
+                    "description": "The advent of ‘smart’ infrastructure systems has created new. Sophisticated cyberattacks can exploit these vulnerabilities to disrupt or even completely disable the operations of our critical infrastructures and their services. There are many possible testbeds (physical and virtual) and simulations for critical infrastructures and cyber systems. To understand the interdependency among these testbeds and their implications on cybersecurity issues, it is important to be able to compose several testbeds into one federated testbed that includes smart devices and sensors, IoT devices, cloud systems, smart grids, smart buildings, etc. (ultimately what is known as smart cities or smart governments). The main goal of this project is to explore innovative techniques to allow seamless composition of a federated testbed that consists of several heterogeneous testbeds include virtual cybersecurity testbeds, IoT testbeds, and cyber-physical testbeds."
+                }
+            ]
+        },
+        {
+            "semester": 2018,
+            "projects": [
+                {
+                    "id": "2018-TTU-1",
+                    "title": "Cloud Standards Testing & Testbeds",
+                    "leader": "Alan Sill",
+                    "description": "The focus of this work is on creation of testbeds that can allow direct operation and comparison of a variety of cloud software. This work is being conducted in cooperation with the Cloud Plugfest developer testing series, US National Institute of Standards and Technology (NIST) cloud computing efforts, and related cloud software testing programs. This testing is used to discover, itemize and understand several specific aspects of the cloud computing landscape to identify approaches of business value to CAC members. This project can be expanded to include other developing standards testing as needed."
+                },
+                {
+                    "id": "2018-TTU-2",
+                    "title": "Data Center Analytics and Control",
+                    "leader": "Yong Chen",
+                    "description": "The focus of this work is on creation of testbeds that can allow direct operation and comparison of a variety of cloud software. This work is being conducted in cooperation with the Cloud Plugfest developer testing series, US National Institute of Standards and Technology (NIST) cloud computing efforts, and related cloud software testing programs. This testing is used to discover, itemize and understand several specific aspects of the cloud computing landscape to identify approaches of business value to CAC members. This project can be expanded to include other developing standards testing as needed."
+                },
+                {
+                    "id": "2018-TTU-3",
+                    "title": "Data Integration Analytics and Risk Models for Mental Health Diversion in Jails",
+                    "leader": "Lisa Gittner",
+                    "description": ""
+                },
+                {
+                    "id": "2018-TTU-4",
+                    "title": "Virtual Secure Sandbox for Big Data Analytics",
+                    "leader": "Susan Mengel",
+                    "description": ""
+                },
+                {
+                    "id": "2018-UA-1",
+                    "title": "Twitter Author Identification Using Unsupervised Learning",
+                    "leader": "Sicong Shao",
+                    "description": ""
+                },
+                {
+                    "id": "2018-UA-2",
+                    "title": "MLABA Multi-Layer Anomaly Behavior Analysis",
+                    "leader": "Samuel Hess",
+                    "description": ""
+                },
+                {
+                    "id": "2018-UA-3",
+                    "title": "Intelligent Cyber Security Assistant",
+                    "leader": "Carla Sayan",
+                    "description": ""
+                },
+                {
+                    "id": "2018-UA-4",
+                    "title": "Machine Learning Based Fingerprinting of Wireless Modulation Schemes",
+                    "leader": "Salim Hariri, Pratik Satam",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "semester": 2017,
+            "projects": [
+                {
+                    "id": "2017-TTU-1",
+                    "title": "Cloud Standards Testing & Testbeds",
+                    "leader": "Alan Sill",
+                    "description": "The focus of this work is on creation of testbeds that can allow direct operation and comparison of a variety of cloud software. This work is being conducted in cooperation with the Cloud Plugfest developer testing series, US National Institute of Standards and Technology (NIST) cloud computing efforts, and related cloud software testing programs. This testing is used to discover, itemize and understand several specific aspects of the cloud computing landscape to identify approaches of business value to CAC members. This project can be expanded to include other developing standards testing as needed."
+                },
+                {
+                    "id": "2017-TTU-2",
+                    "title": "Data Center Analytics and Control",
+                    "leader": "Yong Chen",
+                    "description": "The focus of this work is on creation of testbeds that can allow direct operation and comparison of a variety of cloud software. This work is being conducted in cooperation with the Cloud Plugfest developer testing series, US National Institute of Standards and Technology (NIST) cloud computing efforts, and related cloud software testing programs. This testing is used to discover, itemize and understand several specific aspects of the cloud computing landscape to identify approaches of business value to CAC members. This project can be expanded to include other developing standards testing as needed."
+                },
+                {
+                    "id": "2017-TTU-3",
+                    "title": "DuraStore - Achieving Highly Durable Data Centers",
+                    "leader": "Yong Chen",
+                    "description": "This project concentrates on significantly enhancing data durability in data centers without using remote-site data replication (geo-replication) like in existing solutions. It also considers other important characteristics of the storage system including load balance and scalability holistically. One of the major research challenges is that some of the existing techniques of improving the correlated-failure durability sacrifices load balance, scalability, and numerous other features of the existing storage systems. This project will investigate these issues and create innovative solutions."
+                },
+                {
+                    "id": "2017-TTU-4",
+                    "title": "Virtual Secure Sandbox for Big Data Analytics",
+                    "leader": "Susan Mengel",
+                    "description": "Big data often involves disparate sources of data from unrelated files that are available over a period of many years. The presumably unrelated data, however, is difficult to organize and use due to its size and dissimilar attributes having different factor nomenclature and/or file formats. The main purpose of this project is to enable technologies to organize, visualize, and analyze large repositories of potentially unrelated files across several formats. The products from this work will be integrated into precision risk Big Data analytics through the center."
+                },
+                {
+                    "id": "2017-TTU-5",
+                    "title": "Risk Models using Big Data",
+                    "leader": "Lisa Gittner",
+                    "description": "The proposed project refines risk algorithms developed for handling disparate sources of data. This effort extends project 2016-TTU-5."
+                },
+                {
+                    "id": "2017-MSU-1",
+                    "title": "A Performance Benchmark for next-generation Intrusion Detection Systems",
+                    "leader": "Sherif Abdelwahed",
+                    "description": "A common trend in Intrusion Detection Systems (IDSs) is to consider data structures based on graphs to analyze network traffic and attack patterns. Timely detecting a threat is fundamental to reduce the risk to which the system is exposed, but no current studies aim at providing useful information to size Cloud or HPC infrastructures to meet certain service level objectives. This project targets to prototype a completely distributed property-graph based benchmark for next generation IDSs."
+                },
+                {
+                    "id": "2017-UA-1",
+                    "title": "Resilient Cloud Services",
+                    "leader": "Cihan Tunc",
+                    "description": "The current cloud security techniques are mainly labor intensive, use signature based attack detection tools, and not flexible enough to handle the current cyberspace complexity, dynamism, and epidemic-style propagation of attacks. Furthermore, while the organization boundaries are gradually disappearing, it became infeasible to create a defendable perimeter. In addition, the insider attacks are still a major issue since they have access to the cloud services and even infrastructures. In this project, scalable and resilient cloud services will be prototyped and tested using a public cloud service such as Amazon AWS."
+                },
+                {
+                    "id": "2017-UA-2",
+                    "title": "Physics Aware Programming for 3D Heart Simulations",
+                    "leader": "Salim Hariri",
+                    "description": "The main purpose of this project is to prototype an HCI environment for Chronic Heart Failure (CHF) that guides clinical experiments, and improves care delivery and patient management."
+                },
+                {
+                    "id": "2017-UA-3",
+                    "title": "IoT Security Framework",
+                    "leader": "Salim Hariri",
+                    "description": "The main goal of this project is to design and develop an IoT Security Framework to enable developers to predict and mitigate security issues systematically. The project evaluates a security framework to deploy highly secure IoT applications for Smart Infrastructures. Our approach is based on an Anomaly Behavior Analysis methodology to detect any type of attack (known or unknown)."
+                }
+            ]
+        },
+        {
+            "semester": 2016,
+            "projects": [
+                {
+                    "id": "2016-TTU-1",
+                    "title": "Cloud Benchmarking & Performance",
+                    "leader": "Yong Chen",
+                    "description": "Benchmarking of a system is a process of assessing its performance and other characteristics, to be able to compare them with other systems. There is a strong desire for benchmarking and evaluating Cloud computing systems. Cloud computing provides service-oriented access to computing, storage and networking resources. On one hand, considering the number of Cloud computing providers and the different services each provider offers, Cloud users need benchmark information to select the best service and provider for their needs. On the other hand, Cloud providers and Cloud architects need benchmarking results to create optimized architectures. The problem is that Cloud is a very complex and dynamic environment. Therefore, there are important differences between benchmarking in dynamic Cloud environments and traditional benchmarking methods in static systems. We have performed initial research about benchmarking in Cloud and understand various challenges about creating and deploying Cloud benchmarking; and we found that the most important problem for Cloud users are data isolation, security and unreliable performance. Inference and performance isolation are other major challenges for developers and architects of Cloud systems."
+                },
+                {
+                    "id": "2016-TTU-2",
+                    "title": "Unistore",
+                    "leader": "Yong Chen",
+                    "description": "Emerging large-scale applications on Cloud computing platforms, such as information retrieval, data mining, online business, and social networks, are data- rather than computation-intensive. Storage systems are one of the most critical components for Cloud computing. The traditional hard disk drives (HDD) are current dominant storage devices in Clouds, but are notorious for long access latency and failure prone. The emerging storage class memory (SCM) such as Solid State Drives provides a new promising storage solution of high bandwidth, low latency, and mechanical component-free, but with inherent limitations of small capacity, short lifetime, and high cost. The objective of this project is to build an innovative unified storage architecture (Unistore) with the co-existence and efficient integration of heterogeneous HDD and SCM devices for Cloud storage systems."
+                },
+                {
+                    "id": "2016-TTU-3",
+                    "title": "Financial Intelligence for Banks",
+                    "leader": "Zhangxi Lin, Jerry Perez",
+                    "description": "Financial Intelligence for Banks is a new project of the TTU Cloud Computing efforts. The focus of this work is on the creation of software and testing methodologies that can allow banks the ability to predict short-term market analysis for customer portfolios through stress testing, loan product pricing, and target marketing for current and potential customers. This work is being conducted in cooperation with CAC partner site Happy State Bank in Amarillo, Texas. Dr. Perez has been project leader of this working group for the CAC since July 2015. The Center for Advanced Analytics and Business Intelligence (CAABI) is a major participating institution at TTU based on its existing research portfolio."
+                },
+                {
+                    "id": "2016-TTU-4",
+                    "title": "Cloud Standards, Security and Interoperability Testbeds",
+                    "leader": "Alan Sill",
+                    "description": ""
+                },
+                {
+                    "id": "2016-TTU-5",
+                    "title": "Precision Risk Big Data Analytics for Population Health",
+                    "leader": "Ravi Vadapalli",
+                    "description": "This project combines individual and public health exposome data to develop and prototype refined disease risk analytics using multi-level models. These models will then be validated using obesity and CVD exemplar datasets, as well as Patient Health Information (PHI)."
+                },
+                {
+                    "id": "2016-UA-1",
+                    "title": "VIMP: Vehicle Information and Management Portal",
+                    "leader": "Pratik Satam",
+                    "description": ""
+                },
+                {
+                    "id": "2016-UA-2",
+                    "title": "Security Framework for Supply Chain Management Services",
+                    "leader": "Salim Hariri",
+                    "description": ""
+                },
+                {
+                    "id": "2016-UA-3",
+                    "title": "Online Big Data Analytics for Cyber Systems",
+                    "leader": "Greg Ditzler",
+                    "description": ""
+                },
+                {
+                    "id": "2016-UA-4",
+                    "title": "Resilient Cloud Services",
+                    "leader": "Cihan Tunc",
+                    "description": "The current cloud security techniques are mainly labor-intensive, use signature-based attack detection tools, and are not flexible enough to handle the current cyberspace complexity, dynamism, and epidemic-style propagation of attacks. Furthermore, while the organization boundaries are gradually disappearing, it has become infeasible to create a defendable perimeter. In addition, insider attacks are still a major issue since they have access to the cloud services and even infrastructures. In this project, scalable and resilient cloud services will be prototyped and tested using a public cloud service such as Amazon AWS."
+                },
+                {
+                    "id": "2016-UA-5",
+                    "title": "Anomaly Behavior Analysis for IoT Sensors",
+                    "leader": "Jesus Pacheco",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "semester": 2015,
+            "projects": [
+                {
+                    "id": "2015-TTU-1",
+                    "title": "Cloud Benchmarking & Performance",
+                    "leader": "Yong Chen",
+                    "description": "Benchmarking of a system is a process of assessing its performance and other characteristics, to be able to compare them with other systems. There is a strong desire for benchmarking and evaluating Cloud computing systems. Cloud computing provides service-oriented access to computing, storage and networking resources. On one hand, considering the number of Cloud computing providers and the different services each provider offers, Cloud users need benchmark information to select the best service and provider for their needs. On the other hand, Cloud providers and Cloud architects need benchmarking results to create optimized architectures. The problem is that Cloud is a very complex and dynamic environment. Therefore, there are important differences between benchmarking in dynamic Cloud environments and traditional benchmarking methods in static systems. We have performed initial research about benchmarking in Cloud and understand various challenges about creating and deploying Cloud benchmarking; and we found that the most important problem for Cloud users are data isolation, security and unreliable performance. Inference and performance isolation are other major challenges for developers and architects of Cloud systems."
+                },
+                {
+                    "id": "2015-TTU-2",
+                    "title": "Unistore",
+                    "leader": "Yong Chen",
+                    "description": "Emerging large-scale applications on Cloud computing platforms, such as information retrieval, data mining, online business, and social networks, are data- rather than computation-intensive. Storage systems are one of the most critical components for Cloud computing. The traditional hard disk drives (HDD) are current dominant storage devices in Clouds, but are notorious for long access latency and failure prone. The emerging storage class memory (SCM) such as Solid State Drives provides a new promising storage solution of high bandwidth, low latency, and mechanical component-free, but with inherent limitations of small capacity, short lifetime, and high cost. The objective of this project is to build an innovative unified storage architecture (Unistore) with the co-existence and efficient integration of heterogeneous HDD and SCM devices for Cloud storage systems."
+                },
+                {
+                    "id": "2015-TTU-3",
+                    "title": "Risk and Financial Analytics in Population Health",
+                    "leader": "Ravi Vadapalli",
+                    "description": "The main purpose of this project is to prototype readmission risk and insurance contract analytics. This project involves deploying a sophisticated data warehouse for hosting, managing and processing large volumes of healthcare data from disparate sources. The secondary objective is to prototype advanced analytics that helps in risk stratification and assessing risk category transition in population health modeling. The tertiary objective is to model insurance contracts and their business value."
+                },
+                {
+                    "id": "2015-TTU-4",
+                    "title": "Cloud Standards, Security and Interoperability Testbeds",
+                    "leader": "Alan Sill",
+                    "description": ""
+                },
+                {
+                    "id": "2015-TTU-5",
+                    "title": "Big Data Financial Analytics",
+                    "leader": "Zhangxi Lin",
+                    "description": ""
+                },
+                {
+                    "id": "2015-MSU-1",
+                    "title": "VIMP: Vehicle Information and Management Portal",
+                    "leader": "Srishti Shrivastava",
+                    "description": ""
+                },
+                {
+                    "id": "2015-MSU-2",
+                    "title": "Model Based Automated Security Management of Distributed Systems",
+                    "leader": "Sheriff Abdelwahed",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "semester": 2014,
+            "projects": [
+                {
+                    "id": "2014-TTU-1",
+                    "title": "Cloud Benchmarking & Performance",
+                    "leader": "Soheil Mazaherin",
+                    "description": "Benchmarking of a system is a process of assessing its performance and other characteristics, to be able to compare them with other systems. There is a strong desire for benchmarking and evaluating Cloud computing systems. Cloud computing provides service-oriented access to computing, storage and networking resource. On one hand, considering the number of Cloud computing providers and the different services each provider offers, Cloud users need benchmark information to select the best service and provider for their needs. On the other hand, Cloud providers and Cloud architects need benchmarking results to create optimized architectures. The problem is that Cloud is a very complex and dynamic environment. Therefore there are important differences between benchmarking in a dynamic Cloud environment with traditional benchmarking methods in static systems. We have performed an initial research about benchmarking in Cloud and understand various challenges about creating and deploying Cloud benchmarking; and we found that the most important problem for Cloud users are data isolation, security and unreliable performance. Inference and performance isolation are other major challenges for developers and architects of Cloud systems."
+                },
+                {
+                    "id": "2014-TTU-2",
+                    "title": "Unistore",
+                    "leader": "Yong Chen",
+                    "description": "Emerging large-scale applications on Cloud computing platform, such as information retrieval, data mining, online business, and social network, are data- rather than computation-intensive. Storage system is one of the most critical components for Cloud computing. The traditional hard disk drives (HDD) are current dominant storage devices in Clouds, but are notorious for long access latency and failure prone. The emerging storage class memory (SCM) such as Solid State Drives provides a new promising storage solution of high bandwidth, low latency, and mechanical component free, but with inherent limitations of small capacity, short lifetime, and high cost. The objective of this project is to build an innovative unified storage architecture (Unistore) with the co-existence and efficient integration of heterogeneous HDD and SCM devices for Cloud storage systems."
+                },
+                {
+                    "id": "2014-TTU-3",
+                    "title": "Risk and Financial Analytics in Population Health",
+                    "leader": "Ravi Vadapalli",
+                    "description": "The main purpose of this project is to prototype readmission risk and insurance contract analytics. This project involves deploying a sophisticated data warehouse for hosting, managing and processing large volumes of healthcare data from disparate sources. The secondary objective is to prototype advanced analytics that helps in risk stratification and assessing risk category transition in population health modeling. The tertiary objective is to model insurance contracts and their business value."
+                },
+                {
+                    "id": "2014-TTU-4",
+                    "title": "Cloud Standards, Security and Interoperability Testbeds",
+                    "leader": "Alan Sill",
+                    "description": ""
+                },
+                {
+                    "id": "2014-TTU-5",
+                    "title": "Cloud Security, Federation, and Access Management",
+                    "leader": "Alan Sill",
+                    "description": ""
+                },
+                {
+                    "id": "2014-MSU-1",
+                    "title": "Autonomic Performance Management Service Deployment in Federated Cloud Computing Systems",
+                    "leader": "Srishti Shrivastava",
+                    "description": ""
+                },
+                {
+                    "id": "2014-MSU-2",
+                    "title": "Model Based Automated Security Management of Distributed Systems",
+                    "leader": "Sheriff Abdelwahed",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
