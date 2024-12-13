@@ -51,19 +51,20 @@
     projectSection.append('<h2>Current Projects</h2>');
     data.currentProjects.forEach(semester => {
       projectSection.append(`<h3>${semester.semester}:</h3>`);
-      createProjectTable(projectSection, semester.projects);
+      createProjectTable(projectSection, semester.projects, semester.semester);
     });
 
     // Create Past Projects section
     projectSection.append('<h2>Past Projects</h2>');
     data.pastProjects.forEach(semester => {
       projectSection.append(`<h3>${semester.semester}:</h3>`);
-      createProjectTable(projectSection, semester.projects);
+      createProjectTable(projectSection, semester.projects, semester.semester);
     });
   });
 }
 
-function createProjectTable(container, projects) {
+function createProjectTable(container, projects, semester) {
+  let semesterId = semester.trim()
   let table = `<table class="table table-condensed table-striped">
                 <thead>
                   <tr>
@@ -79,7 +80,7 @@ function createProjectTable(container, projects) {
     let title = project.title;
     let leader = project.leader;
     let description = project.description;
-    let collapseId = `${projectId}collapse`;
+    let collapseId = `${semester}_${projectId}collapse`;
     
     table += `<tr class="accordion-toggle" data-toggle="collapse" data-target="#${collapseId}" aria-expanded="false">
                 <th scope="row">${index + 1}</th>
