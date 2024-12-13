@@ -24,7 +24,7 @@
                 {
                     "id": "UA-2",
                     "title": "Cloud Forensics",
-                    "leader": "",
+                    "leader": ["Dr. Salim Hariri", "Dr. Dalal Alharthi"],
                     "description": ""
                 },
                 {
@@ -110,7 +110,7 @@
                 {
                     "id": "UA-4",
                     "title": "Cloud Forensics",
-                    "leader": "",
+                    "leader": ["Dr. Salim Hariri", "Dr. Dalal Alharthi"],
                     "description": ""
                 }
             ]              
@@ -325,7 +325,7 @@
                 {
                     "id": "2021-UA-2",
                     "title": "Inter-Architecture Portability of Deep Neural Network and Side Channel Attack",
-                    "leader": "",
+                    "leader": ["Gregory Ditzler", "Janet Roveda"],
                     "description": ""
                 },
                 {
