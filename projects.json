@@ -641,7 +641,7 @@
             ]
         },        
         {
-            "semester": 2019,
+            "semester": "2019",
             "projects": [
                 {
                     "id": "2019-TTU-1",
@@ -700,7 +700,7 @@
             ]
         },
         {
-            "semester": 2018,
+            "semester": "2018",
             "projects": [
                 {
                     "id": "2018-TTU-1",
@@ -753,7 +753,7 @@
             ]
         },
         {
-            "semester": 2017,
+            "semester": "2017",
             "projects": [
                 {
                     "id": "2017-TTU-1",
@@ -812,7 +812,7 @@
             ]
         },
         {
-            "semester": 2016,
+            "semester": "2016",
             "projects": [
                 {
                     "id": "2016-TTU-1",
@@ -877,7 +877,7 @@
             ]
         },
         {
-            "semester": 2015,
+            "semester": "2015",
             "projects": [
                 {
                     "id": "2015-TTU-1",
@@ -924,7 +924,7 @@
             ]
         },
         {
-            "semester": 2014,
+            "semester": "2014",
             "projects": [
                 {
                     "id": "2014-TTU-1",
