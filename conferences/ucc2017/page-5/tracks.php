@@ -37,7 +37,7 @@
       var jqJsHost = (("https:" == document.location.protocol) ?
           "https://" : "http://");
       document.write(unescape("%3Cscript src='" + jqJsHost +
-          "ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+          "ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
     <script src="../rw_common/themes/BootSnap3/bootstrap.min.js?rwcache=534181934"></script>
 
@@ -58,7 +58,7 @@
     <![endif]-->
     		<link rel='stylesheet' type='text/css' media='all' href='../rw_common/plugins/stacks/stacks.css?rwcache=534181934' />
 		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page21.css?rwcache=534181934' />
-		<script type='text/javascript' charset='utf-8' src='../rw_common/plugins/stacks/jquery-2.2.4.min.js?rwcache=534181934'></script>
+		<script type='text/javascript' charset='utf-8' src='../rw_common/plugins/stacks/jquery-3.7.1.min.js?rwcache=534181934'></script>
         
         
 		
